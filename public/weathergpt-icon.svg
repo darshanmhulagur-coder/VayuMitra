@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)" stroke="#06b6d4" stroke-width="8" />
+  
+  <!-- Cloud Body -->
+  <g filter="url(#glow)">
+    <path d="M370 340 H170 A90 90 0 0 1 146 163 A110 110 0 0 1 350 178 A75 75 0 0 1 370 340 Z" fill="url(#cyan-grad)" opacity="0.95" />
+    
+    <!-- Rain Streaks -->
+    <line x1="190" y1="375" x2="175" y2="425" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" />
+    <line x1="256" y1="375" x2="241" y2="425" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" />
+    <line x1="322" y1="375" x2="307" y2="425" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" />
+  </g>
+  
+  <!-- AI Lightning Node -->
+  <circle cx="350" cy="180" r="16" fill="#f59e0b" filter="url(#glow)" />
+  <circle cx="160" cy="240" r="12" fill="#10b981" filter="url(#glow)" />
+  <circle cx="280" cy="140" r="14" fill="#a855f7" filter="url(#glow)" />
+</svg>

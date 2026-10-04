@@ -1,0 +1,22 @@
+{
+  "short_name": "VayuMitra",
+  "name": "VayuMitra — Multilingual AI & Climate Intelligence (SIH26068)",
+  "description": "Offline-ready Multilingual Conversational AI for Weather Forecasting, Agricultural Advisory & Climate Telemetry across India",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#0b0f19",
+  "theme_color": "#06b6d4",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "orientation": "portrait-primary",
+  "categories": ["weather", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "/weathergpt-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

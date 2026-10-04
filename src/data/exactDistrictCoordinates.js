@@ -1,0 +1,10881 @@
+export const EXACT_DISTRICT_COORDINATES = {
+  "Andhra Pradesh__Kurnool": {
+    "lat": 15.8289,
+    "lng": 78.036,
+    "elevation": 286,
+    "geocodedName": "Kurnool",
+    "admin1": "Andhra Pradesh"
+  },
+  "Kurnool": {
+    "lat": 15.8289,
+    "lng": 78.036,
+    "elevation": 286,
+    "geocodedName": "Kurnool",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__NTR": {
+    "lat": 16.5062,
+    "lng": 80.648,
+    "elevation": 11,
+    "geocodedName": "Vijayawada",
+    "admin1": "Andhra Pradesh"
+  },
+  "NTR": {
+    "lat": 16.5062,
+    "lng": 80.648,
+    "elevation": 11,
+    "geocodedName": "Vijayawada",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Bapatla": {
+    "lat": 15.9042,
+    "lng": 80.4674,
+    "elevation": 10,
+    "geocodedName": "Bāpatla",
+    "admin1": "Andhra Pradesh"
+  },
+  "Bapatla": {
+    "lat": 15.9042,
+    "lng": 80.4674,
+    "elevation": 10,
+    "geocodedName": "Bāpatla",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Kakinada": {
+    "lat": 16.9604,
+    "lng": 82.2381,
+    "elevation": 6,
+    "geocodedName": "Kākināda",
+    "admin1": "Andhra Pradesh"
+  },
+  "Kakinada": {
+    "lat": 16.9604,
+    "lng": 82.2381,
+    "elevation": 6,
+    "geocodedName": "Kākināda",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Guntur": {
+    "lat": 16.2997,
+    "lng": 80.4573,
+    "elevation": 31,
+    "geocodedName": "Guntur",
+    "admin1": "Andhra Pradesh"
+  },
+  "Guntur": {
+    "lat": 16.2997,
+    "lng": 80.4573,
+    "elevation": 31,
+    "geocodedName": "Guntur",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__East Godavari": {
+    "lat": 18.9722,
+    "lng": 78.6274,
+    "elevation": 256,
+    "geocodedName": "Godāvari Island",
+    "admin1": "Andhra Pradesh"
+  },
+  "East Godavari": {
+    "lat": 18.9722,
+    "lng": 78.6274,
+    "elevation": 256,
+    "geocodedName": "Godāvari Island",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Nandyal": {
+    "lat": 15.478,
+    "lng": 78.4836,
+    "elevation": 213,
+    "geocodedName": "Nandyāl",
+    "admin1": "Andhra Pradesh"
+  },
+  "Nandyal": {
+    "lat": 15.478,
+    "lng": 78.4836,
+    "elevation": 213,
+    "geocodedName": "Nandyāl",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Eluru": {
+    "lat": 16.7131,
+    "lng": 81.1044,
+    "elevation": 20,
+    "geocodedName": "Eluru",
+    "admin1": "Andhra Pradesh"
+  },
+  "Eluru": {
+    "lat": 16.7131,
+    "lng": 81.1044,
+    "elevation": 20,
+    "geocodedName": "Eluru",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Chittoor": {
+    "lat": 13.2105,
+    "lng": 79.0956,
+    "elevation": 334,
+    "geocodedName": "Chittoor",
+    "admin1": "Andhra Pradesh"
+  },
+  "Chittoor": {
+    "lat": 13.2105,
+    "lng": 79.0956,
+    "elevation": 334,
+    "geocodedName": "Chittoor",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Krishna": {
+    "lat": 16.18,
+    "lng": 81.13,
+    "elevation": 14,
+    "geocodedName": "Machilipatnam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Krishna": {
+    "lat": 16.18,
+    "lng": 81.13,
+    "elevation": 14,
+    "geocodedName": "Machilipatnam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__West Godavari": {
+    "lat": 16.7131,
+    "lng": 81.1044,
+    "elevation": 20,
+    "geocodedName": "Eluru",
+    "admin1": "Andhra Pradesh"
+  },
+  "West Godavari": {
+    "lat": 16.7131,
+    "lng": 81.1044,
+    "elevation": 20,
+    "geocodedName": "Eluru",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__YSR Kadapa": {
+    "lat": 14.4673,
+    "lng": 78.8242,
+    "elevation": 138,
+    "geocodedName": "Kadapa",
+    "admin1": "Andhra Pradesh"
+  },
+  "YSR Kadapa": {
+    "lat": 14.4673,
+    "lng": 78.8242,
+    "elevation": 138,
+    "geocodedName": "Kadapa",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Sri Sathya Sai": {
+    "lat": 14.1652,
+    "lng": 77.8115,
+    "elevation": 475,
+    "geocodedName": "Puttaparthi",
+    "admin1": "Andhra Pradesh"
+  },
+  "Sri Sathya Sai": {
+    "lat": 14.1652,
+    "lng": 77.8115,
+    "elevation": 475,
+    "geocodedName": "Puttaparthi",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Sri Potti Sriramulu Nellore": {
+    "lat": 14.4426,
+    "lng": 79.9865,
+    "elevation": 18,
+    "geocodedName": "Nellore",
+    "admin1": "Andhra Pradesh"
+  },
+  "Sri Potti Sriramulu Nellore": {
+    "lat": 14.4426,
+    "lng": 79.9865,
+    "elevation": 18,
+    "geocodedName": "Nellore",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Vizianagaram": {
+    "lat": 18.1169,
+    "lng": 83.4115,
+    "elevation": 66,
+    "geocodedName": "Vizianagaram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Vizianagaram": {
+    "lat": 18.1169,
+    "lng": 83.4115,
+    "elevation": 66,
+    "geocodedName": "Vizianagaram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Visakhapatnam": {
+    "lat": 17.6801,
+    "lng": 83.2016,
+    "elevation": 24,
+    "geocodedName": "Visakhapatnam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Visakhapatnam": {
+    "lat": 17.6801,
+    "lng": 83.2016,
+    "elevation": 24,
+    "geocodedName": "Visakhapatnam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Tirupati": {
+    "lat": 13.6355,
+    "lng": 79.4199,
+    "elevation": 156,
+    "geocodedName": "Tirupati",
+    "admin1": "Andhra Pradesh"
+  },
+  "Tirupati": {
+    "lat": 13.6355,
+    "lng": 79.4199,
+    "elevation": 156,
+    "geocodedName": "Tirupati",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Srikakulam": {
+    "lat": 18.2989,
+    "lng": 83.8975,
+    "elevation": 14,
+    "geocodedName": "Srikakulam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Srikakulam": {
+    "lat": 18.2989,
+    "lng": 83.8975,
+    "elevation": 14,
+    "geocodedName": "Srikakulam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Arunachal Pradesh__Anjaw": {
+    "lat": 28.27,
+    "lng": 96.64,
+    "elevation": 1290,
+    "geocodedName": "Hawai / Anjaw",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Anjaw": {
+    "lat": 28.27,
+    "lng": 96.64,
+    "elevation": 1290,
+    "geocodedName": "Hawai / Anjaw",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__East Kameng": {
+    "lat": 27.35,
+    "lng": 93.03,
+    "elevation": 360,
+    "geocodedName": "Seppa",
+    "admin1": "Arunachal Pradesh"
+  },
+  "East Kameng": {
+    "lat": 27.35,
+    "lng": 93.03,
+    "elevation": 360,
+    "geocodedName": "Seppa",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Kamle": {
+    "lat": 27.8,
+    "lng": 94.05,
+    "elevation": 850,
+    "geocodedName": "Raga",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Kamle": {
+    "lat": 27.8,
+    "lng": 94.05,
+    "elevation": 850,
+    "geocodedName": "Raga",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Namsai": {
+    "lat": 27.67,
+    "lng": 95.86,
+    "elevation": 156,
+    "geocodedName": "Namsai",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Namsai": {
+    "lat": 27.67,
+    "lng": 95.86,
+    "elevation": 156,
+    "geocodedName": "Namsai",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Longding": {
+    "lat": 26.86,
+    "lng": 95.34,
+    "elevation": 760,
+    "geocodedName": "Longding",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Longding": {
+    "lat": 26.86,
+    "lng": 95.34,
+    "elevation": 760,
+    "geocodedName": "Longding",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Lohit": {
+    "lat": 27.92,
+    "lng": 96.17,
+    "elevation": 210,
+    "geocodedName": "Tezu",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Lohit": {
+    "lat": 27.92,
+    "lng": 96.17,
+    "elevation": 210,
+    "geocodedName": "Tezu",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Siang": {
+    "lat": 28.33,
+    "lng": 94.97,
+    "elevation": 420,
+    "geocodedName": "Boleng",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Siang": {
+    "lat": 28.33,
+    "lng": 94.97,
+    "elevation": 420,
+    "geocodedName": "Boleng",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Shi Yomi": {
+    "lat": 28.58,
+    "lng": 94.22,
+    "elevation": 1800,
+    "geocodedName": "Tato",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Shi Yomi": {
+    "lat": 28.58,
+    "lng": 94.22,
+    "elevation": 1800,
+    "geocodedName": "Tato",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__East Siang": {
+    "lat": 28.0667,
+    "lng": 95.3333,
+    "elevation": 153,
+    "geocodedName": "Pasighat",
+    "admin1": "Arunachal Pradesh"
+  },
+  "East Siang": {
+    "lat": 28.0667,
+    "lng": 95.3333,
+    "elevation": 153,
+    "geocodedName": "Pasighat",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Assam__Barpeta": {
+    "lat": 26.3229,
+    "lng": 91.0063,
+    "elevation": 47,
+    "geocodedName": "Barpeta",
+    "admin1": "Assam"
+  },
+  "Barpeta": {
+    "lat": 26.3229,
+    "lng": 91.0063,
+    "elevation": 47,
+    "geocodedName": "Barpeta",
+    "admin1": "Assam"
+  },
+  "Assam__Darrang": {
+    "lat": 26.6333,
+    "lng": 92.8,
+    "elevation": 74,
+    "geocodedName": "Tezpur",
+    "admin1": "Assam"
+  },
+  "Darrang": {
+    "lat": 26.6333,
+    "lng": 92.8,
+    "elevation": 74,
+    "geocodedName": "Tezpur",
+    "admin1": "Assam"
+  },
+  "Assam__Chirang": {
+    "lat": 24.6182,
+    "lng": 90.8641,
+    "elevation": 12,
+    "geocodedName": "Chirāng",
+    "admin1": "Mymensingh Division"
+  },
+  "Chirang": {
+    "lat": 24.6182,
+    "lng": 90.8641,
+    "elevation": 12,
+    "geocodedName": "Chirāng",
+    "admin1": "Mymensingh Division"
+  },
+  "Assam__Baksa": {
+    "lat": 26.58,
+    "lng": 91.42,
+    "elevation": 80,
+    "geocodedName": "Mushalpur",
+    "admin1": "Assam"
+  },
+  "Baksa": {
+    "lat": 26.58,
+    "lng": 91.42,
+    "elevation": 80,
+    "geocodedName": "Mushalpur",
+    "admin1": "Assam"
+  },
+  "Arunachal Pradesh__Tawang": {
+    "lat": 27.5861,
+    "lng": 91.8653,
+    "elevation": 2669,
+    "geocodedName": "Tawang",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Tawang": {
+    "lat": 27.5861,
+    "lng": 91.8653,
+    "elevation": 2669,
+    "geocodedName": "Tawang",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Tirap": {
+    "lat": 27,
+    "lng": 95.53,
+    "elevation": 840,
+    "geocodedName": "Khonsa",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Tirap": {
+    "lat": 27,
+    "lng": 95.53,
+    "elevation": 840,
+    "geocodedName": "Khonsa",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Assam__Cachar": {
+    "lat": 24.8333,
+    "lng": 92.7789,
+    "elevation": 25,
+    "geocodedName": "Silchar",
+    "admin1": "Assam"
+  },
+  "Cachar": {
+    "lat": 24.8333,
+    "lng": 92.7789,
+    "elevation": 25,
+    "geocodedName": "Silchar",
+    "admin1": "Assam"
+  },
+  "Arunachal Pradesh__West Siang": {
+    "lat": 28.17,
+    "lng": 94.8,
+    "elevation": 610,
+    "geocodedName": "Aalo",
+    "admin1": "Arunachal Pradesh"
+  },
+  "West Siang": {
+    "lat": 28.17,
+    "lng": 94.8,
+    "elevation": 610,
+    "geocodedName": "Aalo",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__West Kameng": {
+    "lat": 27.26,
+    "lng": 92.42,
+    "elevation": 2217,
+    "geocodedName": "Bomdila",
+    "admin1": "Arunachal Pradesh"
+  },
+  "West Kameng": {
+    "lat": 27.26,
+    "lng": 92.42,
+    "elevation": 2217,
+    "geocodedName": "Bomdila",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Assam__Bongaigaon": {
+    "lat": 26.477,
+    "lng": 90.5581,
+    "elevation": 63,
+    "geocodedName": "Bongaigaon",
+    "admin1": "Assam"
+  },
+  "Bongaigaon": {
+    "lat": 26.477,
+    "lng": 90.5581,
+    "elevation": 63,
+    "geocodedName": "Bongaigaon",
+    "admin1": "Assam"
+  },
+  "Assam__Dhemaji": {
+    "lat": 27.4833,
+    "lng": 94.5833,
+    "elevation": 110,
+    "geocodedName": "Dhemāji",
+    "admin1": "Assam"
+  },
+  "Dhemaji": {
+    "lat": 27.4833,
+    "lng": 94.5833,
+    "elevation": 110,
+    "geocodedName": "Dhemāji",
+    "admin1": "Assam"
+  },
+  "Assam__Biswanath": {
+    "lat": 26.7258,
+    "lng": 93.1466,
+    "elevation": 86,
+    "geocodedName": "Biswanath Chariali",
+    "admin1": "Assam"
+  },
+  "Biswanath": {
+    "lat": 26.7258,
+    "lng": 93.1466,
+    "elevation": 86,
+    "geocodedName": "Biswanath Chariali",
+    "admin1": "Assam"
+  },
+  "Assam__Majuli": {
+    "lat": 26.95,
+    "lng": 94.1667,
+    "elevation": 84,
+    "geocodedName": "Mājuli",
+    "admin1": "Assam"
+  },
+  "Majuli": {
+    "lat": 26.95,
+    "lng": 94.1667,
+    "elevation": 84,
+    "geocodedName": "Mājuli",
+    "admin1": "Assam"
+  },
+  "Assam__Hojai": {
+    "lat": 26.0028,
+    "lng": 92.856,
+    "elevation": 78,
+    "geocodedName": "Hojāi",
+    "admin1": "Assam"
+  },
+  "Hojai": {
+    "lat": 26.0028,
+    "lng": 92.856,
+    "elevation": 78,
+    "geocodedName": "Hojāi",
+    "admin1": "Assam"
+  },
+  "Assam__Jorhat": {
+    "lat": 26.7575,
+    "lng": 94.2031,
+    "elevation": 94,
+    "geocodedName": "Jorhat",
+    "admin1": "Assam"
+  },
+  "Jorhat": {
+    "lat": 26.7575,
+    "lng": 94.2031,
+    "elevation": 94,
+    "geocodedName": "Jorhat",
+    "admin1": "Assam"
+  },
+  "Assam__Golaghat": {
+    "lat": 26.5117,
+    "lng": 93.9595,
+    "elevation": 101,
+    "geocodedName": "Golāghāt",
+    "admin1": "Assam"
+  },
+  "Golaghat": {
+    "lat": 26.5117,
+    "lng": 93.9595,
+    "elevation": 101,
+    "geocodedName": "Golāghāt",
+    "admin1": "Assam"
+  },
+  "Assam__Dibrugarh": {
+    "lat": 27.4799,
+    "lng": 94.9084,
+    "elevation": 110,
+    "geocodedName": "Dibrugarh",
+    "admin1": "Assam"
+  },
+  "Dibrugarh": {
+    "lat": 27.4799,
+    "lng": 94.9084,
+    "elevation": 110,
+    "geocodedName": "Dibrugarh",
+    "admin1": "Assam"
+  },
+  "Assam__Goalpara": {
+    "lat": 26.1767,
+    "lng": 90.6263,
+    "elevation": 43,
+    "geocodedName": "Goālpāra",
+    "admin1": "Assam"
+  },
+  "Goalpara": {
+    "lat": 26.1767,
+    "lng": 90.6263,
+    "elevation": 43,
+    "geocodedName": "Goālpāra",
+    "admin1": "Assam"
+  },
+  "Assam__Kokrajhar": {
+    "lat": 26.4011,
+    "lng": 90.2729,
+    "elevation": 48,
+    "geocodedName": "Kokrajhar",
+    "admin1": "Assam"
+  },
+  "Kokrajhar": {
+    "lat": 26.4011,
+    "lng": 90.2729,
+    "elevation": 48,
+    "geocodedName": "Kokrajhar",
+    "admin1": "Assam"
+  },
+  "Assam__Dhubri": {
+    "lat": 26.0186,
+    "lng": 89.9856,
+    "elevation": 34,
+    "geocodedName": "Dhubri",
+    "admin1": "Assam"
+  },
+  "Dhubri": {
+    "lat": 26.0186,
+    "lng": 89.9856,
+    "elevation": 34,
+    "geocodedName": "Dhubri",
+    "admin1": "Assam"
+  },
+  "Assam__Karimganj": {
+    "lat": 24.8692,
+    "lng": 92.3554,
+    "elevation": 25,
+    "geocodedName": "Karīmganj",
+    "admin1": "Assam"
+  },
+  "Karimganj": {
+    "lat": 24.8692,
+    "lng": 92.3554,
+    "elevation": 25,
+    "geocodedName": "Karīmganj",
+    "admin1": "Assam"
+  },
+  "Assam__Hailakandi": {
+    "lat": 24.6839,
+    "lng": 92.561,
+    "elevation": 30,
+    "geocodedName": "Hailākāndi",
+    "admin1": "Assam"
+  },
+  "Hailakandi": {
+    "lat": 24.6839,
+    "lng": 92.561,
+    "elevation": 30,
+    "geocodedName": "Hailākāndi",
+    "admin1": "Assam"
+  },
+  "Assam__Lakhimpur": {
+    "lat": 27.2352,
+    "lng": 94.1036,
+    "elevation": 96,
+    "geocodedName": "North Lakhimpur",
+    "admin1": "Assam"
+  },
+  "Lakhimpur": {
+    "lat": 27.2352,
+    "lng": 94.1036,
+    "elevation": 96,
+    "geocodedName": "North Lakhimpur",
+    "admin1": "Assam"
+  },
+  "Assam__Nagaon": {
+    "lat": 26.35,
+    "lng": 92.6667,
+    "elevation": 63,
+    "geocodedName": "Nagaon",
+    "admin1": "Assam"
+  },
+  "Nagaon": {
+    "lat": 26.35,
+    "lng": 92.6667,
+    "elevation": 63,
+    "geocodedName": "Nagaon",
+    "admin1": "Assam"
+  },
+  "Assam__Morigaon": {
+    "lat": 26.2491,
+    "lng": 92.3476,
+    "elevation": 63,
+    "geocodedName": "Morigaon",
+    "admin1": "Assam"
+  },
+  "Morigaon": {
+    "lat": 26.2491,
+    "lng": 92.3476,
+    "elevation": 63,
+    "geocodedName": "Morigaon",
+    "admin1": "Assam"
+  },
+  "Assam__Tinsukia": {
+    "lat": 27.489,
+    "lng": 95.3599,
+    "elevation": 128,
+    "geocodedName": "Tinsukia",
+    "admin1": "Assam"
+  },
+  "Tinsukia": {
+    "lat": 27.489,
+    "lng": 95.3599,
+    "elevation": 128,
+    "geocodedName": "Tinsukia",
+    "admin1": "Assam"
+  },
+  "Assam__Udalguri": {
+    "lat": 26.7537,
+    "lng": 92.1021,
+    "elevation": 116,
+    "geocodedName": "Udalguri",
+    "admin1": "Assam"
+  },
+  "Udalguri": {
+    "lat": 26.7537,
+    "lng": 92.1021,
+    "elevation": 116,
+    "geocodedName": "Udalguri",
+    "admin1": "Assam"
+  },
+  "Assam__Sonitpur": {
+    "lat": 26.782,
+    "lng": 92.4491,
+    "elevation": 102,
+    "geocodedName": "Sonitpur",
+    "admin1": "Assam"
+  },
+  "Sonitpur": {
+    "lat": 26.782,
+    "lng": 92.4491,
+    "elevation": 102,
+    "geocodedName": "Sonitpur",
+    "admin1": "Assam"
+  },
+  "Bihar__Banka": {
+    "lat": 24.8809,
+    "lng": 86.9226,
+    "elevation": 85,
+    "geocodedName": "Bānka",
+    "admin1": "Bihar"
+  },
+  "Banka": {
+    "lat": 24.8809,
+    "lng": 86.9226,
+    "elevation": 85,
+    "geocodedName": "Bānka",
+    "admin1": "Bihar"
+  },
+  "Assam__Nalbari": {
+    "lat": 26.4394,
+    "lng": 91.4404,
+    "elevation": 53,
+    "geocodedName": "Nalbāri",
+    "admin1": "Assam"
+  },
+  "Nalbari": {
+    "lat": 26.4394,
+    "lng": 91.4404,
+    "elevation": 53,
+    "geocodedName": "Nalbāri",
+    "admin1": "Assam"
+  },
+  "Bihar__Aurangabad": {
+    "lat": 24.752,
+    "lng": 84.3742,
+    "elevation": 116,
+    "geocodedName": "Aurangābād",
+    "admin1": "Bihar"
+  },
+  "Aurangabad": {
+    "lat": 24.752,
+    "lng": 84.3742,
+    "elevation": 116,
+    "geocodedName": "Aurangābād",
+    "admin1": "Bihar"
+  },
+  "Bihar__Arwal": {
+    "lat": 25.2428,
+    "lng": 84.6657,
+    "elevation": 80,
+    "geocodedName": "Arwal",
+    "admin1": "Bihar"
+  },
+  "Arwal": {
+    "lat": 25.2428,
+    "lng": 84.6657,
+    "elevation": 80,
+    "geocodedName": "Arwal",
+    "admin1": "Bihar"
+  },
+  "Bihar__Bhagalpur": {
+    "lat": 25.2445,
+    "lng": 86.9718,
+    "elevation": 52,
+    "geocodedName": "Bhagalpur",
+    "admin1": "Bihar"
+  },
+  "Bhagalpur": {
+    "lat": 25.2445,
+    "lng": 86.9718,
+    "elevation": 52,
+    "geocodedName": "Bhagalpur",
+    "admin1": "Bihar"
+  },
+  "Bihar__Araria": {
+    "lat": 26.1493,
+    "lng": 87.5132,
+    "elevation": 56,
+    "geocodedName": "Arāria",
+    "admin1": "Bihar"
+  },
+  "Araria": {
+    "lat": 26.1493,
+    "lng": 87.5132,
+    "elevation": 56,
+    "geocodedName": "Arāria",
+    "admin1": "Bihar"
+  },
+  "Bihar__Begusarai": {
+    "lat": 25.4185,
+    "lng": 86.1339,
+    "elevation": 47,
+    "geocodedName": "Begusarai",
+    "admin1": "Bihar"
+  },
+  "Begusarai": {
+    "lat": 25.4185,
+    "lng": 86.1339,
+    "elevation": 47,
+    "geocodedName": "Begusarai",
+    "admin1": "Bihar"
+  },
+  "Bihar__Jehanabad": {
+    "lat": 25.2137,
+    "lng": 84.9871,
+    "elevation": 71,
+    "geocodedName": "Jahānābād",
+    "admin1": "Bihar"
+  },
+  "Jehanabad": {
+    "lat": 25.2137,
+    "lng": 84.9871,
+    "elevation": 71,
+    "geocodedName": "Jahānābād",
+    "admin1": "Bihar"
+  },
+  "Bihar__Gaya": {
+    "lat": 24.7969,
+    "lng": 85.0038,
+    "elevation": 117,
+    "geocodedName": "Gaya",
+    "admin1": "Bihar"
+  },
+  "Gaya": {
+    "lat": 24.7969,
+    "lng": 85.0038,
+    "elevation": 117,
+    "geocodedName": "Gaya",
+    "admin1": "Bihar"
+  },
+  "Bihar__Jamui": {
+    "lat": 24.9261,
+    "lng": 86.2253,
+    "elevation": 88,
+    "geocodedName": "Jamūī",
+    "admin1": "Bihar"
+  },
+  "Jamui": {
+    "lat": 24.9261,
+    "lng": 86.2253,
+    "elevation": 88,
+    "geocodedName": "Jamūī",
+    "admin1": "Bihar"
+  },
+  "Bihar__Gopalganj": {
+    "lat": 26.4673,
+    "lng": 84.4404,
+    "elevation": 74,
+    "geocodedName": "Gopālganj",
+    "admin1": "Bihar"
+  },
+  "Gopalganj": {
+    "lat": 26.4673,
+    "lng": 84.4404,
+    "elevation": 74,
+    "geocodedName": "Gopālganj",
+    "admin1": "Bihar"
+  },
+  "Bihar__Buxar": {
+    "lat": 25.5755,
+    "lng": 83.9804,
+    "elevation": 67,
+    "geocodedName": "Buxar",
+    "admin1": "Bihar"
+  },
+  "Buxar": {
+    "lat": 25.5755,
+    "lng": 83.9804,
+    "elevation": 67,
+    "geocodedName": "Buxar",
+    "admin1": "Bihar"
+  },
+  "Bihar__Bhojpur": {
+    "lat": 25.5841,
+    "lng": 84.1265,
+    "elevation": 71,
+    "geocodedName": "Bhojpur Kadīm",
+    "admin1": "Bihar"
+  },
+  "Bhojpur": {
+    "lat": 25.5841,
+    "lng": 84.1265,
+    "elevation": 71,
+    "geocodedName": "Bhojpur Kadīm",
+    "admin1": "Bihar"
+  },
+  "Bihar__Madhubani": {
+    "lat": 26.3537,
+    "lng": 86.0717,
+    "elevation": 61,
+    "geocodedName": "Madhubani",
+    "admin1": "Bihar"
+  },
+  "Madhubani": {
+    "lat": 26.3537,
+    "lng": 86.0717,
+    "elevation": 61,
+    "geocodedName": "Madhubani",
+    "admin1": "Bihar"
+  },
+  "Bihar__Darbhanga": {
+    "lat": 26.1522,
+    "lng": 85.8971,
+    "elevation": 58,
+    "geocodedName": "Darbhanga",
+    "admin1": "Bihar"
+  },
+  "Darbhanga": {
+    "lat": 26.1522,
+    "lng": 85.8971,
+    "elevation": 58,
+    "geocodedName": "Darbhanga",
+    "admin1": "Bihar"
+  },
+  "Bihar__Kishanganj": {
+    "lat": 26.1022,
+    "lng": 87.9553,
+    "elevation": 57,
+    "geocodedName": "Kishanganj",
+    "admin1": "Bihar"
+  },
+  "Kishanganj": {
+    "lat": 26.1022,
+    "lng": 87.9553,
+    "elevation": 57,
+    "geocodedName": "Kishanganj",
+    "admin1": "Bihar"
+  },
+  "Bihar__Katihar": {
+    "lat": 25.5385,
+    "lng": 87.5704,
+    "elevation": 34,
+    "geocodedName": "Katihar",
+    "admin1": "Bihar"
+  },
+  "Katihar": {
+    "lat": 25.5385,
+    "lng": 87.5704,
+    "elevation": 34,
+    "geocodedName": "Katihar",
+    "admin1": "Bihar"
+  },
+  "Bihar__Khagaria": {
+    "lat": 25.5022,
+    "lng": 86.4671,
+    "elevation": 47,
+    "geocodedName": "Khagaria",
+    "admin1": "Bihar"
+  },
+  "Khagaria": {
+    "lat": 25.5022,
+    "lng": 86.4671,
+    "elevation": 47,
+    "geocodedName": "Khagaria",
+    "admin1": "Bihar"
+  },
+  "Bihar__Madhepura": {
+    "lat": 25.9213,
+    "lng": 86.7927,
+    "elevation": 50,
+    "geocodedName": "Madhepura",
+    "admin1": "Bihar"
+  },
+  "Madhepura": {
+    "lat": 25.9213,
+    "lng": 86.7927,
+    "elevation": 50,
+    "geocodedName": "Madhepura",
+    "admin1": "Bihar"
+  },
+  "Bihar__Kaimur": {
+    "lat": 25.04,
+    "lng": 83.61,
+    "elevation": 76,
+    "geocodedName": "Bhabua",
+    "admin1": "Bihar"
+  },
+  "Kaimur": {
+    "lat": 25.04,
+    "lng": 83.61,
+    "elevation": 76,
+    "geocodedName": "Bhabua",
+    "admin1": "Bihar"
+  },
+  "Bihar__East Champaran": {
+    "lat": 25.7174,
+    "lng": 83.5757,
+    "elevation": 73,
+    "geocodedName": "Champāranpattī",
+    "admin1": "Uttar Pradesh"
+  },
+  "East Champaran": {
+    "lat": 25.7174,
+    "lng": 83.5757,
+    "elevation": 73,
+    "geocodedName": "Champāranpattī",
+    "admin1": "Uttar Pradesh"
+  },
+  "Bihar__Saharsa": {
+    "lat": 25.875,
+    "lng": 86.5961,
+    "elevation": 48,
+    "geocodedName": "Saharsa",
+    "admin1": "Bihar"
+  },
+  "Saharsa": {
+    "lat": 25.875,
+    "lng": 86.5961,
+    "elevation": 48,
+    "geocodedName": "Saharsa",
+    "admin1": "Bihar"
+  },
+  "Bihar__Patna": {
+    "lat": 25.5941,
+    "lng": 85.1356,
+    "elevation": 53,
+    "geocodedName": "Patna",
+    "admin1": "Bihar"
+  },
+  "Patna": {
+    "lat": 25.5941,
+    "lng": 85.1356,
+    "elevation": 53,
+    "geocodedName": "Patna",
+    "admin1": "Bihar"
+  },
+  "Bihar__Sitamarhi": {
+    "lat": 26.5936,
+    "lng": 85.4906,
+    "elevation": 70,
+    "geocodedName": "Sītāmarhi",
+    "admin1": "Bihar"
+  },
+  "Sitamarhi": {
+    "lat": 26.5936,
+    "lng": 85.4906,
+    "elevation": 70,
+    "geocodedName": "Sītāmarhi",
+    "admin1": "Bihar"
+  },
+  "Bihar__Rohtas": {
+    "lat": 24.6298,
+    "lng": 83.92,
+    "elevation": 493,
+    "geocodedName": "Rohtas",
+    "admin1": "Bihar"
+  },
+  "Rohtas": {
+    "lat": 24.6298,
+    "lng": 83.92,
+    "elevation": 493,
+    "geocodedName": "Rohtas",
+    "admin1": "Bihar"
+  },
+  "Bihar__Nawada": {
+    "lat": 24.8867,
+    "lng": 85.5436,
+    "elevation": 93,
+    "geocodedName": "Nawāda",
+    "admin1": "Bihar"
+  },
+  "Nawada": {
+    "lat": 24.8867,
+    "lng": 85.5436,
+    "elevation": 93,
+    "geocodedName": "Nawāda",
+    "admin1": "Bihar"
+  },
+  "Bihar__Muzaffarpur": {
+    "lat": 26.1226,
+    "lng": 85.3906,
+    "elevation": 60,
+    "geocodedName": "Muzaffarpur",
+    "admin1": "Bihar"
+  },
+  "Muzaffarpur": {
+    "lat": 26.1226,
+    "lng": 85.3906,
+    "elevation": 60,
+    "geocodedName": "Muzaffarpur",
+    "admin1": "Bihar"
+  },
+  "Bihar__Munger": {
+    "lat": 25.3746,
+    "lng": 86.4745,
+    "elevation": 49,
+    "geocodedName": "Munger",
+    "admin1": "Bihar"
+  },
+  "Munger": {
+    "lat": 25.3746,
+    "lng": 86.4745,
+    "elevation": 49,
+    "geocodedName": "Munger",
+    "admin1": "Bihar"
+  },
+  "Bihar__Purnia": {
+    "lat": 25.7789,
+    "lng": 87.4742,
+    "elevation": 44,
+    "geocodedName": "Purnia",
+    "admin1": "Bihar"
+  },
+  "Purnia": {
+    "lat": 25.7789,
+    "lng": 87.4742,
+    "elevation": 44,
+    "geocodedName": "Purnia",
+    "admin1": "Bihar"
+  },
+  "Bihar__Supaul": {
+    "lat": 26.1153,
+    "lng": 86.5951,
+    "elevation": 56,
+    "geocodedName": "Supaul",
+    "admin1": "Bihar"
+  },
+  "Supaul": {
+    "lat": 26.1153,
+    "lng": 86.5951,
+    "elevation": 56,
+    "geocodedName": "Supaul",
+    "admin1": "Bihar"
+  },
+  "Bihar__Samastipur": {
+    "lat": 25.8622,
+    "lng": 85.7795,
+    "elevation": 52,
+    "geocodedName": "Samāstipur",
+    "admin1": "Bihar"
+  },
+  "Samastipur": {
+    "lat": 25.8622,
+    "lng": 85.7795,
+    "elevation": 52,
+    "geocodedName": "Samāstipur",
+    "admin1": "Bihar"
+  },
+  "Bihar__Sheohar": {
+    "lat": 26.5139,
+    "lng": 85.2934,
+    "elevation": 71,
+    "geocodedName": "Sheohar",
+    "admin1": "Bihar"
+  },
+  "Sheohar": {
+    "lat": 26.5139,
+    "lng": 85.2934,
+    "elevation": 71,
+    "geocodedName": "Sheohar",
+    "admin1": "Bihar"
+  },
+  "Bihar__Saran": {
+    "lat": 25.6934,
+    "lng": 85.1718,
+    "elevation": 56,
+    "geocodedName": "Sonpur",
+    "admin1": "Bihar"
+  },
+  "Saran": {
+    "lat": 25.6934,
+    "lng": 85.1718,
+    "elevation": 56,
+    "geocodedName": "Sonpur",
+    "admin1": "Bihar"
+  },
+  "Bihar__Sheikhpura": {
+    "lat": 25.1399,
+    "lng": 85.841,
+    "elevation": 54,
+    "geocodedName": "Sheikhpura",
+    "admin1": "Bihar"
+  },
+  "Sheikhpura": {
+    "lat": 25.1399,
+    "lng": 85.841,
+    "elevation": 54,
+    "geocodedName": "Sheikhpura",
+    "admin1": "Bihar"
+  },
+  "Bihar__Siwan": {
+    "lat": 26.221,
+    "lng": 84.3561,
+    "elevation": 71,
+    "geocodedName": "Siwān",
+    "admin1": "Bihar"
+  },
+  "Siwan": {
+    "lat": 26.221,
+    "lng": 84.3561,
+    "elevation": 71,
+    "geocodedName": "Siwān",
+    "admin1": "Bihar"
+  },
+  "Bihar__Nalanda": {
+    "lat": 25.1982,
+    "lng": 85.5149,
+    "elevation": 60,
+    "geocodedName": "Bihar Sharif",
+    "admin1": "Bihar"
+  },
+  "Nalanda": {
+    "lat": 25.1982,
+    "lng": 85.5149,
+    "elevation": 60,
+    "geocodedName": "Bihar Sharif",
+    "admin1": "Bihar"
+  },
+  "Chhattisgarh__Gariaband": {
+    "lat": 20.6332,
+    "lng": 82.0622,
+    "elevation": 348,
+    "geocodedName": "Gariāband",
+    "admin1": "Chhattisgarh"
+  },
+  "Gariaband": {
+    "lat": 20.6332,
+    "lng": 82.0622,
+    "elevation": 348,
+    "geocodedName": "Gariāband",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Balrampur": {
+    "lat": 23.6122,
+    "lng": 83.6111,
+    "elevation": 523,
+    "geocodedName": "Balrampur",
+    "admin1": "Chhattisgarh"
+  },
+  "Balrampur": {
+    "lat": 27.4295,
+    "lng": 82.1855,
+    "elevation": 112,
+    "geocodedName": "Balrāmpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Chhattisgarh__Bijapur": {
+    "lat": 18.7939,
+    "lng": 80.816,
+    "elevation": 341,
+    "geocodedName": "Bījāpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Bijapur": {
+    "lat": 18.7939,
+    "lng": 80.816,
+    "elevation": 341,
+    "geocodedName": "Bījāpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Baloda Bazar": {
+    "lat": 21.6568,
+    "lng": 82.1606,
+    "elevation": 259,
+    "geocodedName": "Baloda Bāzār",
+    "admin1": "Chhattisgarh"
+  },
+  "Baloda Bazar": {
+    "lat": 21.6568,
+    "lng": 82.1606,
+    "elevation": 259,
+    "geocodedName": "Baloda Bāzār",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Bilaspur": {
+    "lat": 22.08,
+    "lng": 82.1554,
+    "elevation": 265,
+    "geocodedName": "Bilāspur",
+    "admin1": "Chhattisgarh"
+  },
+  "Bilaspur": {
+    "lat": 31.3303,
+    "lng": 76.7566,
+    "elevation": 496,
+    "geocodedName": "Bilaspur",
+    "admin1": "Himachal Pradesh"
+  },
+  "Bihar__Vaishali": {
+    "lat": 25.992,
+    "lng": 85.0816,
+    "elevation": 43,
+    "geocodedName": "Vaishali",
+    "admin1": "Bihar"
+  },
+  "Vaishali": {
+    "lat": 25.992,
+    "lng": 85.0816,
+    "elevation": 43,
+    "geocodedName": "Vaishali",
+    "admin1": "Bihar"
+  },
+  "Chhattisgarh__Bemetara": {
+    "lat": 21.7156,
+    "lng": 81.5342,
+    "elevation": 291,
+    "geocodedName": "Bemetāra",
+    "admin1": "Chhattisgarh"
+  },
+  "Bemetara": {
+    "lat": 21.7156,
+    "lng": 81.5342,
+    "elevation": 291,
+    "geocodedName": "Bemetāra",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Bastar": {
+    "lat": 19.2031,
+    "lng": 81.9296,
+    "elevation": 557,
+    "geocodedName": "Bastar",
+    "admin1": "Chhattisgarh"
+  },
+  "Bastar": {
+    "lat": 19.2031,
+    "lng": 81.9296,
+    "elevation": 557,
+    "geocodedName": "Bastar",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Balod": {
+    "lat": 20.7308,
+    "lng": 81.2058,
+    "elevation": 329,
+    "geocodedName": "Balod",
+    "admin1": "Chhattisgarh"
+  },
+  "Balod": {
+    "lat": 20.7308,
+    "lng": 81.2058,
+    "elevation": 329,
+    "geocodedName": "Balod",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Durg": {
+    "lat": 21.1915,
+    "lng": 81.2762,
+    "elevation": 303,
+    "geocodedName": "Durg",
+    "admin1": "Chhattisgarh"
+  },
+  "Durg": {
+    "lat": 21.1915,
+    "lng": 81.2762,
+    "elevation": 303,
+    "geocodedName": "Durg",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Dhamtari": {
+    "lat": 20.7072,
+    "lng": 81.5487,
+    "elevation": 325,
+    "geocodedName": "Dhamtari",
+    "admin1": "Chhattisgarh"
+  },
+  "Dhamtari": {
+    "lat": 20.7072,
+    "lng": 81.5487,
+    "elevation": 325,
+    "geocodedName": "Dhamtari",
+    "admin1": "Chhattisgarh"
+  },
+  "Bihar__West Champaran": {
+    "lat": 25.7174,
+    "lng": 83.5757,
+    "elevation": 73,
+    "geocodedName": "Champāranpattī",
+    "admin1": "Uttar Pradesh"
+  },
+  "West Champaran": {
+    "lat": 25.7174,
+    "lng": 83.5757,
+    "elevation": 73,
+    "geocodedName": "Champāranpattī",
+    "admin1": "Uttar Pradesh"
+  },
+  "Chhattisgarh__Korba": {
+    "lat": 22.3458,
+    "lng": 82.6963,
+    "elevation": 289,
+    "geocodedName": "Korba",
+    "admin1": "Chhattisgarh"
+  },
+  "Korba": {
+    "lat": 22.3458,
+    "lng": 82.6963,
+    "elevation": 289,
+    "geocodedName": "Korba",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Raipur": {
+    "lat": 21.2333,
+    "lng": 81.6333,
+    "elevation": 296,
+    "geocodedName": "Raipur",
+    "admin1": "Chhattisgarh"
+  },
+  "Raipur": {
+    "lat": 21.2333,
+    "lng": 81.6333,
+    "elevation": 296,
+    "geocodedName": "Raipur",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Mahasamund": {
+    "lat": 21.1074,
+    "lng": 82.0948,
+    "elevation": 299,
+    "geocodedName": "Mahāsamund",
+    "admin1": "Chhattisgarh"
+  },
+  "Mahasamund": {
+    "lat": 21.1074,
+    "lng": 82.0948,
+    "elevation": 299,
+    "geocodedName": "Mahāsamund",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Kondagaon": {
+    "lat": 19.5908,
+    "lng": 81.664,
+    "elevation": 597,
+    "geocodedName": "Kondagaon",
+    "admin1": "Chhattisgarh"
+  },
+  "Kondagaon": {
+    "lat": 19.5908,
+    "lng": 81.664,
+    "elevation": 597,
+    "geocodedName": "Kondagaon",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Jashpur": {
+    "lat": 22.8878,
+    "lng": 84.1386,
+    "elevation": 776,
+    "geocodedName": "Jashpur Nagar",
+    "admin1": "Chhattisgarh"
+  },
+  "Jashpur": {
+    "lat": 22.8878,
+    "lng": 84.1386,
+    "elevation": 776,
+    "geocodedName": "Jashpur Nagar",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Kanker": {
+    "lat": 20.2719,
+    "lng": 81.4918,
+    "elevation": 401,
+    "geocodedName": "Kānker",
+    "admin1": "Chhattisgarh"
+  },
+  "Kanker": {
+    "lat": 20.2719,
+    "lng": 81.4918,
+    "elevation": 401,
+    "geocodedName": "Kānker",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Raigarh": {
+    "lat": 21.8976,
+    "lng": 83.3966,
+    "elevation": 224,
+    "geocodedName": "Raigarh",
+    "admin1": "Chhattisgarh"
+  },
+  "Raigarh": {
+    "lat": 21.8976,
+    "lng": 83.3966,
+    "elevation": 224,
+    "geocodedName": "Raigarh",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Mungeli": {
+    "lat": 22.0657,
+    "lng": 81.6854,
+    "elevation": 287,
+    "geocodedName": "Mungeli",
+    "admin1": "Chhattisgarh"
+  },
+  "Mungeli": {
+    "lat": 22.0657,
+    "lng": 81.6854,
+    "elevation": 287,
+    "geocodedName": "Mungeli",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Narayanpur": {
+    "lat": 19.7179,
+    "lng": 81.2444,
+    "elevation": 558,
+    "geocodedName": "Nārāinpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Narayanpur": {
+    "lat": 19.7179,
+    "lng": 81.2444,
+    "elevation": 558,
+    "geocodedName": "Nārāinpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Koriya": {
+    "lat": 23.27,
+    "lng": 82.55,
+    "elevation": 529,
+    "geocodedName": "Baikunthpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Koriya": {
+    "lat": 23.27,
+    "lng": 82.55,
+    "elevation": 529,
+    "geocodedName": "Baikunthpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Surajpur": {
+    "lat": 23.2135,
+    "lng": 82.8684,
+    "elevation": 557,
+    "geocodedName": "Surajpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Surajpur": {
+    "lat": 23.2135,
+    "lng": 82.8684,
+    "elevation": 557,
+    "geocodedName": "Surajpur",
+    "admin1": "Chhattisgarh"
+  },
+  "Gujarat__Bhavnagar": {
+    "lat": 21.7629,
+    "lng": 72.1533,
+    "elevation": 24,
+    "geocodedName": "Bhavnagar",
+    "admin1": "Gujarat"
+  },
+  "Bhavnagar": {
+    "lat": 21.7629,
+    "lng": 72.1533,
+    "elevation": 24,
+    "geocodedName": "Bhavnagar",
+    "admin1": "Gujarat"
+  },
+  "Chhattisgarh__Surguja": {
+    "lat": 22.418,
+    "lng": 82.4699,
+    "elevation": 341,
+    "geocodedName": "Surgujāpāra",
+    "admin1": "Chhattisgarh"
+  },
+  "Surguja": {
+    "lat": 22.418,
+    "lng": 82.4699,
+    "elevation": 341,
+    "geocodedName": "Surgujāpāra",
+    "admin1": "Chhattisgarh"
+  },
+  "Gujarat__Bharuch": {
+    "lat": 21.6948,
+    "lng": 72.9805,
+    "elevation": 12,
+    "geocodedName": "Bharūch",
+    "admin1": "Gujarat"
+  },
+  "Bharuch": {
+    "lat": 21.6948,
+    "lng": 72.9805,
+    "elevation": 12,
+    "geocodedName": "Bharūch",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Anand": {
+    "lat": 22.5525,
+    "lng": 72.9552,
+    "elevation": 44,
+    "geocodedName": "Anand",
+    "admin1": "Gujarat"
+  },
+  "Anand": {
+    "lat": 22.5525,
+    "lng": 72.9552,
+    "elevation": 44,
+    "geocodedName": "Anand",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Amreli": {
+    "lat": 21.5998,
+    "lng": 71.2117,
+    "elevation": 123,
+    "geocodedName": "Amreli",
+    "admin1": "Gujarat"
+  },
+  "Amreli": {
+    "lat": 21.5998,
+    "lng": 71.2117,
+    "elevation": 123,
+    "geocodedName": "Amreli",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Botad": {
+    "lat": 22.1692,
+    "lng": 71.6667,
+    "elevation": 89,
+    "geocodedName": "Botad",
+    "admin1": "Gujarat"
+  },
+  "Botad": {
+    "lat": 22.1692,
+    "lng": 71.6667,
+    "elevation": 89,
+    "geocodedName": "Botad",
+    "admin1": "Gujarat"
+  },
+  "Chhattisgarh__Sukma": {
+    "lat": 18.3901,
+    "lng": 81.6594,
+    "elevation": 208,
+    "geocodedName": "Sukma",
+    "admin1": "Chhattisgarh"
+  },
+  "Sukma": {
+    "lat": 18.3901,
+    "lng": 81.6594,
+    "elevation": 208,
+    "geocodedName": "Sukma",
+    "admin1": "Chhattisgarh"
+  },
+  "Gujarat__Ahmedabad": {
+    "lat": 23.0258,
+    "lng": 72.5873,
+    "elevation": 56,
+    "geocodedName": "Ahmedabad",
+    "admin1": "Gujarat"
+  },
+  "Ahmedabad": {
+    "lat": 23.0258,
+    "lng": 72.5873,
+    "elevation": 56,
+    "geocodedName": "Ahmedabad",
+    "admin1": "Gujarat"
+  },
+  "Chhattisgarh__Sakti": {
+    "lat": 22.0266,
+    "lng": 82.9609,
+    "elevation": 245,
+    "geocodedName": "Saktī",
+    "admin1": "Chhattisgarh"
+  },
+  "Sakti": {
+    "lat": 22.0266,
+    "lng": 82.9609,
+    "elevation": 245,
+    "geocodedName": "Saktī",
+    "admin1": "Chhattisgarh"
+  },
+  "Gujarat__Chhota Udaipur": {
+    "lat": 22.31,
+    "lng": 74.01,
+    "elevation": 135,
+    "geocodedName": "Chhota Udaipur",
+    "admin1": "Gujarat"
+  },
+  "Chhota Udaipur": {
+    "lat": 22.31,
+    "lng": 74.01,
+    "elevation": 135,
+    "geocodedName": "Chhota Udaipur",
+    "admin1": "Gujarat"
+  },
+  "Goa__North Goa": {
+    "lat": 15.4909,
+    "lng": 73.8278,
+    "elevation": 7,
+    "geocodedName": "Panaji",
+    "admin1": "Goa"
+  },
+  "North Goa": {
+    "lat": 15.4909,
+    "lng": 73.8278,
+    "elevation": 7,
+    "geocodedName": "Panaji",
+    "admin1": "Goa"
+  },
+  "Goa__South Goa": {
+    "lat": 15.2832,
+    "lng": 73.9862,
+    "elevation": 10,
+    "geocodedName": "Margao",
+    "admin1": "Goa"
+  },
+  "South Goa": {
+    "lat": 15.2832,
+    "lng": 73.9862,
+    "elevation": 10,
+    "geocodedName": "Margao",
+    "admin1": "Goa"
+  },
+  "Gujarat__Aravalli": {
+    "lat": 23.46,
+    "lng": 73.3,
+    "elevation": 197,
+    "geocodedName": "Modasa",
+    "admin1": "Gujarat"
+  },
+  "Aravalli": {
+    "lat": 23.46,
+    "lng": 73.3,
+    "elevation": 197,
+    "geocodedName": "Modasa",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Gandhinagar": {
+    "lat": 23.2167,
+    "lng": 72.6833,
+    "elevation": 54,
+    "geocodedName": "Gandhinagar",
+    "admin1": "Gujarat"
+  },
+  "Gandhinagar": {
+    "lat": 23.2167,
+    "lng": 72.6833,
+    "elevation": 54,
+    "geocodedName": "Gandhinagar",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Kheda": {
+    "lat": 22.7522,
+    "lng": 72.6853,
+    "elevation": 38,
+    "geocodedName": "Kheda",
+    "admin1": "Gujarat"
+  },
+  "Kheda": {
+    "lat": 22.7522,
+    "lng": 72.6853,
+    "elevation": 38,
+    "geocodedName": "Kheda",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Junagadh": {
+    "lat": 21.5197,
+    "lng": 70.4598,
+    "elevation": 97,
+    "geocodedName": "Jūnāgadh",
+    "admin1": "Gujarat"
+  },
+  "Junagadh": {
+    "lat": 21.5197,
+    "lng": 70.4598,
+    "elevation": 97,
+    "geocodedName": "Jūnāgadh",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Dang": {
+    "lat": 24.2491,
+    "lng": 72.3306,
+    "elevation": 178,
+    "geocodedName": "Dāngia",
+    "admin1": "Gujarat"
+  },
+  "Dang": {
+    "lat": 24.2491,
+    "lng": 72.3306,
+    "elevation": 178,
+    "geocodedName": "Dāngia",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Mehsana": {
+    "lat": 23.5986,
+    "lng": 72.3847,
+    "elevation": 88,
+    "geocodedName": "Mahesāna",
+    "admin1": "Gujarat"
+  },
+  "Mehsana": {
+    "lat": 23.5986,
+    "lng": 72.3847,
+    "elevation": 88,
+    "geocodedName": "Mahesāna",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Jamnagar": {
+    "lat": 22.4729,
+    "lng": 70.0667,
+    "elevation": 18,
+    "geocodedName": "Jamnagar",
+    "admin1": "Gujarat"
+  },
+  "Jamnagar": {
+    "lat": 22.4729,
+    "lng": 70.0667,
+    "elevation": 18,
+    "geocodedName": "Jamnagar",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Navsari": {
+    "lat": 20.9424,
+    "lng": 72.9247,
+    "elevation": 15,
+    "geocodedName": "Navsari",
+    "admin1": "Gujarat"
+  },
+  "Navsari": {
+    "lat": 20.9424,
+    "lng": 72.9247,
+    "elevation": 15,
+    "geocodedName": "Navsari",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Kutch": {
+    "lat": 23.242,
+    "lng": 69.6669,
+    "elevation": 110,
+    "geocodedName": "Bhuj",
+    "admin1": "Gujarat"
+  },
+  "Kutch": {
+    "lat": 23.242,
+    "lng": 69.6669,
+    "elevation": 110,
+    "geocodedName": "Bhuj",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Morbi": {
+    "lat": 22.82,
+    "lng": 70.84,
+    "elevation": 54,
+    "geocodedName": "Morbi",
+    "admin1": "Gujarat"
+  },
+  "Morbi": {
+    "lat": 22.82,
+    "lng": 70.84,
+    "elevation": 54,
+    "geocodedName": "Morbi",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Dahod": {
+    "lat": 22.84,
+    "lng": 74.25,
+    "elevation": 279,
+    "geocodedName": "Dahod",
+    "admin1": "Gujarat"
+  },
+  "Dahod": {
+    "lat": 22.84,
+    "lng": 74.25,
+    "elevation": 279,
+    "geocodedName": "Dahod",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Narmada": {
+    "lat": 21.87,
+    "lng": 73.5,
+    "elevation": 148,
+    "geocodedName": "Rajpipla",
+    "admin1": "Gujarat"
+  },
+  "Narmada": {
+    "lat": 21.87,
+    "lng": 73.5,
+    "elevation": 148,
+    "geocodedName": "Rajpipla",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Patan": {
+    "lat": 23.8507,
+    "lng": 72.1296,
+    "elevation": 82,
+    "geocodedName": "Pātan",
+    "admin1": "Gujarat"
+  },
+  "Patan": {
+    "lat": 23.8507,
+    "lng": 72.1296,
+    "elevation": 82,
+    "geocodedName": "Pātan",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Porbandar": {
+    "lat": 21.6422,
+    "lng": 69.6093,
+    "elevation": 7,
+    "geocodedName": "Porbandar",
+    "admin1": "Gujarat"
+  },
+  "Porbandar": {
+    "lat": 21.6422,
+    "lng": 69.6093,
+    "elevation": 7,
+    "geocodedName": "Porbandar",
+    "admin1": "Gujarat"
+  },
+  "Haryana__Faridabad": {
+    "lat": 28.4112,
+    "lng": 77.3132,
+    "elevation": 209,
+    "geocodedName": "Faridabad",
+    "admin1": "Haryana"
+  },
+  "Faridabad": {
+    "lat": 28.4112,
+    "lng": 77.3132,
+    "elevation": 209,
+    "geocodedName": "Faridabad",
+    "admin1": "Haryana"
+  },
+  "Gujarat__Rajkot": {
+    "lat": 22.2916,
+    "lng": 70.7932,
+    "elevation": 140,
+    "geocodedName": "Rajkot",
+    "admin1": "Gujarat"
+  },
+  "Rajkot": {
+    "lat": 22.2916,
+    "lng": 70.7932,
+    "elevation": 140,
+    "geocodedName": "Rajkot",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Vadodara": {
+    "lat": 22.2994,
+    "lng": 73.2081,
+    "elevation": 46,
+    "geocodedName": "Vadodara",
+    "admin1": "Gujarat"
+  },
+  "Vadodara": {
+    "lat": 22.2994,
+    "lng": 73.2081,
+    "elevation": 46,
+    "geocodedName": "Vadodara",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Valsad": {
+    "lat": 20.6101,
+    "lng": 72.9343,
+    "elevation": 12,
+    "geocodedName": "Valsād",
+    "admin1": "Gujarat"
+  },
+  "Valsad": {
+    "lat": 20.6101,
+    "lng": 72.9343,
+    "elevation": 12,
+    "geocodedName": "Valsād",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Surendranagar": {
+    "lat": 22.7271,
+    "lng": 71.6486,
+    "elevation": 68,
+    "geocodedName": "Surendranagar",
+    "admin1": "Gujarat"
+  },
+  "Surendranagar": {
+    "lat": 22.7271,
+    "lng": 71.6486,
+    "elevation": 68,
+    "geocodedName": "Surendranagar",
+    "admin1": "Gujarat"
+  },
+  "Haryana__Gurugram": {
+    "lat": 28.4601,
+    "lng": 77.0263,
+    "elevation": 228,
+    "geocodedName": "Gurugram",
+    "admin1": "Haryana"
+  },
+  "Gurugram": {
+    "lat": 28.4601,
+    "lng": 77.0263,
+    "elevation": 228,
+    "geocodedName": "Gurugram",
+    "admin1": "Haryana"
+  },
+  "Haryana__Charkhi Dadri": {
+    "lat": 28.5917,
+    "lng": 76.2716,
+    "elevation": 225,
+    "geocodedName": "Charkhi Dādri",
+    "admin1": "Haryana"
+  },
+  "Charkhi Dadri": {
+    "lat": 28.5917,
+    "lng": 76.2716,
+    "elevation": 225,
+    "geocodedName": "Charkhi Dādri",
+    "admin1": "Haryana"
+  },
+  "Gujarat__Surat": {
+    "lat": 21.1959,
+    "lng": 72.8302,
+    "elevation": 20,
+    "geocodedName": "Surat",
+    "admin1": "Gujarat"
+  },
+  "Surat": {
+    "lat": 21.1959,
+    "lng": 72.8302,
+    "elevation": 20,
+    "geocodedName": "Surat",
+    "admin1": "Gujarat"
+  },
+  "Haryana__Bhiwani": {
+    "lat": 28.793,
+    "lng": 76.1397,
+    "elevation": 223,
+    "geocodedName": "Bhiwāni",
+    "admin1": "Haryana"
+  },
+  "Bhiwani": {
+    "lat": 28.793,
+    "lng": 76.1397,
+    "elevation": 223,
+    "geocodedName": "Bhiwāni",
+    "admin1": "Haryana"
+  },
+  "Haryana__Fatehabad": {
+    "lat": 29.5153,
+    "lng": 75.4555,
+    "elevation": 216,
+    "geocodedName": "Fatehābād",
+    "admin1": "Haryana"
+  },
+  "Fatehabad": {
+    "lat": 29.5153,
+    "lng": 75.4555,
+    "elevation": 216,
+    "geocodedName": "Fatehābād",
+    "admin1": "Haryana"
+  },
+  "Haryana__Ambala": {
+    "lat": 30.361,
+    "lng": 76.7978,
+    "elevation": 276,
+    "geocodedName": "Ambāla",
+    "admin1": "Haryana"
+  },
+  "Ambala": {
+    "lat": 30.361,
+    "lng": 76.7978,
+    "elevation": 276,
+    "geocodedName": "Ambāla",
+    "admin1": "Haryana"
+  },
+  "Gujarat__Tapi": {
+    "lat": 21.11,
+    "lng": 73.39,
+    "elevation": 98,
+    "geocodedName": "Vyara",
+    "admin1": "Gujarat"
+  },
+  "Tapi": {
+    "lat": 21.11,
+    "lng": 73.39,
+    "elevation": 98,
+    "geocodedName": "Vyara",
+    "admin1": "Gujarat"
+  },
+  "Haryana__Sirsa": {
+    "lat": 29.5349,
+    "lng": 75.029,
+    "elevation": 205,
+    "geocodedName": "Sirsa",
+    "admin1": "Haryana"
+  },
+  "Sirsa": {
+    "lat": 29.5349,
+    "lng": 75.029,
+    "elevation": 205,
+    "geocodedName": "Sirsa",
+    "admin1": "Haryana"
+  },
+  "Haryana__Kaithal": {
+    "lat": 29.8015,
+    "lng": 76.3996,
+    "elevation": 232,
+    "geocodedName": "Kaithal",
+    "admin1": "Haryana"
+  },
+  "Kaithal": {
+    "lat": 29.8015,
+    "lng": 76.3996,
+    "elevation": 232,
+    "geocodedName": "Kaithal",
+    "admin1": "Haryana"
+  },
+  "Haryana__Nuh": {
+    "lat": 28.103,
+    "lng": 77.0014,
+    "elevation": 200,
+    "geocodedName": "Nūh",
+    "admin1": "Haryana"
+  },
+  "Nuh": {
+    "lat": 28.103,
+    "lng": 77.0014,
+    "elevation": 200,
+    "geocodedName": "Nūh",
+    "admin1": "Haryana"
+  },
+  "Haryana__Sonipat": {
+    "lat": 28.9948,
+    "lng": 77.0194,
+    "elevation": 229,
+    "geocodedName": "Sonīpat",
+    "admin1": "Haryana"
+  },
+  "Sonipat": {
+    "lat": 28.9948,
+    "lng": 77.0194,
+    "elevation": 229,
+    "geocodedName": "Sonīpat",
+    "admin1": "Haryana"
+  },
+  "Haryana__Panchkula": {
+    "lat": 30.6946,
+    "lng": 76.8504,
+    "elevation": 335,
+    "geocodedName": "Panchkula",
+    "admin1": "Haryana"
+  },
+  "Panchkula": {
+    "lat": 30.6946,
+    "lng": 76.8504,
+    "elevation": 335,
+    "geocodedName": "Panchkula",
+    "admin1": "Haryana"
+  },
+  "Haryana__Rewari": {
+    "lat": 28.199,
+    "lng": 76.6183,
+    "elevation": 259,
+    "geocodedName": "Rewāri",
+    "admin1": "Haryana"
+  },
+  "Rewari": {
+    "lat": 28.199,
+    "lng": 76.6183,
+    "elevation": 259,
+    "geocodedName": "Rewāri",
+    "admin1": "Haryana"
+  },
+  "Haryana__Palwal": {
+    "lat": 28.1447,
+    "lng": 77.3255,
+    "elevation": 201,
+    "geocodedName": "Palwal",
+    "admin1": "Haryana"
+  },
+  "Palwal": {
+    "lat": 28.1447,
+    "lng": 77.3255,
+    "elevation": 201,
+    "geocodedName": "Palwal",
+    "admin1": "Haryana"
+  },
+  "Haryana__Karnal": {
+    "lat": 29.692,
+    "lng": 76.9845,
+    "elevation": 255,
+    "geocodedName": "Karnāl",
+    "admin1": "Haryana"
+  },
+  "Karnal": {
+    "lat": 29.692,
+    "lng": 76.9845,
+    "elevation": 255,
+    "geocodedName": "Karnāl",
+    "admin1": "Haryana"
+  },
+  "Haryana__Mahendragarh": {
+    "lat": 28.2693,
+    "lng": 76.1525,
+    "elevation": 276,
+    "geocodedName": "Mahendragarh",
+    "admin1": "Haryana"
+  },
+  "Mahendragarh": {
+    "lat": 28.2693,
+    "lng": 76.1525,
+    "elevation": 276,
+    "geocodedName": "Mahendragarh",
+    "admin1": "Haryana"
+  },
+  "Haryana__Kurukshetra": {
+    "lat": 29.9657,
+    "lng": 76.837,
+    "elevation": 256,
+    "geocodedName": "Kurukshetra",
+    "admin1": "Haryana"
+  },
+  "Kurukshetra": {
+    "lat": 29.9657,
+    "lng": 76.837,
+    "elevation": 256,
+    "geocodedName": "Kurukshetra",
+    "admin1": "Haryana"
+  },
+  "Haryana__Jhajjar": {
+    "lat": 28.6063,
+    "lng": 76.6565,
+    "elevation": 224,
+    "geocodedName": "Jhajjar",
+    "admin1": "Haryana"
+  },
+  "Jhajjar": {
+    "lat": 28.6063,
+    "lng": 76.6565,
+    "elevation": 224,
+    "geocodedName": "Jhajjar",
+    "admin1": "Haryana"
+  },
+  "Haryana__Rohtak": {
+    "lat": 28.8945,
+    "lng": 76.5892,
+    "elevation": 222,
+    "geocodedName": "Rohtak",
+    "admin1": "Haryana"
+  },
+  "Rohtak": {
+    "lat": 28.8945,
+    "lng": 76.5892,
+    "elevation": 222,
+    "geocodedName": "Rohtak",
+    "admin1": "Haryana"
+  },
+  "Haryana__Hisar": {
+    "lat": 29.1539,
+    "lng": 75.7229,
+    "elevation": 216,
+    "geocodedName": "Hisar",
+    "admin1": "Haryana"
+  },
+  "Hisar": {
+    "lat": 29.1539,
+    "lng": 75.7229,
+    "elevation": 216,
+    "geocodedName": "Hisar",
+    "admin1": "Haryana"
+  },
+  "Haryana__Jind": {
+    "lat": 29.3158,
+    "lng": 76.315,
+    "elevation": 233,
+    "geocodedName": "Jīnd",
+    "admin1": "Haryana"
+  },
+  "Jind": {
+    "lat": 29.3158,
+    "lng": 76.315,
+    "elevation": 233,
+    "geocodedName": "Jīnd",
+    "admin1": "Haryana"
+  },
+  "Haryana__Panipat": {
+    "lat": 29.3875,
+    "lng": 76.9682,
+    "elevation": 232,
+    "geocodedName": "Panipat",
+    "admin1": "Haryana"
+  },
+  "Panipat": {
+    "lat": 29.3875,
+    "lng": 76.9682,
+    "elevation": 232,
+    "geocodedName": "Panipat",
+    "admin1": "Haryana"
+  },
+  "Himachal Pradesh__Bilaspur": {
+    "lat": 31.3303,
+    "lng": 76.7566,
+    "elevation": 496,
+    "geocodedName": "Bilaspur",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Chamba": {
+    "lat": 32.5553,
+    "lng": 76.1265,
+    "elevation": 951,
+    "geocodedName": "Chamba",
+    "admin1": "Himachal Pradesh"
+  },
+  "Chamba": {
+    "lat": 32.5553,
+    "lng": 76.1265,
+    "elevation": 951,
+    "geocodedName": "Chamba",
+    "admin1": "Himachal Pradesh"
+  },
+  "Haryana__Yamunanagar": {
+    "lat": 30.128,
+    "lng": 77.2837,
+    "elevation": 278,
+    "geocodedName": "Yamunanagar",
+    "admin1": "Haryana"
+  },
+  "Yamunanagar": {
+    "lat": 30.128,
+    "lng": 77.2837,
+    "elevation": 278,
+    "geocodedName": "Yamunanagar",
+    "admin1": "Haryana"
+  },
+  "Himachal Pradesh__Hamirpur": {
+    "lat": 31.6841,
+    "lng": 76.5251,
+    "elevation": 768,
+    "geocodedName": "Hamīrpur",
+    "admin1": "Himachal Pradesh"
+  },
+  "Hamirpur": {
+    "lat": 25.9553,
+    "lng": 80.1484,
+    "elevation": 115,
+    "geocodedName": "Hamīrpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Himachal Pradesh__Kinnaur": {
+    "lat": 31.521,
+    "lng": 78.3628,
+    "elevation": 6050,
+    "geocodedName": "Kailāsh",
+    "admin1": "Himachal Pradesh"
+  },
+  "Kinnaur": {
+    "lat": 31.521,
+    "lng": 78.3628,
+    "elevation": 6050,
+    "geocodedName": "Kailāsh",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Mandi": {
+    "lat": 31.7119,
+    "lng": 76.9327,
+    "elevation": 764,
+    "geocodedName": "Mandi",
+    "admin1": "Himachal Pradesh"
+  },
+  "Mandi": {
+    "lat": 31.7119,
+    "lng": 76.9327,
+    "elevation": 764,
+    "geocodedName": "Mandi",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Kullu": {
+    "lat": 31.9583,
+    "lng": 77.1082,
+    "elevation": 1240,
+    "geocodedName": "Kullu",
+    "admin1": "Himachal Pradesh"
+  },
+  "Kullu": {
+    "lat": 31.9583,
+    "lng": 77.1082,
+    "elevation": 1240,
+    "geocodedName": "Kullu",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Kangra": {
+    "lat": 32.0913,
+    "lng": 76.2627,
+    "elevation": 697,
+    "geocodedName": "Kangra",
+    "admin1": "Himachal Pradesh"
+  },
+  "Kangra": {
+    "lat": 32.0913,
+    "lng": 76.2627,
+    "elevation": 697,
+    "geocodedName": "Kangra",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Shimla": {
+    "lat": 31.1044,
+    "lng": 77.1666,
+    "elevation": 2073,
+    "geocodedName": "Shimla",
+    "admin1": "Himachal Pradesh"
+  },
+  "Shimla": {
+    "lat": 31.1044,
+    "lng": 77.1666,
+    "elevation": 2073,
+    "geocodedName": "Shimla",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Solan": {
+    "lat": 30.9091,
+    "lng": 77.1087,
+    "elevation": 1509,
+    "geocodedName": "Solan",
+    "admin1": "Himachal Pradesh"
+  },
+  "Solan": {
+    "lat": 30.9091,
+    "lng": 77.1087,
+    "elevation": 1509,
+    "geocodedName": "Solan",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Una": {
+    "lat": 31.4649,
+    "lng": 76.2691,
+    "elevation": 395,
+    "geocodedName": "Una",
+    "admin1": "Himachal Pradesh"
+  },
+  "Una": {
+    "lat": 31.4649,
+    "lng": 76.2691,
+    "elevation": 395,
+    "geocodedName": "Una",
+    "admin1": "Himachal Pradesh"
+  },
+  "Jharkhand__Chatra": {
+    "lat": 24.2065,
+    "lng": 84.8709,
+    "elevation": 440,
+    "geocodedName": "Chatrā",
+    "admin1": "Jharkhand"
+  },
+  "Chatra": {
+    "lat": 24.2065,
+    "lng": 84.8709,
+    "elevation": 440,
+    "geocodedName": "Chatrā",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Bokaro": {
+    "lat": 23.6693,
+    "lng": 86.1516,
+    "elevation": 209,
+    "geocodedName": "Bokaro",
+    "admin1": "Jharkhand"
+  },
+  "Bokaro": {
+    "lat": 23.6693,
+    "lng": 86.1516,
+    "elevation": 209,
+    "geocodedName": "Bokaro",
+    "admin1": "Jharkhand"
+  },
+  "Himachal Pradesh__Sirmaur": {
+    "lat": 30.56,
+    "lng": 77.29,
+    "elevation": 932,
+    "geocodedName": "Nahan",
+    "admin1": "Himachal Pradesh"
+  },
+  "Sirmaur": {
+    "lat": 30.56,
+    "lng": 77.29,
+    "elevation": 932,
+    "geocodedName": "Nahan",
+    "admin1": "Himachal Pradesh"
+  },
+  "Jharkhand__Deoghar": {
+    "lat": 24.4898,
+    "lng": 86.699,
+    "elevation": 261,
+    "geocodedName": "Deoghar",
+    "admin1": "Jharkhand"
+  },
+  "Deoghar": {
+    "lat": 24.4898,
+    "lng": 86.699,
+    "elevation": 261,
+    "geocodedName": "Deoghar",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Gumla": {
+    "lat": 23.0427,
+    "lng": 84.5443,
+    "elevation": 650,
+    "geocodedName": "Gumlā",
+    "admin1": "Jharkhand"
+  },
+  "Gumla": {
+    "lat": 23.0427,
+    "lng": 84.5443,
+    "elevation": 650,
+    "geocodedName": "Gumlā",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Hazaribagh": {
+    "lat": 23.9924,
+    "lng": 85.3616,
+    "elevation": 621,
+    "geocodedName": "Hazaribagh",
+    "admin1": "Jharkhand"
+  },
+  "Hazaribagh": {
+    "lat": 23.9924,
+    "lng": 85.3616,
+    "elevation": 621,
+    "geocodedName": "Hazaribagh",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Dhanbad": {
+    "lat": 23.7976,
+    "lng": 86.4299,
+    "elevation": 247,
+    "geocodedName": "Dhanbad",
+    "admin1": "Jharkhand"
+  },
+  "Dhanbad": {
+    "lat": 23.7976,
+    "lng": 86.4299,
+    "elevation": 247,
+    "geocodedName": "Dhanbad",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Godda": {
+    "lat": 24.827,
+    "lng": 87.2125,
+    "elevation": 102,
+    "geocodedName": "Godda",
+    "admin1": "Jharkhand"
+  },
+  "Godda": {
+    "lat": 24.827,
+    "lng": 87.2125,
+    "elevation": 102,
+    "geocodedName": "Godda",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Khunti": {
+    "lat": 23.076,
+    "lng": 85.2782,
+    "elevation": 650,
+    "geocodedName": "Khunti",
+    "admin1": "Jharkhand"
+  },
+  "Khunti": {
+    "lat": 23.076,
+    "lng": 85.2782,
+    "elevation": 650,
+    "geocodedName": "Khunti",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Jamtara": {
+    "lat": 23.963,
+    "lng": 86.8029,
+    "elevation": 199,
+    "geocodedName": "Jāmtāra",
+    "admin1": "Jharkhand"
+  },
+  "Jamtara": {
+    "lat": 23.963,
+    "lng": 86.8029,
+    "elevation": 199,
+    "geocodedName": "Jāmtāra",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Latehar": {
+    "lat": 23.7442,
+    "lng": 84.4998,
+    "elevation": 388,
+    "geocodedName": "Lātehār",
+    "admin1": "Jharkhand"
+  },
+  "Latehar": {
+    "lat": 23.7442,
+    "lng": 84.4998,
+    "elevation": 388,
+    "geocodedName": "Lātehār",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Giridih": {
+    "lat": 24.1862,
+    "lng": 86.3088,
+    "elevation": 305,
+    "geocodedName": "Giridih",
+    "admin1": "Jharkhand"
+  },
+  "Giridih": {
+    "lat": 24.1862,
+    "lng": 86.3088,
+    "elevation": 305,
+    "geocodedName": "Giridih",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Pakur": {
+    "lat": 24.6393,
+    "lng": 87.8424,
+    "elevation": 47,
+    "geocodedName": "Pakur",
+    "admin1": "Jharkhand"
+  },
+  "Pakur": {
+    "lat": 24.6393,
+    "lng": 87.8424,
+    "elevation": 47,
+    "geocodedName": "Pakur",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Dumka": {
+    "lat": 24.2678,
+    "lng": 87.2485,
+    "elevation": 150,
+    "geocodedName": "Dumka",
+    "admin1": "Jharkhand"
+  },
+  "Dumka": {
+    "lat": 24.2678,
+    "lng": 87.2485,
+    "elevation": 150,
+    "geocodedName": "Dumka",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Garhwa": {
+    "lat": 24.16,
+    "lng": 83.8076,
+    "elevation": 203,
+    "geocodedName": "Garhwa",
+    "admin1": "Jharkhand"
+  },
+  "Garhwa": {
+    "lat": 24.16,
+    "lng": 83.8076,
+    "elevation": 203,
+    "geocodedName": "Garhwa",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Lohardaga": {
+    "lat": 23.4331,
+    "lng": 84.6799,
+    "elevation": 666,
+    "geocodedName": "Lohārdagā",
+    "admin1": "Jharkhand"
+  },
+  "Lohardaga": {
+    "lat": 23.4331,
+    "lng": 84.6799,
+    "elevation": 666,
+    "geocodedName": "Lohārdagā",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Koderma": {
+    "lat": 24.47,
+    "lng": 85.59,
+    "elevation": 375,
+    "geocodedName": "Koderma",
+    "admin1": "Jharkhand"
+  },
+  "Koderma": {
+    "lat": 24.47,
+    "lng": 85.59,
+    "elevation": 375,
+    "geocodedName": "Koderma",
+    "admin1": "Jharkhand"
+  },
+  "Karnataka__Bidar": {
+    "lat": 17.908,
+    "lng": 77.5152,
+    "elevation": 672,
+    "geocodedName": "Bidar",
+    "admin1": "Karnataka"
+  },
+  "Bidar": {
+    "lat": 17.908,
+    "lng": 77.5152,
+    "elevation": 672,
+    "geocodedName": "Bidar",
+    "admin1": "Karnataka"
+  },
+  "Jharkhand__Sahibganj": {
+    "lat": 25.2443,
+    "lng": 87.6348,
+    "elevation": 44,
+    "geocodedName": "Sāhibganj",
+    "admin1": "Jharkhand"
+  },
+  "Sahibganj": {
+    "lat": 25.2443,
+    "lng": 87.6348,
+    "elevation": 44,
+    "geocodedName": "Sāhibganj",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Palamu": {
+    "lat": 23.8295,
+    "lng": 85.9609,
+    "elevation": 387,
+    "geocodedName": "Palāmu",
+    "admin1": "Jharkhand"
+  },
+  "Palamu": {
+    "lat": 23.8295,
+    "lng": 85.9609,
+    "elevation": 387,
+    "geocodedName": "Palāmu",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Ranchi": {
+    "lat": 23.3432,
+    "lng": 85.3094,
+    "elevation": 643,
+    "geocodedName": "Ranchi",
+    "admin1": "Jharkhand"
+  },
+  "Ranchi": {
+    "lat": 23.3432,
+    "lng": 85.3094,
+    "elevation": 643,
+    "geocodedName": "Ranchi",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Simdega": {
+    "lat": 22.6152,
+    "lng": 84.5021,
+    "elevation": 443,
+    "geocodedName": "Simdega",
+    "admin1": "Jharkhand"
+  },
+  "Simdega": {
+    "lat": 22.6152,
+    "lng": 84.5021,
+    "elevation": 443,
+    "geocodedName": "Simdega",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Ramgarh": {
+    "lat": 23.6303,
+    "lng": 85.5216,
+    "elevation": 339,
+    "geocodedName": "Rāmgarh",
+    "admin1": "Jharkhand"
+  },
+  "Ramgarh": {
+    "lat": 23.6303,
+    "lng": 85.5216,
+    "elevation": 339,
+    "geocodedName": "Rāmgarh",
+    "admin1": "Jharkhand"
+  },
+  "Karnataka__Bagalkote": {
+    "lat": 16.1817,
+    "lng": 75.6958,
+    "elevation": 533,
+    "geocodedName": "Bagalkote",
+    "admin1": "Karnataka"
+  },
+  "Bagalkote": {
+    "lat": 16.1817,
+    "lng": 75.6958,
+    "elevation": 533,
+    "geocodedName": "Bagalkote",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Ballari": {
+    "lat": 15.142,
+    "lng": 76.924,
+    "elevation": 456,
+    "geocodedName": "Ballari",
+    "admin1": "Karnataka"
+  },
+  "Ballari": {
+    "lat": 15.142,
+    "lng": 76.924,
+    "elevation": 456,
+    "geocodedName": "Ballari",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Chamarajanagar": {
+    "lat": 11.9231,
+    "lng": 76.9395,
+    "elevation": 717,
+    "geocodedName": "Chamrajnagar",
+    "admin1": "Karnataka"
+  },
+  "Chamarajanagar": {
+    "lat": 11.9231,
+    "lng": 76.9395,
+    "elevation": 717,
+    "geocodedName": "Chamrajnagar",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Belagavi": {
+    "lat": 15.8521,
+    "lng": 74.5045,
+    "elevation": 769,
+    "geocodedName": "Belagavi",
+    "admin1": "Karnataka"
+  },
+  "Belagavi": {
+    "lat": 15.8521,
+    "lng": 74.5045,
+    "elevation": 769,
+    "geocodedName": "Belagavi",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Bengaluru Rural": {
+    "lat": 12.9719,
+    "lng": 77.5937,
+    "elevation": 920,
+    "geocodedName": "Bengaluru",
+    "admin1": "Karnataka"
+  },
+  "Bengaluru Rural": {
+    "lat": 12.9719,
+    "lng": 77.5937,
+    "elevation": 920,
+    "geocodedName": "Bengaluru",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Bengaluru Urban": {
+    "lat": 12.9719,
+    "lng": 77.5937,
+    "elevation": 920,
+    "geocodedName": "Bengaluru",
+    "admin1": "Karnataka"
+  },
+  "Bengaluru Urban": {
+    "lat": 12.9719,
+    "lng": 77.5937,
+    "elevation": 920,
+    "geocodedName": "Bengaluru",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Chikkamagaluru": {
+    "lat": 13.3223,
+    "lng": 75.774,
+    "elevation": 1042,
+    "geocodedName": "Chikkamagaluru",
+    "admin1": "Karnataka"
+  },
+  "Chikkamagaluru": {
+    "lat": 13.3223,
+    "lng": 75.774,
+    "elevation": 1042,
+    "geocodedName": "Chikkamagaluru",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Chitradurga": {
+    "lat": 14.2226,
+    "lng": 76.4004,
+    "elevation": 747,
+    "geocodedName": "Chitradurga",
+    "admin1": "Karnataka"
+  },
+  "Chitradurga": {
+    "lat": 14.2226,
+    "lng": 76.4004,
+    "elevation": 747,
+    "geocodedName": "Chitradurga",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Dharwad": {
+    "lat": 15.4601,
+    "lng": 75.0078,
+    "elevation": 734,
+    "geocodedName": "Dharwad",
+    "admin1": "Karnataka"
+  },
+  "Dharwad": {
+    "lat": 15.4601,
+    "lng": 75.0078,
+    "elevation": 734,
+    "geocodedName": "Dharwad",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Gadag": {
+    "lat": 15.4298,
+    "lng": 75.6297,
+    "elevation": 655,
+    "geocodedName": "Gadag",
+    "admin1": "Karnataka"
+  },
+  "Gadag": {
+    "lat": 15.4298,
+    "lng": 75.6297,
+    "elevation": 655,
+    "geocodedName": "Gadag",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Mandya": {
+    "lat": 12.5223,
+    "lng": 76.8975,
+    "elevation": 681,
+    "geocodedName": "Mandya",
+    "admin1": "Karnataka"
+  },
+  "Mandya": {
+    "lat": 12.5223,
+    "lng": 76.8975,
+    "elevation": 681,
+    "geocodedName": "Mandya",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Haveri": {
+    "lat": 14.7935,
+    "lng": 75.4045,
+    "elevation": 576,
+    "geocodedName": "Hāveri",
+    "admin1": "Karnataka"
+  },
+  "Haveri": {
+    "lat": 14.7935,
+    "lng": 75.4045,
+    "elevation": 576,
+    "geocodedName": "Hāveri",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Hassan": {
+    "lat": 13.0071,
+    "lng": 76.0962,
+    "elevation": 955,
+    "geocodedName": "Hassan",
+    "admin1": "Karnataka"
+  },
+  "Hassan": {
+    "lat": 13.0071,
+    "lng": 76.0962,
+    "elevation": 955,
+    "geocodedName": "Hassan",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Koppal": {
+    "lat": 15.3452,
+    "lng": 76.1548,
+    "elevation": 540,
+    "geocodedName": "Koppal",
+    "admin1": "Karnataka"
+  },
+  "Koppal": {
+    "lat": 15.3452,
+    "lng": 76.1548,
+    "elevation": 540,
+    "geocodedName": "Koppal",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Kalaburagi": {
+    "lat": 17.3358,
+    "lng": 76.8376,
+    "elevation": 474,
+    "geocodedName": "Kalaburagi",
+    "admin1": "Karnataka"
+  },
+  "Kalaburagi": {
+    "lat": 17.3358,
+    "lng": 76.8376,
+    "elevation": 474,
+    "geocodedName": "Kalaburagi",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Kolar": {
+    "lat": 13.1377,
+    "lng": 78.13,
+    "elevation": 848,
+    "geocodedName": "Kolār",
+    "admin1": "Karnataka"
+  },
+  "Kolar": {
+    "lat": 13.1377,
+    "lng": 78.13,
+    "elevation": 848,
+    "geocodedName": "Kolār",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Kodagu": {
+    "lat": 12.4244,
+    "lng": 75.7382,
+    "elevation": 1150,
+    "geocodedName": "Madikeri",
+    "admin1": "Karnataka"
+  },
+  "Kodagu": {
+    "lat": 12.4244,
+    "lng": 75.7382,
+    "elevation": 1150,
+    "geocodedName": "Madikeri",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Mysuru": {
+    "lat": 12.2979,
+    "lng": 76.6393,
+    "elevation": 757,
+    "geocodedName": "Mysuru",
+    "admin1": "Karnataka"
+  },
+  "Mysuru": {
+    "lat": 12.2979,
+    "lng": 76.6393,
+    "elevation": 757,
+    "geocodedName": "Mysuru",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Raichur": {
+    "lat": 16.2055,
+    "lng": 77.3557,
+    "elevation": 402,
+    "geocodedName": "Rāichūr",
+    "admin1": "Karnataka"
+  },
+  "Raichur": {
+    "lat": 16.2055,
+    "lng": 77.3557,
+    "elevation": 402,
+    "geocodedName": "Rāichūr",
+    "admin1": "Karnataka"
+  },
+  "Kerala__Alappuzha": {
+    "lat": 9.49,
+    "lng": 76.3264,
+    "elevation": 8,
+    "geocodedName": "Alappuzha",
+    "admin1": "Kerala"
+  },
+  "Alappuzha": {
+    "lat": 9.49,
+    "lng": 76.3264,
+    "elevation": 8,
+    "geocodedName": "Alappuzha",
+    "admin1": "Kerala"
+  },
+  "Karnataka__Vijayanagara": {
+    "lat": 15.2689,
+    "lng": 76.3909,
+    "elevation": 460,
+    "geocodedName": "Hosapete",
+    "admin1": "Karnataka"
+  },
+  "Vijayanagara": {
+    "lat": 15.2689,
+    "lng": 76.3909,
+    "elevation": 460,
+    "geocodedName": "Hosapete",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Uttara Kannada": {
+    "lat": 14.7937,
+    "lng": 74.6869,
+    "elevation": 15,
+    "geocodedName": "Karwar",
+    "admin1": "Karnataka"
+  },
+  "Uttara Kannada": {
+    "lat": 14.7937,
+    "lng": 74.6869,
+    "elevation": 15,
+    "geocodedName": "Karwar",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Shivamogga": {
+    "lat": 13.9316,
+    "lng": 75.5679,
+    "elevation": 590,
+    "geocodedName": "Shivamogga",
+    "admin1": "Karnataka"
+  },
+  "Shivamogga": {
+    "lat": 13.9316,
+    "lng": 75.5679,
+    "elevation": 590,
+    "geocodedName": "Shivamogga",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Tumakuru": {
+    "lat": 13.3414,
+    "lng": 77.1022,
+    "elevation": 822,
+    "geocodedName": "Tumakuru",
+    "admin1": "Karnataka"
+  },
+  "Tumakuru": {
+    "lat": 13.3414,
+    "lng": 77.1022,
+    "elevation": 822,
+    "geocodedName": "Tumakuru",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Yadgir": {
+    "lat": 16.7701,
+    "lng": 77.1376,
+    "elevation": 379,
+    "geocodedName": "Yadgir",
+    "admin1": "Karnataka"
+  },
+  "Yadgir": {
+    "lat": 16.7701,
+    "lng": 77.1376,
+    "elevation": 379,
+    "geocodedName": "Yadgir",
+    "admin1": "Karnataka"
+  },
+  "Kerala__Ernakulam": {
+    "lat": 9.9399,
+    "lng": 76.2602,
+    "elevation": 9,
+    "geocodedName": "Kochi",
+    "admin1": "Kerala"
+  },
+  "Ernakulam": {
+    "lat": 9.9399,
+    "lng": 76.2602,
+    "elevation": 9,
+    "geocodedName": "Kochi",
+    "admin1": "Kerala"
+  },
+  "Kerala__Kannur": {
+    "lat": 11.8675,
+    "lng": 75.3576,
+    "elevation": 13,
+    "geocodedName": "Kannur",
+    "admin1": "Kerala"
+  },
+  "Kannur": {
+    "lat": 11.8675,
+    "lng": 75.3576,
+    "elevation": 13,
+    "geocodedName": "Kannur",
+    "admin1": "Kerala"
+  },
+  "Karnataka__Udupi": {
+    "lat": 13.3347,
+    "lng": 74.7462,
+    "elevation": 33,
+    "geocodedName": "Udupi",
+    "admin1": "Karnataka"
+  },
+  "Udupi": {
+    "lat": 13.3347,
+    "lng": 74.7462,
+    "elevation": 33,
+    "geocodedName": "Udupi",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Vijayapura": {
+    "lat": 16.8244,
+    "lng": 75.7154,
+    "elevation": 606,
+    "geocodedName": "Vijayapura",
+    "admin1": "Karnataka"
+  },
+  "Vijayapura": {
+    "lat": 16.8244,
+    "lng": 75.7154,
+    "elevation": 606,
+    "geocodedName": "Vijayapura",
+    "admin1": "Karnataka"
+  },
+  "Kerala__Kottayam": {
+    "lat": 9.5869,
+    "lng": 76.5213,
+    "elevation": 20,
+    "geocodedName": "Kottayam",
+    "admin1": "Kerala"
+  },
+  "Kottayam": {
+    "lat": 9.5869,
+    "lng": 76.5213,
+    "elevation": 20,
+    "geocodedName": "Kottayam",
+    "admin1": "Kerala"
+  },
+  "Karnataka__Ramanagara": {
+    "lat": 12.715,
+    "lng": 77.281,
+    "elevation": 747,
+    "geocodedName": "Ramanagara",
+    "admin1": "Karnataka"
+  },
+  "Ramanagara": {
+    "lat": 12.715,
+    "lng": 77.281,
+    "elevation": 747,
+    "geocodedName": "Ramanagara",
+    "admin1": "Karnataka"
+  },
+  "Kerala__Idukki": {
+    "lat": 9.85,
+    "lng": 76.9667,
+    "elevation": 610,
+    "geocodedName": "Idukki",
+    "admin1": "Kerala"
+  },
+  "Idukki": {
+    "lat": 9.85,
+    "lng": 76.9667,
+    "elevation": 610,
+    "geocodedName": "Idukki",
+    "admin1": "Kerala"
+  },
+  "Kerala__Kasaragod": {
+    "lat": 12.4984,
+    "lng": 74.9896,
+    "elevation": 43,
+    "geocodedName": "Kāsaragod",
+    "admin1": "Kerala"
+  },
+  "Kasaragod": {
+    "lat": 12.4984,
+    "lng": 74.9896,
+    "elevation": 43,
+    "geocodedName": "Kāsaragod",
+    "admin1": "Kerala"
+  },
+  "Kerala__Kollam": {
+    "lat": 8.8811,
+    "lng": 76.5847,
+    "elevation": 13,
+    "geocodedName": "Kollam",
+    "admin1": "Kerala"
+  },
+  "Kollam": {
+    "lat": 8.8811,
+    "lng": 76.5847,
+    "elevation": 13,
+    "geocodedName": "Kollam",
+    "admin1": "Kerala"
+  },
+  "Kerala__Malappuram": {
+    "lat": 11.042,
+    "lng": 76.0815,
+    "elevation": 68,
+    "geocodedName": "Malappuram",
+    "admin1": "Kerala"
+  },
+  "Malappuram": {
+    "lat": 11.042,
+    "lng": 76.0815,
+    "elevation": 68,
+    "geocodedName": "Malappuram",
+    "admin1": "Kerala"
+  },
+  "Kerala__Kozhikode": {
+    "lat": 11.248,
+    "lng": 75.7804,
+    "elevation": 9,
+    "geocodedName": "Kozhikode",
+    "admin1": "Kerala"
+  },
+  "Kozhikode": {
+    "lat": 11.248,
+    "lng": 75.7804,
+    "elevation": 9,
+    "geocodedName": "Kozhikode",
+    "admin1": "Kerala"
+  },
+  "Madhya Pradesh__Alirajpur": {
+    "lat": 22.3039,
+    "lng": 74.3557,
+    "elevation": 288,
+    "geocodedName": "Alirajpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Alirajpur": {
+    "lat": 22.3039,
+    "lng": 74.3557,
+    "elevation": 288,
+    "geocodedName": "Alirajpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Kerala__Palakkad": {
+    "lat": 10.7732,
+    "lng": 76.6537,
+    "elevation": 87,
+    "geocodedName": "Palakkad",
+    "admin1": "Kerala"
+  },
+  "Palakkad": {
+    "lat": 10.7732,
+    "lng": 76.6537,
+    "elevation": 87,
+    "geocodedName": "Palakkad",
+    "admin1": "Kerala"
+  },
+  "Kerala__Pathanamthitta": {
+    "lat": 9.2667,
+    "lng": 76.7833,
+    "elevation": 30,
+    "geocodedName": "Pathanāmthitta",
+    "admin1": "Kerala"
+  },
+  "Pathanamthitta": {
+    "lat": 9.2667,
+    "lng": 76.7833,
+    "elevation": 30,
+    "geocodedName": "Pathanāmthitta",
+    "admin1": "Kerala"
+  },
+  "Kerala__Thrissur": {
+    "lat": 10.5167,
+    "lng": 76.2167,
+    "elevation": 7,
+    "geocodedName": "Thrissur",
+    "admin1": "Kerala"
+  },
+  "Thrissur": {
+    "lat": 10.5167,
+    "lng": 76.2167,
+    "elevation": 7,
+    "geocodedName": "Thrissur",
+    "admin1": "Kerala"
+  },
+  "Kerala__Thiruvananthapuram": {
+    "lat": 8.4855,
+    "lng": 76.9492,
+    "elevation": 18,
+    "geocodedName": "Thiruvananthapuram",
+    "admin1": "Kerala"
+  },
+  "Thiruvananthapuram": {
+    "lat": 8.4855,
+    "lng": 76.9492,
+    "elevation": 18,
+    "geocodedName": "Thiruvananthapuram",
+    "admin1": "Kerala"
+  },
+  "Madhya Pradesh__Balaghat": {
+    "lat": 21.8156,
+    "lng": 80.1885,
+    "elevation": 319,
+    "geocodedName": "Bālāghāt",
+    "admin1": "Madhya Pradesh"
+  },
+  "Balaghat": {
+    "lat": 21.8156,
+    "lng": 80.1885,
+    "elevation": 319,
+    "geocodedName": "Bālāghāt",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Ashoknagar": {
+    "lat": 24.5758,
+    "lng": 77.7312,
+    "elevation": 504,
+    "geocodedName": "Ashoknagar",
+    "admin1": "Madhya Pradesh"
+  },
+  "Ashoknagar": {
+    "lat": 24.5758,
+    "lng": 77.7312,
+    "elevation": 504,
+    "geocodedName": "Ashoknagar",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Barwani": {
+    "lat": 22.0323,
+    "lng": 74.8998,
+    "elevation": 182,
+    "geocodedName": "Barwāni",
+    "admin1": "Madhya Pradesh"
+  },
+  "Barwani": {
+    "lat": 22.0323,
+    "lng": 74.8998,
+    "elevation": 182,
+    "geocodedName": "Barwāni",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Bhind": {
+    "lat": 26.5667,
+    "lng": 78.7873,
+    "elevation": 157,
+    "geocodedName": "Bhind",
+    "admin1": "Madhya Pradesh"
+  },
+  "Bhind": {
+    "lat": 26.5667,
+    "lng": 78.7873,
+    "elevation": 157,
+    "geocodedName": "Bhind",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Betul": {
+    "lat": 21.9006,
+    "lng": 77.9023,
+    "elevation": 645,
+    "geocodedName": "Betūl",
+    "admin1": "Madhya Pradesh"
+  },
+  "Betul": {
+    "lat": 21.9006,
+    "lng": 77.9023,
+    "elevation": 645,
+    "geocodedName": "Betūl",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Anuppur": {
+    "lat": 23.1034,
+    "lng": 81.6908,
+    "elevation": 503,
+    "geocodedName": "Anūppur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Anuppur": {
+    "lat": 23.1034,
+    "lng": 81.6908,
+    "elevation": 503,
+    "geocodedName": "Anūppur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Bhopal": {
+    "lat": 23.2547,
+    "lng": 77.4029,
+    "elevation": 523,
+    "geocodedName": "Bhopal",
+    "admin1": "Madhya Pradesh"
+  },
+  "Bhopal": {
+    "lat": 23.2547,
+    "lng": 77.4029,
+    "elevation": 523,
+    "geocodedName": "Bhopal",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Burhanpur": {
+    "lat": 21.3087,
+    "lng": 76.2303,
+    "elevation": 251,
+    "geocodedName": "Burhānpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Burhanpur": {
+    "lat": 21.3087,
+    "lng": 76.2303,
+    "elevation": 251,
+    "geocodedName": "Burhānpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Datia": {
+    "lat": 25.6731,
+    "lng": 78.4591,
+    "elevation": 247,
+    "geocodedName": "Datia",
+    "admin1": "Madhya Pradesh"
+  },
+  "Datia": {
+    "lat": 25.6731,
+    "lng": 78.4591,
+    "elevation": 247,
+    "geocodedName": "Datia",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Damoh": {
+    "lat": 23.8331,
+    "lng": 79.4419,
+    "elevation": 378,
+    "geocodedName": "Damoh",
+    "admin1": "Madhya Pradesh"
+  },
+  "Damoh": {
+    "lat": 23.8331,
+    "lng": 79.4419,
+    "elevation": 378,
+    "geocodedName": "Damoh",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Chhatarpur": {
+    "lat": 24.9177,
+    "lng": 79.5887,
+    "elevation": 311,
+    "geocodedName": "Chhatarpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Chhatarpur": {
+    "lat": 24.9177,
+    "lng": 79.5887,
+    "elevation": 311,
+    "geocodedName": "Chhatarpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Harda": {
+    "lat": 22.3441,
+    "lng": 77.0954,
+    "elevation": 294,
+    "geocodedName": "Harda",
+    "admin1": "Madhya Pradesh"
+  },
+  "Harda": {
+    "lat": 22.3441,
+    "lng": 77.0954,
+    "elevation": 294,
+    "geocodedName": "Harda",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Gwalior": {
+    "lat": 26.2298,
+    "lng": 78.1734,
+    "elevation": 220,
+    "geocodedName": "Gwalior",
+    "admin1": "Madhya Pradesh"
+  },
+  "Gwalior": {
+    "lat": 26.2298,
+    "lng": 78.1734,
+    "elevation": 220,
+    "geocodedName": "Gwalior",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Dindori": {
+    "lat": 22.9414,
+    "lng": 81.0798,
+    "elevation": 673,
+    "geocodedName": "Dindori",
+    "admin1": "Madhya Pradesh"
+  },
+  "Dindori": {
+    "lat": 22.9414,
+    "lng": 81.0798,
+    "elevation": 673,
+    "geocodedName": "Dindori",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Chhindwara": {
+    "lat": 22.057,
+    "lng": 78.9396,
+    "elevation": 688,
+    "geocodedName": "Chhindwāra",
+    "admin1": "Madhya Pradesh"
+  },
+  "Chhindwara": {
+    "lat": 22.057,
+    "lng": 78.9396,
+    "elevation": 688,
+    "geocodedName": "Chhindwāra",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Dhar": {
+    "lat": 22.5937,
+    "lng": 75.2977,
+    "elevation": 559,
+    "geocodedName": "Dhār",
+    "admin1": "Madhya Pradesh"
+  },
+  "Dhar": {
+    "lat": 22.5937,
+    "lng": 75.2977,
+    "elevation": 559,
+    "geocodedName": "Dhār",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Jabalpur": {
+    "lat": 23.167,
+    "lng": 79.9501,
+    "elevation": 416,
+    "geocodedName": "Jabalpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Jabalpur": {
+    "lat": 23.167,
+    "lng": 79.9501,
+    "elevation": 416,
+    "geocodedName": "Jabalpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Dewas": {
+    "lat": 22.9658,
+    "lng": 76.0553,
+    "elevation": 544,
+    "geocodedName": "Dewas",
+    "admin1": "Madhya Pradesh"
+  },
+  "Dewas": {
+    "lat": 22.9658,
+    "lng": 76.0553,
+    "elevation": 544,
+    "geocodedName": "Dewas",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Indore": {
+    "lat": 22.7179,
+    "lng": 75.8333,
+    "elevation": 550,
+    "geocodedName": "Indore",
+    "admin1": "Madhya Pradesh"
+  },
+  "Indore": {
+    "lat": 22.7179,
+    "lng": 75.8333,
+    "elevation": 550,
+    "geocodedName": "Indore",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Guna": {
+    "lat": 24.6469,
+    "lng": 77.3113,
+    "elevation": 474,
+    "geocodedName": "Guna",
+    "admin1": "Madhya Pradesh"
+  },
+  "Guna": {
+    "lat": 24.6469,
+    "lng": 77.3113,
+    "elevation": 474,
+    "geocodedName": "Guna",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Katni": {
+    "lat": 23.8378,
+    "lng": 80.394,
+    "elevation": 384,
+    "geocodedName": "Murwāra",
+    "admin1": "Madhya Pradesh"
+  },
+  "Katni": {
+    "lat": 23.8378,
+    "lng": 80.394,
+    "elevation": 384,
+    "geocodedName": "Murwāra",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Jhabua": {
+    "lat": 22.7677,
+    "lng": 74.5909,
+    "elevation": 334,
+    "geocodedName": "Jhābua",
+    "admin1": "Madhya Pradesh"
+  },
+  "Jhabua": {
+    "lat": 22.7677,
+    "lng": 74.5909,
+    "elevation": 334,
+    "geocodedName": "Jhābua",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Mandsaur": {
+    "lat": 24.0718,
+    "lng": 75.0699,
+    "elevation": 440,
+    "geocodedName": "Mandsaur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Mandsaur": {
+    "lat": 24.0718,
+    "lng": 75.0699,
+    "elevation": 440,
+    "geocodedName": "Mandsaur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Khargone": {
+    "lat": 21.8229,
+    "lng": 75.6139,
+    "elevation": 258,
+    "geocodedName": "Khargone",
+    "admin1": "Madhya Pradesh"
+  },
+  "Khargone": {
+    "lat": 21.8229,
+    "lng": 75.6139,
+    "elevation": 258,
+    "geocodedName": "Khargone",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Khandwa": {
+    "lat": 21.8243,
+    "lng": 76.3509,
+    "elevation": 314,
+    "geocodedName": "Khandwa",
+    "admin1": "Madhya Pradesh"
+  },
+  "Khandwa": {
+    "lat": 21.8243,
+    "lng": 76.3509,
+    "elevation": 314,
+    "geocodedName": "Khandwa",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Panna": {
+    "lat": 24.7209,
+    "lng": 80.1877,
+    "elevation": 404,
+    "geocodedName": "Panna",
+    "admin1": "Madhya Pradesh"
+  },
+  "Panna": {
+    "lat": 24.7209,
+    "lng": 80.1877,
+    "elevation": 404,
+    "geocodedName": "Panna",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Niwari": {
+    "lat": 25.3491,
+    "lng": 78.7997,
+    "elevation": 239,
+    "geocodedName": "Nivāri",
+    "admin1": "Madhya Pradesh"
+  },
+  "Niwari": {
+    "lat": 25.3491,
+    "lng": 78.7997,
+    "elevation": 239,
+    "geocodedName": "Nivāri",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Rajgarh": {
+    "lat": 24.0083,
+    "lng": 76.7325,
+    "elevation": 359,
+    "geocodedName": "Rājgarh",
+    "admin1": "Madhya Pradesh"
+  },
+  "Rajgarh": {
+    "lat": 24.0083,
+    "lng": 76.7325,
+    "elevation": 359,
+    "geocodedName": "Rājgarh",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Ratlam": {
+    "lat": 23.3303,
+    "lng": 75.0403,
+    "elevation": 486,
+    "geocodedName": "Ratlām",
+    "admin1": "Madhya Pradesh"
+  },
+  "Ratlam": {
+    "lat": 23.3303,
+    "lng": 75.0403,
+    "elevation": 486,
+    "geocodedName": "Ratlām",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Morena": {
+    "lat": 26.4989,
+    "lng": 77.9953,
+    "elevation": 181,
+    "geocodedName": "Morena",
+    "admin1": "Madhya Pradesh"
+  },
+  "Morena": {
+    "lat": 26.4989,
+    "lng": 77.9953,
+    "elevation": 181,
+    "geocodedName": "Morena",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Narsinghpur": {
+    "lat": 22.9494,
+    "lng": 79.1836,
+    "elevation": 357,
+    "geocodedName": "Narsimhapur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Narsinghpur": {
+    "lat": 22.9494,
+    "lng": 79.1836,
+    "elevation": 357,
+    "geocodedName": "Narsimhapur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Rewa": {
+    "lat": 24.5326,
+    "lng": 81.2923,
+    "elevation": 309,
+    "geocodedName": "Rewa",
+    "admin1": "Madhya Pradesh"
+  },
+  "Rewa": {
+    "lat": 24.5326,
+    "lng": 81.2923,
+    "elevation": 309,
+    "geocodedName": "Rewa",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Raisen": {
+    "lat": 23.3303,
+    "lng": 77.7811,
+    "elevation": 448,
+    "geocodedName": "Raisen",
+    "admin1": "Madhya Pradesh"
+  },
+  "Raisen": {
+    "lat": 23.3303,
+    "lng": 77.7811,
+    "elevation": 448,
+    "geocodedName": "Raisen",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Mandla": {
+    "lat": 22.5988,
+    "lng": 80.3712,
+    "elevation": 450,
+    "geocodedName": "Mandlā",
+    "admin1": "Madhya Pradesh"
+  },
+  "Mandla": {
+    "lat": 22.5988,
+    "lng": 80.3712,
+    "elevation": 450,
+    "geocodedName": "Mandlā",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Neemuch": {
+    "lat": 24.4595,
+    "lng": 74.8662,
+    "elevation": 489,
+    "geocodedName": "Nimach",
+    "admin1": "Rajasthan"
+  },
+  "Neemuch": {
+    "lat": 24.4595,
+    "lng": 74.8662,
+    "elevation": 489,
+    "geocodedName": "Nimach",
+    "admin1": "Rajasthan"
+  },
+  "Madhya Pradesh__Shajapur": {
+    "lat": 23.4264,
+    "lng": 76.2777,
+    "elevation": 445,
+    "geocodedName": "Shājāpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Shajapur": {
+    "lat": 23.4264,
+    "lng": 76.2777,
+    "elevation": 445,
+    "geocodedName": "Shājāpur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Tikamgarh": {
+    "lat": 24.7433,
+    "lng": 78.8306,
+    "elevation": 360,
+    "geocodedName": "Tīkamgarh",
+    "admin1": "Madhya Pradesh"
+  },
+  "Tikamgarh": {
+    "lat": 24.7433,
+    "lng": 78.8306,
+    "elevation": 360,
+    "geocodedName": "Tīkamgarh",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Shahdol": {
+    "lat": 23.2936,
+    "lng": 81.3619,
+    "elevation": 468,
+    "geocodedName": "Shahdol",
+    "admin1": "Madhya Pradesh"
+  },
+  "Shahdol": {
+    "lat": 23.2936,
+    "lng": 81.3619,
+    "elevation": 468,
+    "geocodedName": "Shahdol",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Satna": {
+    "lat": 24.5773,
+    "lng": 80.8272,
+    "elevation": 324,
+    "geocodedName": "Satna",
+    "admin1": "Madhya Pradesh"
+  },
+  "Satna": {
+    "lat": 24.5773,
+    "lng": 80.8272,
+    "elevation": 324,
+    "geocodedName": "Satna",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Sagar": {
+    "lat": 23.8388,
+    "lng": 78.7387,
+    "elevation": 520,
+    "geocodedName": "Saugor",
+    "admin1": "Madhya Pradesh"
+  },
+  "Sagar": {
+    "lat": 23.8388,
+    "lng": 78.7387,
+    "elevation": 520,
+    "geocodedName": "Saugor",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Sidhi": {
+    "lat": 24.4038,
+    "lng": 81.8795,
+    "elevation": 285,
+    "geocodedName": "Sidhi",
+    "admin1": "Madhya Pradesh"
+  },
+  "Sidhi": {
+    "lat": 24.4038,
+    "lng": 81.8795,
+    "elevation": 285,
+    "geocodedName": "Sidhi",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Shivpuri": {
+    "lat": 25.4238,
+    "lng": 77.6622,
+    "elevation": 463,
+    "geocodedName": "Shivpuri",
+    "admin1": "Madhya Pradesh"
+  },
+  "Shivpuri": {
+    "lat": 25.4238,
+    "lng": 77.6622,
+    "elevation": 463,
+    "geocodedName": "Shivpuri",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Sehore": {
+    "lat": 23.2,
+    "lng": 77.0833,
+    "elevation": 497,
+    "geocodedName": "Sehore",
+    "admin1": "Madhya Pradesh"
+  },
+  "Sehore": {
+    "lat": 23.2,
+    "lng": 77.0833,
+    "elevation": 497,
+    "geocodedName": "Sehore",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Seoni": {
+    "lat": 22.085,
+    "lng": 79.5504,
+    "elevation": 628,
+    "geocodedName": "Seoni",
+    "admin1": "Madhya Pradesh"
+  },
+  "Seoni": {
+    "lat": 22.085,
+    "lng": 79.5504,
+    "elevation": 628,
+    "geocodedName": "Seoni",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Ujjain": {
+    "lat": 23.1824,
+    "lng": 75.7764,
+    "elevation": 494,
+    "geocodedName": "Ujjain",
+    "admin1": "Madhya Pradesh"
+  },
+  "Ujjain": {
+    "lat": 23.1824,
+    "lng": 75.7764,
+    "elevation": 494,
+    "geocodedName": "Ujjain",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Umaria": {
+    "lat": 23.5247,
+    "lng": 80.8372,
+    "elevation": 463,
+    "geocodedName": "Umaria",
+    "admin1": "Madhya Pradesh"
+  },
+  "Umaria": {
+    "lat": 23.5247,
+    "lng": 80.8372,
+    "elevation": 463,
+    "geocodedName": "Umaria",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Vidisha": {
+    "lat": 23.526,
+    "lng": 77.8109,
+    "elevation": 429,
+    "geocodedName": "Vidisha",
+    "admin1": "Madhya Pradesh"
+  },
+  "Vidisha": {
+    "lat": 23.526,
+    "lng": 77.8109,
+    "elevation": 429,
+    "geocodedName": "Vidisha",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Sheopur": {
+    "lat": 25.6647,
+    "lng": 76.6962,
+    "elevation": 230,
+    "geocodedName": "Sheopur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Sheopur": {
+    "lat": 25.6647,
+    "lng": 76.6962,
+    "elevation": 230,
+    "geocodedName": "Sheopur",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Singrauli": {
+    "lat": 24.1997,
+    "lng": 82.6753,
+    "elevation": 383,
+    "geocodedName": "Singrauli",
+    "admin1": "Madhya Pradesh"
+  },
+  "Singrauli": {
+    "lat": 24.1997,
+    "lng": 82.6753,
+    "elevation": 383,
+    "geocodedName": "Singrauli",
+    "admin1": "Madhya Pradesh"
+  },
+  "Maharashtra__Ahmednagar": {
+    "lat": 23.5989,
+    "lng": 72.966,
+    "elevation": 144,
+    "geocodedName": "Himatnagar",
+    "admin1": "Gujarat"
+  },
+  "Ahmednagar": {
+    "lat": 23.5989,
+    "lng": 72.966,
+    "elevation": 144,
+    "geocodedName": "Himatnagar",
+    "admin1": "Gujarat"
+  },
+  "Maharashtra__Akola": {
+    "lat": 20.7096,
+    "lng": 76.9981,
+    "elevation": 285,
+    "geocodedName": "Akola",
+    "admin1": "Maharashtra"
+  },
+  "Akola": {
+    "lat": 20.7096,
+    "lng": 76.9981,
+    "elevation": 285,
+    "geocodedName": "Akola",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Hingoli": {
+    "lat": 19.7146,
+    "lng": 77.1424,
+    "elevation": 458,
+    "geocodedName": "Hingoli",
+    "admin1": "Maharashtra"
+  },
+  "Hingoli": {
+    "lat": 19.7146,
+    "lng": 77.1424,
+    "elevation": 458,
+    "geocodedName": "Hingoli",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Amravati": {
+    "lat": 20.9333,
+    "lng": 77.75,
+    "elevation": 341,
+    "geocodedName": "Amravati",
+    "admin1": "Maharashtra"
+  },
+  "Amravati": {
+    "lat": 20.9333,
+    "lng": 77.75,
+    "elevation": 341,
+    "geocodedName": "Amravati",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Gadchiroli": {
+    "lat": 20.1806,
+    "lng": 80.0052,
+    "elevation": 209,
+    "geocodedName": "Garhchiroli",
+    "admin1": "Maharashtra"
+  },
+  "Gadchiroli": {
+    "lat": 20.1806,
+    "lng": 80.0052,
+    "elevation": 209,
+    "geocodedName": "Garhchiroli",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Beed": {
+    "lat": 18.9892,
+    "lng": 75.7563,
+    "elevation": 512,
+    "geocodedName": "Beed",
+    "admin1": "Maharashtra"
+  },
+  "Beed": {
+    "lat": 18.9892,
+    "lng": 75.7563,
+    "elevation": 512,
+    "geocodedName": "Beed",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Chandrapur": {
+    "lat": 19.9508,
+    "lng": 79.2952,
+    "elevation": 186,
+    "geocodedName": "Chandrapur",
+    "admin1": "Maharashtra"
+  },
+  "Chandrapur": {
+    "lat": 19.9508,
+    "lng": 79.2952,
+    "elevation": 186,
+    "geocodedName": "Chandrapur",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Bhandara": {
+    "lat": 21.1682,
+    "lng": 79.6488,
+    "elevation": 262,
+    "geocodedName": "Bhandāra",
+    "admin1": "Maharashtra"
+  },
+  "Bhandara": {
+    "lat": 21.1682,
+    "lng": 79.6488,
+    "elevation": 262,
+    "geocodedName": "Bhandāra",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Latur": {
+    "lat": 18.3972,
+    "lng": 76.5678,
+    "elevation": 638,
+    "geocodedName": "Latur",
+    "admin1": "Maharashtra"
+  },
+  "Latur": {
+    "lat": 18.3972,
+    "lng": 76.5678,
+    "elevation": 638,
+    "geocodedName": "Latur",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Dhule": {
+    "lat": 20.9013,
+    "lng": 74.7774,
+    "elevation": 266,
+    "geocodedName": "Dhule",
+    "admin1": "Maharashtra"
+  },
+  "Dhule": {
+    "lat": 20.9013,
+    "lng": 74.7774,
+    "elevation": 266,
+    "geocodedName": "Dhule",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Jalna": {
+    "lat": 19.841,
+    "lng": 75.8864,
+    "elevation": 504,
+    "geocodedName": "Jālna",
+    "admin1": "Maharashtra"
+  },
+  "Jalna": {
+    "lat": 19.841,
+    "lng": 75.8864,
+    "elevation": 504,
+    "geocodedName": "Jālna",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Jalgaon": {
+    "lat": 21.0029,
+    "lng": 75.566,
+    "elevation": 227,
+    "geocodedName": "Jalgaon",
+    "admin1": "Maharashtra"
+  },
+  "Jalgaon": {
+    "lat": 21.0029,
+    "lng": 75.566,
+    "elevation": 227,
+    "geocodedName": "Jalgaon",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Kolhapur": {
+    "lat": 16.6956,
+    "lng": 74.2317,
+    "elevation": 559,
+    "geocodedName": "Kolhāpur",
+    "admin1": "Maharashtra"
+  },
+  "Kolhapur": {
+    "lat": 16.6956,
+    "lng": 74.2317,
+    "elevation": 559,
+    "geocodedName": "Kolhāpur",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Gondia": {
+    "lat": 21.4603,
+    "lng": 80.192,
+    "elevation": 322,
+    "geocodedName": "Gondiā",
+    "admin1": "Maharashtra"
+  },
+  "Gondia": {
+    "lat": 21.4603,
+    "lng": 80.192,
+    "elevation": 322,
+    "geocodedName": "Gondiā",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Nagpur": {
+    "lat": 21.1463,
+    "lng": 79.0849,
+    "elevation": 319,
+    "geocodedName": "Nagpur",
+    "admin1": "Maharashtra"
+  },
+  "Nagpur": {
+    "lat": 21.1463,
+    "lng": 79.0849,
+    "elevation": 319,
+    "geocodedName": "Nagpur",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Mumbai City": {
+    "lat": 18.9388,
+    "lng": 72.8354,
+    "elevation": 14,
+    "geocodedName": "Mumbai",
+    "admin1": "Maharashtra"
+  },
+  "Mumbai City": {
+    "lat": 18.9388,
+    "lng": 72.8354,
+    "elevation": 14,
+    "geocodedName": "Mumbai",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Nashik": {
+    "lat": 19.9973,
+    "lng": 73.791,
+    "elevation": 584,
+    "geocodedName": "Nashik",
+    "admin1": "Maharashtra"
+  },
+  "Nashik": {
+    "lat": 19.9973,
+    "lng": 73.791,
+    "elevation": 584,
+    "geocodedName": "Nashik",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Mumbai Suburban": {
+    "lat": 19.0596,
+    "lng": 72.8295,
+    "elevation": 12,
+    "geocodedName": "Bandra",
+    "admin1": "Maharashtra"
+  },
+  "Mumbai Suburban": {
+    "lat": 19.0596,
+    "lng": 72.8295,
+    "elevation": 12,
+    "geocodedName": "Bandra",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Nandurbar": {
+    "lat": 21.3667,
+    "lng": 74.2405,
+    "elevation": 216,
+    "geocodedName": "Nandurbar",
+    "admin1": "Maharashtra"
+  },
+  "Nandurbar": {
+    "lat": 21.3667,
+    "lng": 74.2405,
+    "elevation": 216,
+    "geocodedName": "Nandurbar",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Nanded": {
+    "lat": 19.1602,
+    "lng": 77.315,
+    "elevation": 363,
+    "geocodedName": "Nanded",
+    "admin1": "Maharashtra"
+  },
+  "Nanded": {
+    "lat": 19.1602,
+    "lng": 77.315,
+    "elevation": 363,
+    "geocodedName": "Nanded",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Parbhani": {
+    "lat": 19.2686,
+    "lng": 76.7708,
+    "elevation": 421,
+    "geocodedName": "Parbhani",
+    "admin1": "Maharashtra"
+  },
+  "Parbhani": {
+    "lat": 19.2686,
+    "lng": 76.7708,
+    "elevation": 421,
+    "geocodedName": "Parbhani",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Satara": {
+    "lat": 17.6859,
+    "lng": 73.9933,
+    "elevation": 709,
+    "geocodedName": "Satara",
+    "admin1": "Maharashtra"
+  },
+  "Satara": {
+    "lat": 17.6859,
+    "lng": 73.9933,
+    "elevation": 709,
+    "geocodedName": "Satara",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Sangli": {
+    "lat": 16.8544,
+    "lng": 74.5642,
+    "elevation": 553,
+    "geocodedName": "Sangli",
+    "admin1": "Maharashtra"
+  },
+  "Sangli": {
+    "lat": 16.8544,
+    "lng": 74.5642,
+    "elevation": 553,
+    "geocodedName": "Sangli",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Ratnagiri": {
+    "lat": 16.9915,
+    "lng": 73.3102,
+    "elevation": 66,
+    "geocodedName": "Ratnagiri",
+    "admin1": "Maharashtra"
+  },
+  "Ratnagiri": {
+    "lat": 16.9915,
+    "lng": 73.3102,
+    "elevation": 66,
+    "geocodedName": "Ratnagiri",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Palghar": {
+    "lat": 19.6969,
+    "lng": 72.7654,
+    "elevation": 17,
+    "geocodedName": "Pālghar",
+    "admin1": "Maharashtra"
+  },
+  "Palghar": {
+    "lat": 19.6969,
+    "lng": 72.7654,
+    "elevation": 17,
+    "geocodedName": "Pālghar",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Sindhudurg": {
+    "lat": 15.9989,
+    "lng": 73.5347,
+    "elevation": 73,
+    "geocodedName": "Sindhudurg Airport",
+    "admin1": "Maharashtra"
+  },
+  "Sindhudurg": {
+    "lat": 15.9989,
+    "lng": 73.5347,
+    "elevation": 73,
+    "geocodedName": "Sindhudurg Airport",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Pune": {
+    "lat": 18.5196,
+    "lng": 73.8554,
+    "elevation": 554,
+    "geocodedName": "Pune",
+    "admin1": "Maharashtra"
+  },
+  "Pune": {
+    "lat": 18.5196,
+    "lng": 73.8554,
+    "elevation": 554,
+    "geocodedName": "Pune",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Raigad": {
+    "lat": 18.65,
+    "lng": 72.88,
+    "elevation": 10,
+    "geocodedName": "Alibag",
+    "admin1": "Maharashtra"
+  },
+  "Raigad": {
+    "lat": 18.65,
+    "lng": 72.88,
+    "elevation": 10,
+    "geocodedName": "Alibag",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Wardha": {
+    "lat": 20.7393,
+    "lng": 78.5978,
+    "elevation": 292,
+    "geocodedName": "Wardha",
+    "admin1": "Maharashtra"
+  },
+  "Wardha": {
+    "lat": 20.7393,
+    "lng": 78.5978,
+    "elevation": 292,
+    "geocodedName": "Wardha",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Washim": {
+    "lat": 20.1113,
+    "lng": 77.133,
+    "elevation": 550,
+    "geocodedName": "Wāshīm",
+    "admin1": "Maharashtra"
+  },
+  "Washim": {
+    "lat": 20.1113,
+    "lng": 77.133,
+    "elevation": 550,
+    "geocodedName": "Wāshīm",
+    "admin1": "Maharashtra"
+  },
+  "Manipur__Kamjong": {
+    "lat": 24.8585,
+    "lng": 94.5155,
+    "elevation": 1535,
+    "geocodedName": "Kamjong",
+    "admin1": "Manipur"
+  },
+  "Kamjong": {
+    "lat": 24.8585,
+    "lng": 94.5155,
+    "elevation": 1535,
+    "geocodedName": "Kamjong",
+    "admin1": "Manipur"
+  },
+  "Maharashtra__Solapur": {
+    "lat": 17.6715,
+    "lng": 75.9104,
+    "elevation": 473,
+    "geocodedName": "Solapur",
+    "admin1": "Maharashtra"
+  },
+  "Solapur": {
+    "lat": 17.6715,
+    "lng": 75.9104,
+    "elevation": 473,
+    "geocodedName": "Solapur",
+    "admin1": "Maharashtra"
+  },
+  "Manipur__Kakching": {
+    "lat": 24.4982,
+    "lng": 93.9813,
+    "elevation": 787,
+    "geocodedName": "Kakching",
+    "admin1": "Manipur"
+  },
+  "Kakching": {
+    "lat": 24.4982,
+    "lng": 93.9813,
+    "elevation": 787,
+    "geocodedName": "Kakching",
+    "admin1": "Manipur"
+  },
+  "Maharashtra__Yavatmal": {
+    "lat": 20.3932,
+    "lng": 78.132,
+    "elevation": 446,
+    "geocodedName": "Yavatmal",
+    "admin1": "Maharashtra"
+  },
+  "Yavatmal": {
+    "lat": 20.3932,
+    "lng": 78.132,
+    "elevation": 446,
+    "geocodedName": "Yavatmal",
+    "admin1": "Maharashtra"
+  },
+  "Manipur__Chandel": {
+    "lat": 24.3299,
+    "lng": 94.0038,
+    "elevation": 894,
+    "geocodedName": "Chandel",
+    "admin1": "Manipur"
+  },
+  "Chandel": {
+    "lat": 24.3299,
+    "lng": 94.0038,
+    "elevation": 894,
+    "geocodedName": "Chandel",
+    "admin1": "Manipur"
+  },
+  "Manipur__Bishnupur": {
+    "lat": 24.6285,
+    "lng": 93.7618,
+    "elevation": 809,
+    "geocodedName": "Bishnupur",
+    "admin1": "Manipur"
+  },
+  "Bishnupur": {
+    "lat": 24.6285,
+    "lng": 93.7618,
+    "elevation": 809,
+    "geocodedName": "Bishnupur",
+    "admin1": "Manipur"
+  },
+  "Manipur__Jiribam": {
+    "lat": 24.8043,
+    "lng": 93.1215,
+    "elevation": 36,
+    "geocodedName": "Jiribam",
+    "admin1": "Manipur"
+  },
+  "Jiribam": {
+    "lat": 24.8043,
+    "lng": 93.1215,
+    "elevation": 36,
+    "geocodedName": "Jiribam",
+    "admin1": "Manipur"
+  },
+  "Maharashtra__Thane": {
+    "lat": 19.197,
+    "lng": 72.9635,
+    "elevation": 23,
+    "geocodedName": "Thane",
+    "admin1": "Maharashtra"
+  },
+  "Thane": {
+    "lat": 19.197,
+    "lng": 72.9635,
+    "elevation": 23,
+    "geocodedName": "Thane",
+    "admin1": "Maharashtra"
+  },
+  "Manipur__Kangpokpi": {
+    "lat": 25.1527,
+    "lng": 93.9717,
+    "elevation": 1075,
+    "geocodedName": "Kāngpokpi",
+    "admin1": "Manipur"
+  },
+  "Kangpokpi": {
+    "lat": 25.1527,
+    "lng": 93.9717,
+    "elevation": 1075,
+    "geocodedName": "Kāngpokpi",
+    "admin1": "Manipur"
+  },
+  "Manipur__Churachandpur": {
+    "lat": 24.3335,
+    "lng": 93.67,
+    "elevation": 944,
+    "geocodedName": "Churāchāndpur",
+    "admin1": "Manipur"
+  },
+  "Churachandpur": {
+    "lat": 24.3335,
+    "lng": 93.67,
+    "elevation": 944,
+    "geocodedName": "Churāchāndpur",
+    "admin1": "Manipur"
+  },
+  "Manipur__Noney": {
+    "lat": 24.81,
+    "lng": 93.6,
+    "elevation": 620,
+    "geocodedName": "Noney",
+    "admin1": "Manipur"
+  },
+  "Noney": {
+    "lat": 24.81,
+    "lng": 93.6,
+    "elevation": 620,
+    "geocodedName": "Noney",
+    "admin1": "Manipur"
+  },
+  "Manipur__Imphal West": {
+    "lat": 24.8081,
+    "lng": 93.9442,
+    "elevation": 784,
+    "geocodedName": "Imphal",
+    "admin1": "Manipur"
+  },
+  "Imphal West": {
+    "lat": 24.8081,
+    "lng": 93.9442,
+    "elevation": 784,
+    "geocodedName": "Imphal",
+    "admin1": "Manipur"
+  },
+  "Manipur__Imphal East": {
+    "lat": 24.8081,
+    "lng": 93.9442,
+    "elevation": 784,
+    "geocodedName": "Imphal",
+    "admin1": "Manipur"
+  },
+  "Imphal East": {
+    "lat": 24.8081,
+    "lng": 93.9442,
+    "elevation": 784,
+    "geocodedName": "Imphal",
+    "admin1": "Manipur"
+  },
+  "Manipur__Tamenglong": {
+    "lat": 25.0164,
+    "lng": 93.4855,
+    "elevation": 1151,
+    "geocodedName": "Tamenglong",
+    "admin1": "Manipur"
+  },
+  "Tamenglong": {
+    "lat": 25.0164,
+    "lng": 93.4855,
+    "elevation": 1151,
+    "geocodedName": "Tamenglong",
+    "admin1": "Manipur"
+  },
+  "Manipur__Ukhrul": {
+    "lat": 25.1196,
+    "lng": 94.3642,
+    "elevation": 1842,
+    "geocodedName": "Ukhrul",
+    "admin1": "Manipur"
+  },
+  "Ukhrul": {
+    "lat": 25.1196,
+    "lng": 94.3642,
+    "elevation": 1842,
+    "geocodedName": "Ukhrul",
+    "admin1": "Manipur"
+  },
+  "Manipur__Pherzawl": {
+    "lat": 24.2623,
+    "lng": 93.1887,
+    "elevation": 1018,
+    "geocodedName": "Pherzawl",
+    "admin1": "Manipur"
+  },
+  "Pherzawl": {
+    "lat": 24.2623,
+    "lng": 93.1887,
+    "elevation": 1018,
+    "geocodedName": "Pherzawl",
+    "admin1": "Manipur"
+  },
+  "Manipur__Tengnoupal": {
+    "lat": 24.3855,
+    "lng": 94.1472,
+    "elevation": 1434,
+    "geocodedName": "Tengnoupal",
+    "admin1": "Manipur"
+  },
+  "Tengnoupal": {
+    "lat": 24.3855,
+    "lng": 94.1472,
+    "elevation": 1434,
+    "geocodedName": "Tengnoupal",
+    "admin1": "Manipur"
+  },
+  "Manipur__Thoubal": {
+    "lat": 24.6388,
+    "lng": 93.9964,
+    "elevation": 780,
+    "geocodedName": "Thoubāl",
+    "admin1": "Manipur"
+  },
+  "Thoubal": {
+    "lat": 24.6388,
+    "lng": 93.9964,
+    "elevation": 780,
+    "geocodedName": "Thoubāl",
+    "admin1": "Manipur"
+  },
+  "Manipur__Senapati": {
+    "lat": 25.26,
+    "lng": 94.01,
+    "elevation": 1050,
+    "geocodedName": "Senapati",
+    "admin1": "Manipur"
+  },
+  "Senapati": {
+    "lat": 25.26,
+    "lng": 94.01,
+    "elevation": 1050,
+    "geocodedName": "Senapati",
+    "admin1": "Manipur"
+  },
+  "Meghalaya__East Khasi Hills": {
+    "lat": 25.5833,
+    "lng": 91.6333,
+    "elevation": 1645,
+    "geocodedName": "Khāsi Hills",
+    "admin1": "Meghalaya"
+  },
+  "East Khasi Hills": {
+    "lat": 25.5833,
+    "lng": 91.6333,
+    "elevation": 1645,
+    "geocodedName": "Khāsi Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__East Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "East Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__North Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "North Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__South West Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "South West Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__South West Khasi Hills": {
+    "lat": 25.5833,
+    "lng": 91.6333,
+    "elevation": 1645,
+    "geocodedName": "Khāsi Hills",
+    "admin1": "Meghalaya"
+  },
+  "South West Khasi Hills": {
+    "lat": 25.5833,
+    "lng": 91.6333,
+    "elevation": 1645,
+    "geocodedName": "Khāsi Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__East Jaintia Hills": {
+    "lat": 25.3333,
+    "lng": 92.6667,
+    "elevation": 1052,
+    "geocodedName": "Jaintia Hills",
+    "admin1": "Meghalaya"
+  },
+  "East Jaintia Hills": {
+    "lat": 25.3333,
+    "lng": 92.6667,
+    "elevation": 1052,
+    "geocodedName": "Jaintia Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__South Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "South Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "Mizoram__Hnahthial": {
+    "lat": 22.9661,
+    "lng": 92.9297,
+    "elevation": 737,
+    "geocodedName": "Hnahthial",
+    "admin1": "Mizoram"
+  },
+  "Hnahthial": {
+    "lat": 22.9661,
+    "lng": 92.9297,
+    "elevation": 737,
+    "geocodedName": "Hnahthial",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Aizawl": {
+    "lat": 23.7289,
+    "lng": 92.7179,
+    "elevation": 1080,
+    "geocodedName": "Aizawl",
+    "admin1": "Mizoram"
+  },
+  "Aizawl": {
+    "lat": 23.7289,
+    "lng": 92.7179,
+    "elevation": 1080,
+    "geocodedName": "Aizawl",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Saitual": {
+    "lat": 23.6831,
+    "lng": 92.9671,
+    "elevation": 969,
+    "geocodedName": "Saitual",
+    "admin1": "Mizoram"
+  },
+  "Saitual": {
+    "lat": 23.6831,
+    "lng": 92.9671,
+    "elevation": 969,
+    "geocodedName": "Saitual",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Lawngtlai": {
+    "lat": 22.5325,
+    "lng": 92.899,
+    "elevation": 816,
+    "geocodedName": "Lawngtlai",
+    "admin1": "Mizoram"
+  },
+  "Lawngtlai": {
+    "lat": 22.5325,
+    "lng": 92.899,
+    "elevation": 816,
+    "geocodedName": "Lawngtlai",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Mamit": {
+    "lat": 23.927,
+    "lng": 92.4897,
+    "elevation": 870,
+    "geocodedName": "Mamit",
+    "admin1": "Mizoram"
+  },
+  "Mamit": {
+    "lat": 23.927,
+    "lng": 92.4897,
+    "elevation": 870,
+    "geocodedName": "Mamit",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Serchhip": {
+    "lat": 23.2931,
+    "lng": 92.8468,
+    "elevation": 1231,
+    "geocodedName": "Serchhīp",
+    "admin1": "Mizoram"
+  },
+  "Serchhip": {
+    "lat": 23.2931,
+    "lng": 92.8468,
+    "elevation": 1231,
+    "geocodedName": "Serchhīp",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Khawzawl": {
+    "lat": 23.5177,
+    "lng": 93.1889,
+    "elevation": 1198,
+    "geocodedName": "Khawzawl",
+    "admin1": "Mizoram"
+  },
+  "Khawzawl": {
+    "lat": 23.5177,
+    "lng": 93.1889,
+    "elevation": 1198,
+    "geocodedName": "Khawzawl",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Saiha": {
+    "lat": 22.4918,
+    "lng": 92.9814,
+    "elevation": 1045,
+    "geocodedName": "Saiha",
+    "admin1": "Mizoram"
+  },
+  "Saiha": {
+    "lat": 22.4918,
+    "lng": 92.9814,
+    "elevation": 1045,
+    "geocodedName": "Saiha",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Kolasib": {
+    "lat": 24.2239,
+    "lng": 92.6787,
+    "elevation": 661,
+    "geocodedName": "Kolasib",
+    "admin1": "Mizoram"
+  },
+  "Kolasib": {
+    "lat": 24.2239,
+    "lng": 92.6787,
+    "elevation": 661,
+    "geocodedName": "Kolasib",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Lunglei": {
+    "lat": 22.8925,
+    "lng": 92.7422,
+    "elevation": 1014,
+    "geocodedName": "Lunglei",
+    "admin1": "Mizoram"
+  },
+  "Lunglei": {
+    "lat": 22.8925,
+    "lng": 92.7422,
+    "elevation": 1014,
+    "geocodedName": "Lunglei",
+    "admin1": "Mizoram"
+  },
+  "Meghalaya__West Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "West Garo Hills": {
+    "lat": 25.5,
+    "lng": 90.3333,
+    "elevation": 973,
+    "geocodedName": "Gāro Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__West Khasi Hills": {
+    "lat": 25.5833,
+    "lng": 91.6333,
+    "elevation": 1645,
+    "geocodedName": "Khāsi Hills",
+    "admin1": "Meghalaya"
+  },
+  "West Khasi Hills": {
+    "lat": 25.5833,
+    "lng": 91.6333,
+    "elevation": 1645,
+    "geocodedName": "Khāsi Hills",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__West Jaintia Hills": {
+    "lat": 25.3333,
+    "lng": 92.6667,
+    "elevation": 1052,
+    "geocodedName": "Jaintia Hills",
+    "admin1": "Meghalaya"
+  },
+  "West Jaintia Hills": {
+    "lat": 25.3333,
+    "lng": 92.6667,
+    "elevation": 1052,
+    "geocodedName": "Jaintia Hills",
+    "admin1": "Meghalaya"
+  },
+  "Nagaland__Kohima": {
+    "lat": 25.6747,
+    "lng": 94.111,
+    "elevation": 1463,
+    "geocodedName": "Kohima",
+    "admin1": "Nagaland"
+  },
+  "Kohima": {
+    "lat": 25.6747,
+    "lng": 94.111,
+    "elevation": 1463,
+    "geocodedName": "Kohima",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Tuensang": {
+    "lat": 26.267,
+    "lng": 94.8242,
+    "elevation": 1122,
+    "geocodedName": "Tuensang",
+    "admin1": "Nagaland"
+  },
+  "Tuensang": {
+    "lat": 26.267,
+    "lng": 94.8242,
+    "elevation": 1122,
+    "geocodedName": "Tuensang",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Zunheboto": {
+    "lat": 25.9667,
+    "lng": 94.5167,
+    "elevation": 1349,
+    "geocodedName": "Zunheboto",
+    "admin1": "Nagaland"
+  },
+  "Zunheboto": {
+    "lat": 25.9667,
+    "lng": 94.5167,
+    "elevation": 1349,
+    "geocodedName": "Zunheboto",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Tseminyü": {
+    "lat": 25.9247,
+    "lng": 94.2161,
+    "elevation": 1396,
+    "geocodedName": "Tseminyu",
+    "admin1": "Nagaland"
+  },
+  "Tseminyü": {
+    "lat": 25.9247,
+    "lng": 94.2161,
+    "elevation": 1396,
+    "geocodedName": "Tseminyu",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Kiphire": {
+    "lat": 25.8679,
+    "lng": 94.7857,
+    "elevation": 1015,
+    "geocodedName": "Kiphire",
+    "admin1": "Nagaland"
+  },
+  "Kiphire": {
+    "lat": 25.8679,
+    "lng": 94.7857,
+    "elevation": 1015,
+    "geocodedName": "Kiphire",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Dimapur": {
+    "lat": 25.9117,
+    "lng": 93.7217,
+    "elevation": 154,
+    "geocodedName": "Dimāpur",
+    "admin1": "Nagaland"
+  },
+  "Dimapur": {
+    "lat": 25.9117,
+    "lng": 93.7217,
+    "elevation": 154,
+    "geocodedName": "Dimāpur",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Noklak": {
+    "lat": 26.1985,
+    "lng": 95.0166,
+    "elevation": 1122,
+    "geocodedName": "Noklak",
+    "admin1": "Nagaland"
+  },
+  "Noklak": {
+    "lat": 26.1985,
+    "lng": 95.0166,
+    "elevation": 1122,
+    "geocodedName": "Noklak",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Mon": {
+    "lat": 26.7358,
+    "lng": 95.0584,
+    "elevation": 1000,
+    "geocodedName": "Mon",
+    "admin1": "Nagaland"
+  },
+  "Mon": {
+    "lat": 26.7358,
+    "lng": 95.0584,
+    "elevation": 1000,
+    "geocodedName": "Mon",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Longleng": {
+    "lat": 26.4899,
+    "lng": 94.8177,
+    "elevation": 1265,
+    "geocodedName": "Longleng",
+    "admin1": "Nagaland"
+  },
+  "Longleng": {
+    "lat": 26.4899,
+    "lng": 94.8177,
+    "elevation": 1265,
+    "geocodedName": "Longleng",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Peren": {
+    "lat": 25.5674,
+    "lng": 93.7606,
+    "elevation": 1297,
+    "geocodedName": "Lakema",
+    "admin1": "Nagaland"
+  },
+  "Peren": {
+    "lat": 25.5674,
+    "lng": 93.7606,
+    "elevation": 1297,
+    "geocodedName": "Lakema",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Wokha": {
+    "lat": 26.0972,
+    "lng": 94.2582,
+    "elevation": 1385,
+    "geocodedName": "Wokha",
+    "admin1": "Nagaland"
+  },
+  "Wokha": {
+    "lat": 26.0972,
+    "lng": 94.2582,
+    "elevation": 1385,
+    "geocodedName": "Wokha",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Mokokchung": {
+    "lat": 26.3248,
+    "lng": 94.5183,
+    "elevation": 1250,
+    "geocodedName": "Mokokchūng",
+    "admin1": "Nagaland"
+  },
+  "Mokokchung": {
+    "lat": 26.3248,
+    "lng": 94.5183,
+    "elevation": 1250,
+    "geocodedName": "Mokokchūng",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Niuland": {
+    "lat": 25.9076,
+    "lng": 93.9877,
+    "elevation": 434,
+    "geocodedName": "Niuland",
+    "admin1": "Nagaland"
+  },
+  "Niuland": {
+    "lat": 25.9076,
+    "lng": 93.9877,
+    "elevation": 434,
+    "geocodedName": "Niuland",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Shamator": {
+    "lat": 25.98,
+    "lng": 94.88,
+    "elevation": 1420,
+    "geocodedName": "Shamator",
+    "admin1": "Nagaland"
+  },
+  "Shamator": {
+    "lat": 25.98,
+    "lng": 94.88,
+    "elevation": 1420,
+    "geocodedName": "Shamator",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Phek": {
+    "lat": 25.6667,
+    "lng": 94.5,
+    "elevation": 1696,
+    "geocodedName": "Phek",
+    "admin1": "Manipur"
+  },
+  "Phek": {
+    "lat": 25.6667,
+    "lng": 94.5,
+    "elevation": 1696,
+    "geocodedName": "Phek",
+    "admin1": "Manipur"
+  },
+  "Odisha__Balasore": {
+    "lat": 21.4927,
+    "lng": 86.9335,
+    "elevation": 22,
+    "geocodedName": "Balasore",
+    "admin1": "Odisha"
+  },
+  "Balasore": {
+    "lat": 21.4927,
+    "lng": 86.9335,
+    "elevation": 22,
+    "geocodedName": "Balasore",
+    "admin1": "Odisha"
+  },
+  "Odisha__Balangir": {
+    "lat": 20.7042,
+    "lng": 83.4903,
+    "elevation": 187,
+    "geocodedName": "Balāngīr",
+    "admin1": "Odisha"
+  },
+  "Balangir": {
+    "lat": 20.7042,
+    "lng": 83.4903,
+    "elevation": 187,
+    "geocodedName": "Balāngīr",
+    "admin1": "Odisha"
+  },
+  "Odisha__Angul": {
+    "lat": 20.8409,
+    "lng": 85.1019,
+    "elevation": 126,
+    "geocodedName": "Angul",
+    "admin1": "Odisha"
+  },
+  "Angul": {
+    "lat": 20.8409,
+    "lng": 85.1019,
+    "elevation": 126,
+    "geocodedName": "Angul",
+    "admin1": "Odisha"
+  },
+  "Odisha__Bargarh": {
+    "lat": 21.3335,
+    "lng": 83.6191,
+    "elevation": 179,
+    "geocodedName": "Bargarh",
+    "admin1": "Odisha"
+  },
+  "Bargarh": {
+    "lat": 21.3335,
+    "lng": 83.6191,
+    "elevation": 179,
+    "geocodedName": "Bargarh",
+    "admin1": "Odisha"
+  },
+  "Odisha__Dhenkanal": {
+    "lat": 20.6574,
+    "lng": 85.5969,
+    "elevation": 77,
+    "geocodedName": "Dhenkānāl",
+    "admin1": "Odisha"
+  },
+  "Dhenkanal": {
+    "lat": 20.6574,
+    "lng": 85.5969,
+    "elevation": 77,
+    "geocodedName": "Dhenkānāl",
+    "admin1": "Odisha"
+  },
+  "Odisha__Jagatsinghpur": {
+    "lat": 20.2557,
+    "lng": 86.1711,
+    "elevation": 15,
+    "geocodedName": "Jagatsinghapur",
+    "admin1": "Odisha"
+  },
+  "Jagatsinghpur": {
+    "lat": 20.2557,
+    "lng": 86.1711,
+    "elevation": 15,
+    "geocodedName": "Jagatsinghapur",
+    "admin1": "Odisha"
+  },
+  "Odisha__Ganjam": {
+    "lat": 19.3115,
+    "lng": 84.7929,
+    "elevation": 37,
+    "geocodedName": "Brahmapur",
+    "admin1": "Odisha"
+  },
+  "Ganjam": {
+    "lat": 19.3115,
+    "lng": 84.7929,
+    "elevation": 37,
+    "geocodedName": "Brahmapur",
+    "admin1": "Odisha"
+  },
+  "Odisha__Bhadrak": {
+    "lat": 21.0545,
+    "lng": 86.5156,
+    "elevation": 18,
+    "geocodedName": "Bhadrak",
+    "admin1": "Odisha"
+  },
+  "Bhadrak": {
+    "lat": 21.0545,
+    "lng": 86.5156,
+    "elevation": 18,
+    "geocodedName": "Bhadrak",
+    "admin1": "Odisha"
+  },
+  "Odisha__Deogarh": {
+    "lat": 21.5383,
+    "lng": 84.7334,
+    "elevation": 220,
+    "geocodedName": "Deogarh",
+    "admin1": "Odisha"
+  },
+  "Deogarh": {
+    "lat": 21.5383,
+    "lng": 84.7334,
+    "elevation": 220,
+    "geocodedName": "Deogarh",
+    "admin1": "Odisha"
+  },
+  "Odisha__Jajpur": {
+    "lat": 20.8485,
+    "lng": 86.3373,
+    "elevation": 15,
+    "geocodedName": "Jājpur",
+    "admin1": "Odisha"
+  },
+  "Jajpur": {
+    "lat": 20.8485,
+    "lng": 86.3373,
+    "elevation": 15,
+    "geocodedName": "Jājpur",
+    "admin1": "Odisha"
+  },
+  "Odisha__Jharsuguda": {
+    "lat": 21.8553,
+    "lng": 84.007,
+    "elevation": 223,
+    "geocodedName": "Jharsuguda",
+    "admin1": "Odisha"
+  },
+  "Jharsuguda": {
+    "lat": 21.8553,
+    "lng": 84.007,
+    "elevation": 223,
+    "geocodedName": "Jharsuguda",
+    "admin1": "Odisha"
+  },
+  "Odisha__Cuttack": {
+    "lat": 20.465,
+    "lng": 85.8793,
+    "elevation": 30,
+    "geocodedName": "Cuttack",
+    "admin1": "Odisha"
+  },
+  "Cuttack": {
+    "lat": 20.465,
+    "lng": 85.8793,
+    "elevation": 30,
+    "geocodedName": "Cuttack",
+    "admin1": "Odisha"
+  },
+  "Odisha__Kalahandi": {
+    "lat": 20.1366,
+    "lng": 85.0799,
+    "elevation": 102,
+    "geocodedName": "Kalāhāndi",
+    "admin1": "Odisha"
+  },
+  "Kalahandi": {
+    "lat": 20.1366,
+    "lng": 85.0799,
+    "elevation": 102,
+    "geocodedName": "Kalāhāndi",
+    "admin1": "Odisha"
+  },
+  "Odisha__Boudh": {
+    "lat": 20.84,
+    "lng": 84.32,
+    "elevation": 115,
+    "geocodedName": "Boudh",
+    "admin1": "Odisha"
+  },
+  "Boudh": {
+    "lat": 20.84,
+    "lng": 84.32,
+    "elevation": 115,
+    "geocodedName": "Boudh",
+    "admin1": "Odisha"
+  },
+  "Odisha__Gajapati": {
+    "lat": 18.2794,
+    "lng": 83.3365,
+    "elevation": 73,
+    "geocodedName": "Gajapatinagaram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Gajapati": {
+    "lat": 18.2794,
+    "lng": 83.3365,
+    "elevation": 73,
+    "geocodedName": "Gajapatinagaram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Odisha__Kendujhar": {
+    "lat": 21.5194,
+    "lng": 83.3636,
+    "elevation": 222,
+    "geocodedName": "Kendujharan",
+    "admin1": "Odisha"
+  },
+  "Kendujhar": {
+    "lat": 21.5194,
+    "lng": 83.3636,
+    "elevation": 222,
+    "geocodedName": "Kendujharan",
+    "admin1": "Odisha"
+  },
+  "Odisha__Khordha": {
+    "lat": 20.1827,
+    "lng": 85.6163,
+    "elevation": 57,
+    "geocodedName": "Khordha",
+    "admin1": "Odisha"
+  },
+  "Khordha": {
+    "lat": 20.1827,
+    "lng": 85.6163,
+    "elevation": 57,
+    "geocodedName": "Khordha",
+    "admin1": "Odisha"
+  },
+  "Odisha__Sambalpur": {
+    "lat": 21.4653,
+    "lng": 83.9757,
+    "elevation": 152,
+    "geocodedName": "Sambalpur",
+    "admin1": "Odisha"
+  },
+  "Sambalpur": {
+    "lat": 21.4653,
+    "lng": 83.9757,
+    "elevation": 152,
+    "geocodedName": "Sambalpur",
+    "admin1": "Odisha"
+  },
+  "Odisha__Kendrapara": {
+    "lat": 20.5017,
+    "lng": 86.4223,
+    "elevation": 8,
+    "geocodedName": "Kendrāparha",
+    "admin1": "Odisha"
+  },
+  "Kendrapara": {
+    "lat": 20.5017,
+    "lng": 86.4223,
+    "elevation": 8,
+    "geocodedName": "Kendrāparha",
+    "admin1": "Odisha"
+  },
+  "Odisha__Puri": {
+    "lat": 19.7982,
+    "lng": 85.8249,
+    "elevation": 16,
+    "geocodedName": "Puri",
+    "admin1": "Odisha"
+  },
+  "Puri": {
+    "lat": 19.7982,
+    "lng": 85.8249,
+    "elevation": 16,
+    "geocodedName": "Puri",
+    "admin1": "Odisha"
+  },
+  "Odisha__Subarnapur": {
+    "lat": 20.8761,
+    "lng": 84.3709,
+    "elevation": 123,
+    "geocodedName": "Subarnapur",
+    "admin1": "Odisha"
+  },
+  "Subarnapur": {
+    "lat": 20.8761,
+    "lng": 84.3709,
+    "elevation": 123,
+    "geocodedName": "Subarnapur",
+    "admin1": "Odisha"
+  },
+  "Odisha__Nayagarh": {
+    "lat": 20.1288,
+    "lng": 85.0963,
+    "elevation": 138,
+    "geocodedName": "Nayāgarh",
+    "admin1": "Odisha"
+  },
+  "Nayagarh": {
+    "lat": 20.1288,
+    "lng": 85.0963,
+    "elevation": 138,
+    "geocodedName": "Nayāgarh",
+    "admin1": "Odisha"
+  },
+  "Odisha__Nuapada": {
+    "lat": 20.8167,
+    "lng": 82.5333,
+    "elevation": 341,
+    "geocodedName": "Nuapada",
+    "admin1": "Odisha"
+  },
+  "Nuapada": {
+    "lat": 20.8167,
+    "lng": 82.5333,
+    "elevation": 341,
+    "geocodedName": "Nuapada",
+    "admin1": "Odisha"
+  },
+  "Odisha__Koraput": {
+    "lat": 18.812,
+    "lng": 82.7105,
+    "elevation": 883,
+    "geocodedName": "Koraput",
+    "admin1": "Odisha"
+  },
+  "Koraput": {
+    "lat": 18.812,
+    "lng": 82.7105,
+    "elevation": 883,
+    "geocodedName": "Koraput",
+    "admin1": "Odisha"
+  },
+  "Odisha__Rayagada": {
+    "lat": 19.1713,
+    "lng": 83.4143,
+    "elevation": 229,
+    "geocodedName": "Rāyagada",
+    "admin1": "Odisha"
+  },
+  "Rayagada": {
+    "lat": 19.1713,
+    "lng": 83.4143,
+    "elevation": 229,
+    "geocodedName": "Rāyagada",
+    "admin1": "Odisha"
+  },
+  "Odisha__Mayurbhanj": {
+    "lat": 21.9346,
+    "lng": 86.7285,
+    "elevation": 43,
+    "geocodedName": "Baripāda",
+    "admin1": "Odisha"
+  },
+  "Mayurbhanj": {
+    "lat": 21.9346,
+    "lng": 86.7285,
+    "elevation": 43,
+    "geocodedName": "Baripāda",
+    "admin1": "Odisha"
+  },
+  "Odisha__Nabarangpur": {
+    "lat": 19.2311,
+    "lng": 82.5483,
+    "elevation": 578,
+    "geocodedName": "Nowrangapur",
+    "admin1": "Odisha"
+  },
+  "Nabarangpur": {
+    "lat": 19.2311,
+    "lng": 82.5483,
+    "elevation": 578,
+    "geocodedName": "Nowrangapur",
+    "admin1": "Odisha"
+  },
+  "Odisha__Malkangiri": {
+    "lat": 18.35,
+    "lng": 81.9,
+    "elevation": 195,
+    "geocodedName": "Malkangiri",
+    "admin1": "Odisha"
+  },
+  "Malkangiri": {
+    "lat": 18.35,
+    "lng": 81.9,
+    "elevation": 195,
+    "geocodedName": "Malkangiri",
+    "admin1": "Odisha"
+  },
+  "Odisha__Sundargarh": {
+    "lat": 22.12,
+    "lng": 84.03,
+    "elevation": 233,
+    "geocodedName": "Sundargarh",
+    "admin1": "Odisha"
+  },
+  "Sundargarh": {
+    "lat": 22.12,
+    "lng": 84.03,
+    "elevation": 233,
+    "geocodedName": "Sundargarh",
+    "admin1": "Odisha"
+  },
+  "Punjab__Bathinda": {
+    "lat": 30.2075,
+    "lng": 74.9389,
+    "elevation": 216,
+    "geocodedName": "Bathinda",
+    "admin1": "Punjab"
+  },
+  "Bathinda": {
+    "lat": 30.2075,
+    "lng": 74.9389,
+    "elevation": 216,
+    "geocodedName": "Bathinda",
+    "admin1": "Punjab"
+  },
+  "Punjab__Faridkot": {
+    "lat": 30.674,
+    "lng": 74.7558,
+    "elevation": 207,
+    "geocodedName": "Farīdkot",
+    "admin1": "Punjab"
+  },
+  "Faridkot": {
+    "lat": 30.674,
+    "lng": 74.7558,
+    "elevation": 207,
+    "geocodedName": "Farīdkot",
+    "admin1": "Punjab"
+  },
+  "Punjab__Amritsar": {
+    "lat": 31.6223,
+    "lng": 74.8753,
+    "elevation": 244,
+    "geocodedName": "Amritsar",
+    "admin1": "Punjab"
+  },
+  "Amritsar": {
+    "lat": 31.6223,
+    "lng": 74.8753,
+    "elevation": 244,
+    "geocodedName": "Amritsar",
+    "admin1": "Punjab"
+  },
+  "Punjab__Hoshiarpur": {
+    "lat": 31.5372,
+    "lng": 75.9127,
+    "elevation": 311,
+    "geocodedName": "Hoshiārpur",
+    "admin1": "Punjab"
+  },
+  "Hoshiarpur": {
+    "lat": 31.5372,
+    "lng": 75.9127,
+    "elevation": 311,
+    "geocodedName": "Hoshiārpur",
+    "admin1": "Punjab"
+  },
+  "Punjab__Mansa": {
+    "lat": 29.9884,
+    "lng": 75.4017,
+    "elevation": 223,
+    "geocodedName": "Mānsa",
+    "admin1": "Punjab"
+  },
+  "Mansa": {
+    "lat": 29.9884,
+    "lng": 75.4017,
+    "elevation": 223,
+    "geocodedName": "Mānsa",
+    "admin1": "Punjab"
+  },
+  "Punjab__Barnala": {
+    "lat": 30.3745,
+    "lng": 75.5487,
+    "elevation": 237,
+    "geocodedName": "Barnāla",
+    "admin1": "Punjab"
+  },
+  "Barnala": {
+    "lat": 30.3745,
+    "lng": 75.5487,
+    "elevation": 237,
+    "geocodedName": "Barnāla",
+    "admin1": "Punjab"
+  },
+  "Punjab__Ferozepur": {
+    "lat": 30.9257,
+    "lng": 74.6131,
+    "elevation": 200,
+    "geocodedName": "Firozpur",
+    "admin1": "Punjab"
+  },
+  "Ferozepur": {
+    "lat": 30.9257,
+    "lng": 74.6131,
+    "elevation": 200,
+    "geocodedName": "Firozpur",
+    "admin1": "Punjab"
+  },
+  "Punjab__Jalandhar": {
+    "lat": 31.3256,
+    "lng": 75.5792,
+    "elevation": 243,
+    "geocodedName": "Jalandhar",
+    "admin1": "Punjab"
+  },
+  "Jalandhar": {
+    "lat": 31.3256,
+    "lng": 75.5792,
+    "elevation": 243,
+    "geocodedName": "Jalandhar",
+    "admin1": "Punjab"
+  },
+  "Punjab__Fazilka": {
+    "lat": 30.4021,
+    "lng": 74.0284,
+    "elevation": 181,
+    "geocodedName": "Fazilka",
+    "admin1": "Punjab"
+  },
+  "Fazilka": {
+    "lat": 30.4021,
+    "lng": 74.0284,
+    "elevation": 181,
+    "geocodedName": "Fazilka",
+    "admin1": "Punjab"
+  },
+  "Punjab__Kapurthala": {
+    "lat": 31.3801,
+    "lng": 75.3811,
+    "elevation": 229,
+    "geocodedName": "Kapurthala Town",
+    "admin1": "Punjab"
+  },
+  "Kapurthala": {
+    "lat": 31.3801,
+    "lng": 75.3811,
+    "elevation": 229,
+    "geocodedName": "Kapurthala Town",
+    "admin1": "Punjab"
+  },
+  "Punjab__Gurdaspur": {
+    "lat": 32.0393,
+    "lng": 75.4032,
+    "elevation": 265,
+    "geocodedName": "Gurdaspur",
+    "admin1": "Punjab"
+  },
+  "Gurdaspur": {
+    "lat": 32.0393,
+    "lng": 75.4032,
+    "elevation": 265,
+    "geocodedName": "Gurdaspur",
+    "admin1": "Punjab"
+  },
+  "Punjab__Moga": {
+    "lat": 30.8138,
+    "lng": 75.1688,
+    "elevation": 226,
+    "geocodedName": "Moga",
+    "admin1": "Punjab"
+  },
+  "Moga": {
+    "lat": 30.8138,
+    "lng": 75.1688,
+    "elevation": 226,
+    "geocodedName": "Moga",
+    "admin1": "Punjab"
+  },
+  "Punjab__Ludhiana": {
+    "lat": 30.912,
+    "lng": 75.8538,
+    "elevation": 256,
+    "geocodedName": "Ludhiana",
+    "admin1": "Punjab"
+  },
+  "Ludhiana": {
+    "lat": 30.912,
+    "lng": 75.8538,
+    "elevation": 256,
+    "geocodedName": "Ludhiana",
+    "admin1": "Punjab"
+  },
+  "Punjab__Pathankot": {
+    "lat": 32.2748,
+    "lng": 75.6529,
+    "elevation": 337,
+    "geocodedName": "Pathankot",
+    "admin1": "Punjab"
+  },
+  "Pathankot": {
+    "lat": 32.2748,
+    "lng": 75.6529,
+    "elevation": 337,
+    "geocodedName": "Pathankot",
+    "admin1": "Punjab"
+  },
+  "Punjab__Sangrur": {
+    "lat": 30.2451,
+    "lng": 75.8449,
+    "elevation": 241,
+    "geocodedName": "Sangrur",
+    "admin1": "Punjab"
+  },
+  "Sangrur": {
+    "lat": 30.2451,
+    "lng": 75.8449,
+    "elevation": 241,
+    "geocodedName": "Sangrur",
+    "admin1": "Punjab"
+  },
+  "Punjab__Rupnagar": {
+    "lat": 30.2101,
+    "lng": 73.9943,
+    "elevation": 183,
+    "geocodedName": "Rūpnagar",
+    "admin1": "Punjab"
+  },
+  "Rupnagar": {
+    "lat": 30.2101,
+    "lng": 73.9943,
+    "elevation": 183,
+    "geocodedName": "Rūpnagar",
+    "admin1": "Punjab"
+  },
+  "Punjab__Muktsar": {
+    "lat": 30.4743,
+    "lng": 74.5166,
+    "elevation": 200,
+    "geocodedName": "Muktsar",
+    "admin1": "Punjab"
+  },
+  "Muktsar": {
+    "lat": 30.4743,
+    "lng": 74.5166,
+    "elevation": 200,
+    "geocodedName": "Muktsar",
+    "admin1": "Punjab"
+  },
+  "Punjab__Patiala": {
+    "lat": 30.3362,
+    "lng": 76.3922,
+    "elevation": 258,
+    "geocodedName": "Patiāla",
+    "admin1": "Punjab"
+  },
+  "Patiala": {
+    "lat": 30.3362,
+    "lng": 76.3922,
+    "elevation": 258,
+    "geocodedName": "Patiāla",
+    "admin1": "Punjab"
+  },
+  "Rajasthan__Barmer": {
+    "lat": 25.7457,
+    "lng": 71.3921,
+    "elevation": 202,
+    "geocodedName": "Bārmer",
+    "admin1": "Rajasthan"
+  },
+  "Barmer": {
+    "lat": 25.7457,
+    "lng": 71.3921,
+    "elevation": 202,
+    "geocodedName": "Bārmer",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Balotra": {
+    "lat": 25.8324,
+    "lng": 72.24,
+    "elevation": 115,
+    "geocodedName": "Balotra",
+    "admin1": "Rajasthan"
+  },
+  "Balotra": {
+    "lat": 25.8324,
+    "lng": 72.24,
+    "elevation": 115,
+    "geocodedName": "Balotra",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Ajmer": {
+    "lat": 26.4521,
+    "lng": 74.6387,
+    "elevation": 475,
+    "geocodedName": "Ajmer",
+    "admin1": "Rajasthan"
+  },
+  "Ajmer": {
+    "lat": 26.4521,
+    "lng": 74.6387,
+    "elevation": 475,
+    "geocodedName": "Ajmer",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Anupgarh": {
+    "lat": 29.1911,
+    "lng": 73.2086,
+    "elevation": 156,
+    "geocodedName": "Anūpgarh",
+    "admin1": "Rajasthan"
+  },
+  "Anupgarh": {
+    "lat": 29.1911,
+    "lng": 73.2086,
+    "elevation": 156,
+    "geocodedName": "Anūpgarh",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Banswara": {
+    "lat": 23.5411,
+    "lng": 74.4425,
+    "elevation": 227,
+    "geocodedName": "Bānswāra",
+    "admin1": "Rajasthan"
+  },
+  "Banswara": {
+    "lat": 23.5411,
+    "lng": 74.4425,
+    "elevation": 227,
+    "geocodedName": "Bānswāra",
+    "admin1": "Rajasthan"
+  },
+  "Punjab__Tarn Taran": {
+    "lat": 31.4519,
+    "lng": 74.9278,
+    "elevation": 227,
+    "geocodedName": "Tarn Taran",
+    "admin1": "Punjab"
+  },
+  "Tarn Taran": {
+    "lat": 31.4519,
+    "lng": 74.9278,
+    "elevation": 227,
+    "geocodedName": "Tarn Taran",
+    "admin1": "Punjab"
+  },
+  "Rajasthan__Baran": {
+    "lat": 25.1,
+    "lng": 76.5167,
+    "elevation": 271,
+    "geocodedName": "Bārān",
+    "admin1": "Rajasthan"
+  },
+  "Baran": {
+    "lat": 25.1,
+    "lng": 76.5167,
+    "elevation": 271,
+    "geocodedName": "Bārān",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Alwar": {
+    "lat": 27.5625,
+    "lng": 76.625,
+    "elevation": 269,
+    "geocodedName": "Alwar",
+    "admin1": "Rajasthan"
+  },
+  "Alwar": {
+    "lat": 27.5625,
+    "lng": 76.625,
+    "elevation": 269,
+    "geocodedName": "Alwar",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Beawar": {
+    "lat": 26.1012,
+    "lng": 74.3203,
+    "elevation": 453,
+    "geocodedName": "Beāwar",
+    "admin1": "Rajasthan"
+  },
+  "Beawar": {
+    "lat": 26.1012,
+    "lng": 74.3203,
+    "elevation": 453,
+    "geocodedName": "Beāwar",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Bharatpur": {
+    "lat": 27.2173,
+    "lng": 77.4901,
+    "elevation": 180,
+    "geocodedName": "Bharatpur",
+    "admin1": "Rajasthan"
+  },
+  "Bharatpur": {
+    "lat": 27.2173,
+    "lng": 77.4901,
+    "elevation": 180,
+    "geocodedName": "Bharatpur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jodhpur": {
+    "lat": 26.2684,
+    "lng": 73.0059,
+    "elevation": 237,
+    "geocodedName": "Jodhpur",
+    "admin1": "Rajasthan"
+  },
+  "Jodhpur": {
+    "lat": 26.2684,
+    "lng": 73.0059,
+    "elevation": 237,
+    "geocodedName": "Jodhpur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Kota": {
+    "lat": 25.1825,
+    "lng": 75.8391,
+    "elevation": 267,
+    "geocodedName": "Kota",
+    "admin1": "Rajasthan"
+  },
+  "Kota": {
+    "lat": 25.1825,
+    "lng": 75.8391,
+    "elevation": 267,
+    "geocodedName": "Kota",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Kekri": {
+    "lat": 25.9713,
+    "lng": 75.1499,
+    "elevation": 358,
+    "geocodedName": "Kekri",
+    "admin1": "Rajasthan"
+  },
+  "Kekri": {
+    "lat": 25.9713,
+    "lng": 75.1499,
+    "elevation": 358,
+    "geocodedName": "Kekri",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jhunjhunu": {
+    "lat": 28.1256,
+    "lng": 75.398,
+    "elevation": 343,
+    "geocodedName": "Jhunjhunūn",
+    "admin1": "Rajasthan"
+  },
+  "Jhunjhunu": {
+    "lat": 28.1256,
+    "lng": 75.398,
+    "elevation": 343,
+    "geocodedName": "Jhunjhunūn",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Karauli": {
+    "lat": 26.4983,
+    "lng": 77.0276,
+    "elevation": 272,
+    "geocodedName": "Karauli",
+    "admin1": "Rajasthan"
+  },
+  "Karauli": {
+    "lat": 26.4983,
+    "lng": 77.0276,
+    "elevation": 272,
+    "geocodedName": "Karauli",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jaipur": {
+    "lat": 26.9196,
+    "lng": 75.7878,
+    "elevation": 435,
+    "geocodedName": "Jaipur",
+    "admin1": "Rajasthan"
+  },
+  "Jaipur": {
+    "lat": 26.9196,
+    "lng": 75.7878,
+    "elevation": 435,
+    "geocodedName": "Jaipur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jodhpur Rural": {
+    "lat": 26.2684,
+    "lng": 73.0059,
+    "elevation": 237,
+    "geocodedName": "Jodhpur",
+    "admin1": "Rajasthan"
+  },
+  "Jodhpur Rural": {
+    "lat": 26.2684,
+    "lng": 73.0059,
+    "elevation": 237,
+    "geocodedName": "Jodhpur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jaipur Rural": {
+    "lat": 26.9196,
+    "lng": 75.7878,
+    "elevation": 435,
+    "geocodedName": "Jaipur",
+    "admin1": "Rajasthan"
+  },
+  "Jaipur Rural": {
+    "lat": 26.9196,
+    "lng": 75.7878,
+    "elevation": 435,
+    "geocodedName": "Jaipur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jhalawar": {
+    "lat": 24.5963,
+    "lng": 76.165,
+    "elevation": 322,
+    "geocodedName": "Jhālāwār",
+    "admin1": "Rajasthan"
+  },
+  "Jhalawar": {
+    "lat": 24.5963,
+    "lng": 76.165,
+    "elevation": 322,
+    "geocodedName": "Jhālāwār",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jaisalmer": {
+    "lat": 26.9176,
+    "lng": 70.9039,
+    "elevation": 234,
+    "geocodedName": "Jaisalmer",
+    "admin1": "Rajasthan"
+  },
+  "Jaisalmer": {
+    "lat": 26.9176,
+    "lng": 70.9039,
+    "elevation": 234,
+    "geocodedName": "Jaisalmer",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Nagaur": {
+    "lat": 27.202,
+    "lng": 73.7339,
+    "elevation": 305,
+    "geocodedName": "Nāgaur",
+    "admin1": "Rajasthan"
+  },
+  "Nagaur": {
+    "lat": 27.202,
+    "lng": 73.7339,
+    "elevation": 305,
+    "geocodedName": "Nāgaur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Hanumangarh": {
+    "lat": 29.5818,
+    "lng": 74.3294,
+    "elevation": 184,
+    "geocodedName": "Hanumāngarh",
+    "admin1": "Rajasthan"
+  },
+  "Hanumangarh": {
+    "lat": 29.5818,
+    "lng": 74.3294,
+    "elevation": 184,
+    "geocodedName": "Hanumāngarh",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Jalore": {
+    "lat": 25.35,
+    "lng": 72.62,
+    "elevation": 178,
+    "geocodedName": "Jalore",
+    "admin1": "Rajasthan"
+  },
+  "Jalore": {
+    "lat": 25.35,
+    "lng": 72.62,
+    "elevation": 178,
+    "geocodedName": "Jalore",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Sawai Madhopur": {
+    "lat": 26.023,
+    "lng": 76.3441,
+    "elevation": 257,
+    "geocodedName": "Sawai Madhopur",
+    "admin1": "Rajasthan"
+  },
+  "Sawai Madhopur": {
+    "lat": 26.023,
+    "lng": 76.3441,
+    "elevation": 257,
+    "geocodedName": "Sawai Madhopur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Sirohi": {
+    "lat": 24.8884,
+    "lng": 72.8479,
+    "elevation": 294,
+    "geocodedName": "Sirohi",
+    "admin1": "Rajasthan"
+  },
+  "Sirohi": {
+    "lat": 24.8884,
+    "lng": 72.8479,
+    "elevation": 294,
+    "geocodedName": "Sirohi",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Sanchore": {
+    "lat": 24.7536,
+    "lng": 71.7728,
+    "elevation": 62,
+    "geocodedName": "Sānchor",
+    "admin1": "Rajasthan"
+  },
+  "Sanchore": {
+    "lat": 24.7536,
+    "lng": 71.7728,
+    "elevation": 62,
+    "geocodedName": "Sānchor",
+    "admin1": "Rajasthan"
+  },
+  "Sikkim__Gyalshing": {
+    "lat": 27.2895,
+    "lng": 88.2576,
+    "elevation": 1532,
+    "geocodedName": "Gyalshing",
+    "admin1": "Sikkim"
+  },
+  "Gyalshing": {
+    "lat": 27.2895,
+    "lng": 88.2576,
+    "elevation": 1532,
+    "geocodedName": "Gyalshing",
+    "admin1": "Sikkim"
+  },
+  "Rajasthan__Sikar": {
+    "lat": 27.6121,
+    "lng": 75.14,
+    "elevation": 435,
+    "geocodedName": "Sīkar",
+    "admin1": "Rajasthan"
+  },
+  "Sikar": {
+    "lat": 27.6121,
+    "lng": 75.14,
+    "elevation": 435,
+    "geocodedName": "Sīkar",
+    "admin1": "Rajasthan"
+  },
+  "Sikkim__Gangtok": {
+    "lat": 27.3257,
+    "lng": 88.6122,
+    "elevation": 1654,
+    "geocodedName": "Gangtok",
+    "admin1": "Sikkim"
+  },
+  "Gangtok": {
+    "lat": 27.3257,
+    "lng": 88.6122,
+    "elevation": 1654,
+    "geocodedName": "Gangtok",
+    "admin1": "Sikkim"
+  },
+  "Rajasthan__Pratapgarh": {
+    "lat": 24.0322,
+    "lng": 74.7816,
+    "elevation": 498,
+    "geocodedName": "Pratāpgarh",
+    "admin1": "Rajasthan"
+  },
+  "Pratapgarh": {
+    "lat": 25.9206,
+    "lng": 81.9963,
+    "elevation": 97,
+    "geocodedName": "Bela",
+    "admin1": "Uttar Pradesh"
+  },
+  "Rajasthan__Tonk": {
+    "lat": 26.1664,
+    "lng": 75.7882,
+    "elevation": 278,
+    "geocodedName": "Tonk",
+    "admin1": "Rajasthan"
+  },
+  "Tonk": {
+    "lat": 26.1664,
+    "lng": 75.7882,
+    "elevation": 278,
+    "geocodedName": "Tonk",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Rajsamand": {
+    "lat": 25.0714,
+    "lng": 73.8798,
+    "elevation": 548,
+    "geocodedName": "Rājsamand",
+    "admin1": "Rajasthan"
+  },
+  "Rajsamand": {
+    "lat": 25.0714,
+    "lng": 73.8798,
+    "elevation": 548,
+    "geocodedName": "Rājsamand",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Udaipur": {
+    "lat": 24.5858,
+    "lng": 73.7135,
+    "elevation": 565,
+    "geocodedName": "Udaipur",
+    "admin1": "Rajasthan"
+  },
+  "Udaipur": {
+    "lat": 24.5858,
+    "lng": 73.7135,
+    "elevation": 565,
+    "geocodedName": "Udaipur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Neem Ka Thana": {
+    "lat": 27.7398,
+    "lng": 75.7865,
+    "elevation": 458,
+    "geocodedName": "Neem ka Thana",
+    "admin1": "Rajasthan"
+  },
+  "Neem Ka Thana": {
+    "lat": 27.7398,
+    "lng": 75.7865,
+    "elevation": 458,
+    "geocodedName": "Neem ka Thana",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Shahpura": {
+    "lat": 27.3912,
+    "lng": 75.9596,
+    "elevation": 438,
+    "geocodedName": "Shāhpura",
+    "admin1": "Rajasthan"
+  },
+  "Shahpura": {
+    "lat": 27.3912,
+    "lng": 75.9596,
+    "elevation": 438,
+    "geocodedName": "Shāhpura",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Salumbar": {
+    "lat": 24.1352,
+    "lng": 74.0444,
+    "elevation": 242,
+    "geocodedName": "Sālūmbar",
+    "admin1": "Rajasthan"
+  },
+  "Salumbar": {
+    "lat": 24.1352,
+    "lng": 74.0444,
+    "elevation": 242,
+    "geocodedName": "Sālūmbar",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Pali": {
+    "lat": 25.7728,
+    "lng": 73.3234,
+    "elevation": 219,
+    "geocodedName": "Pāli",
+    "admin1": "Rajasthan"
+  },
+  "Pali": {
+    "lat": 25.7728,
+    "lng": 73.3234,
+    "elevation": 219,
+    "geocodedName": "Pāli",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Phalodi": {
+    "lat": 27.131,
+    "lng": 72.3683,
+    "elevation": 228,
+    "geocodedName": "Phalodi",
+    "admin1": "Rajasthan"
+  },
+  "Phalodi": {
+    "lat": 27.131,
+    "lng": 72.3683,
+    "elevation": 228,
+    "geocodedName": "Phalodi",
+    "admin1": "Rajasthan"
+  },
+  "Tamil Nadu__Dindigul": {
+    "lat": 10.369,
+    "lng": 77.9804,
+    "elevation": 285,
+    "geocodedName": "Dindigul",
+    "admin1": "Tamil Nadu"
+  },
+  "Dindigul": {
+    "lat": 10.369,
+    "lng": 77.9804,
+    "elevation": 285,
+    "geocodedName": "Dindigul",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Coimbatore": {
+    "lat": 11.0055,
+    "lng": 76.9661,
+    "elevation": 411,
+    "geocodedName": "Coimbatore",
+    "admin1": "Tamil Nadu"
+  },
+  "Coimbatore": {
+    "lat": 11.0055,
+    "lng": 76.9661,
+    "elevation": 411,
+    "geocodedName": "Coimbatore",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Dharmapuri": {
+    "lat": 12.1277,
+    "lng": 78.1579,
+    "elevation": 468,
+    "geocodedName": "Dharmapuri",
+    "admin1": "Tamil Nadu"
+  },
+  "Dharmapuri": {
+    "lat": 12.1277,
+    "lng": 78.1579,
+    "elevation": 468,
+    "geocodedName": "Dharmapuri",
+    "admin1": "Tamil Nadu"
+  },
+  "Sikkim__Soreng": {
+    "lat": 27.169,
+    "lng": 88.2026,
+    "elevation": 1632,
+    "geocodedName": "Soreng",
+    "admin1": "Sikkim"
+  },
+  "Soreng": {
+    "lat": 27.169,
+    "lng": 88.2026,
+    "elevation": 1632,
+    "geocodedName": "Soreng",
+    "admin1": "Sikkim"
+  },
+  "Tamil Nadu__Kanchipuram": {
+    "lat": 12.8352,
+    "lng": 79.7001,
+    "elevation": 85,
+    "geocodedName": "Kanchipuram",
+    "admin1": "Tamil Nadu"
+  },
+  "Kanchipuram": {
+    "lat": 12.8352,
+    "lng": 79.7001,
+    "elevation": 85,
+    "geocodedName": "Kanchipuram",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Chennai": {
+    "lat": 13.0878,
+    "lng": 80.2785,
+    "elevation": 14,
+    "geocodedName": "Chennai",
+    "admin1": "Tamil Nadu"
+  },
+  "Chennai": {
+    "lat": 13.0878,
+    "lng": 80.2785,
+    "elevation": 14,
+    "geocodedName": "Chennai",
+    "admin1": "Tamil Nadu"
+  },
+  "Sikkim__Mangan": {
+    "lat": 27.5097,
+    "lng": 88.5221,
+    "elevation": 953,
+    "geocodedName": "Mangan",
+    "admin1": "Sikkim"
+  },
+  "Mangan": {
+    "lat": 27.5097,
+    "lng": 88.5221,
+    "elevation": 953,
+    "geocodedName": "Mangan",
+    "admin1": "Sikkim"
+  },
+  "Tamil Nadu__Cuddalore": {
+    "lat": 11.7562,
+    "lng": 79.7669,
+    "elevation": 13,
+    "geocodedName": "Cuddalore",
+    "admin1": "Tamil Nadu"
+  },
+  "Cuddalore": {
+    "lat": 11.7562,
+    "lng": 79.7669,
+    "elevation": 13,
+    "geocodedName": "Cuddalore",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Ariyalur": {
+    "lat": 11.1385,
+    "lng": 79.0756,
+    "elevation": 82,
+    "geocodedName": "Ariyalūr",
+    "admin1": "Tamil Nadu"
+  },
+  "Ariyalur": {
+    "lat": 11.1385,
+    "lng": 79.0756,
+    "elevation": 82,
+    "geocodedName": "Ariyalūr",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Erode": {
+    "lat": 11.3428,
+    "lng": 77.7274,
+    "elevation": 170,
+    "geocodedName": "Erode",
+    "admin1": "Tamil Nadu"
+  },
+  "Erode": {
+    "lat": 11.3428,
+    "lng": 77.7274,
+    "elevation": 170,
+    "geocodedName": "Erode",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Kallakurichi": {
+    "lat": 11.7338,
+    "lng": 78.9592,
+    "elevation": 124,
+    "geocodedName": "Kallakurichi",
+    "admin1": "Tamil Nadu"
+  },
+  "Kallakurichi": {
+    "lat": 11.7338,
+    "lng": 78.9592,
+    "elevation": 124,
+    "geocodedName": "Kallakurichi",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Chengalpattu": {
+    "lat": 12.6918,
+    "lng": 79.9766,
+    "elevation": 61,
+    "geocodedName": "Chengalpattu",
+    "admin1": "Tamil Nadu"
+  },
+  "Chengalpattu": {
+    "lat": 12.6918,
+    "lng": 79.9766,
+    "elevation": 61,
+    "geocodedName": "Chengalpattu",
+    "admin1": "Tamil Nadu"
+  },
+  "Sikkim__Pakyong": {
+    "lat": 27.2418,
+    "lng": 88.5984,
+    "elevation": 1307,
+    "geocodedName": "Pākyong",
+    "admin1": "Sikkim"
+  },
+  "Pakyong": {
+    "lat": 27.2418,
+    "lng": 88.5984,
+    "elevation": 1307,
+    "geocodedName": "Pākyong",
+    "admin1": "Sikkim"
+  },
+  "Sikkim__Namchi": {
+    "lat": 27.1649,
+    "lng": 88.3638,
+    "elevation": 1427,
+    "geocodedName": "Namchi",
+    "admin1": "Sikkim"
+  },
+  "Namchi": {
+    "lat": 27.1649,
+    "lng": 88.3638,
+    "elevation": 1427,
+    "geocodedName": "Namchi",
+    "admin1": "Sikkim"
+  },
+  "Tamil Nadu__Tenkasi": {
+    "lat": 8.96,
+    "lng": 77.3153,
+    "elevation": 170,
+    "geocodedName": "Thenkasi",
+    "admin1": "Tamil Nadu"
+  },
+  "Tenkasi": {
+    "lat": 8.96,
+    "lng": 77.3153,
+    "elevation": 170,
+    "geocodedName": "Thenkasi",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Mayiladuthurai": {
+    "lat": 11.1035,
+    "lng": 79.655,
+    "elevation": 16,
+    "geocodedName": "Mayiladuthurai",
+    "admin1": "Tamil Nadu"
+  },
+  "Mayiladuthurai": {
+    "lat": 11.1035,
+    "lng": 79.655,
+    "elevation": 16,
+    "geocodedName": "Mayiladuthurai",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Salem": {
+    "lat": 11.6538,
+    "lng": 78.1554,
+    "elevation": 283,
+    "geocodedName": "Salem",
+    "admin1": "Tamil Nadu"
+  },
+  "Salem": {
+    "lat": 11.6538,
+    "lng": 78.1554,
+    "elevation": 283,
+    "geocodedName": "Salem",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Perambalur": {
+    "lat": 11.2333,
+    "lng": 78.8833,
+    "elevation": 124,
+    "geocodedName": "Perambalur",
+    "admin1": "Tamil Nadu"
+  },
+  "Perambalur": {
+    "lat": 11.2333,
+    "lng": 78.8833,
+    "elevation": 124,
+    "geocodedName": "Perambalur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Ramanathapuram": {
+    "lat": 9.3716,
+    "lng": 78.8308,
+    "elevation": 10,
+    "geocodedName": "Ramanathapuram",
+    "admin1": "Tamil Nadu"
+  },
+  "Ramanathapuram": {
+    "lat": 9.3716,
+    "lng": 78.8308,
+    "elevation": 10,
+    "geocodedName": "Ramanathapuram",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Nagapattinam": {
+    "lat": 10.7638,
+    "lng": 79.8431,
+    "elevation": 10,
+    "geocodedName": "Nagapattinam",
+    "admin1": "Tamil Nadu"
+  },
+  "Nagapattinam": {
+    "lat": 10.7638,
+    "lng": 79.8431,
+    "elevation": 10,
+    "geocodedName": "Nagapattinam",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Thanjavur": {
+    "lat": 10.7852,
+    "lng": 79.1391,
+    "elevation": 57,
+    "geocodedName": "Thanjavur",
+    "admin1": "Tamil Nadu"
+  },
+  "Thanjavur": {
+    "lat": 10.7852,
+    "lng": 79.1391,
+    "elevation": 57,
+    "geocodedName": "Thanjavur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Karur": {
+    "lat": 10.9577,
+    "lng": 78.081,
+    "elevation": 126,
+    "geocodedName": "Karur",
+    "admin1": "Tamil Nadu"
+  },
+  "Karur": {
+    "lat": 10.9577,
+    "lng": 78.081,
+    "elevation": 126,
+    "geocodedName": "Karur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Ranipet": {
+    "lat": 12.9247,
+    "lng": 79.3333,
+    "elevation": 171,
+    "geocodedName": "Ranipet",
+    "admin1": "Tamil Nadu"
+  },
+  "Ranipet": {
+    "lat": 12.9247,
+    "lng": 79.3333,
+    "elevation": 171,
+    "geocodedName": "Ranipet",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Sivaganga": {
+    "lat": 9.847,
+    "lng": 78.4836,
+    "elevation": 103,
+    "geocodedName": "Sivaganga",
+    "admin1": "Tamil Nadu"
+  },
+  "Sivaganga": {
+    "lat": 9.847,
+    "lng": 78.4836,
+    "elevation": 103,
+    "geocodedName": "Sivaganga",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Pudukkottai": {
+    "lat": 10.3813,
+    "lng": 78.8214,
+    "elevation": 102,
+    "geocodedName": "Pudukkottai",
+    "admin1": "Tamil Nadu"
+  },
+  "Pudukkottai": {
+    "lat": 10.3813,
+    "lng": 78.8214,
+    "elevation": 102,
+    "geocodedName": "Pudukkottai",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Namakkal": {
+    "lat": 11.2213,
+    "lng": 78.1652,
+    "elevation": 223,
+    "geocodedName": "Namakkal",
+    "admin1": "Tamil Nadu"
+  },
+  "Namakkal": {
+    "lat": 11.2213,
+    "lng": 78.1652,
+    "elevation": 223,
+    "geocodedName": "Namakkal",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Madurai": {
+    "lat": 9.919,
+    "lng": 78.1195,
+    "elevation": 139,
+    "geocodedName": "Madurai",
+    "admin1": "Tamil Nadu"
+  },
+  "Madurai": {
+    "lat": 9.919,
+    "lng": 78.1195,
+    "elevation": 139,
+    "geocodedName": "Madurai",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Krishnagiri": {
+    "lat": 12.5192,
+    "lng": 78.2138,
+    "elevation": 492,
+    "geocodedName": "Krishnagiri",
+    "admin1": "Tamil Nadu"
+  },
+  "Krishnagiri": {
+    "lat": 12.5192,
+    "lng": 78.2138,
+    "elevation": 492,
+    "geocodedName": "Krishnagiri",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Tirunelveli": {
+    "lat": 8.7274,
+    "lng": 77.6838,
+    "elevation": 49,
+    "geocodedName": "Tirunelveli",
+    "admin1": "Tamil Nadu"
+  },
+  "Tirunelveli": {
+    "lat": 8.7274,
+    "lng": 77.6838,
+    "elevation": 49,
+    "geocodedName": "Tirunelveli",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Theni": {
+    "lat": 10.0112,
+    "lng": 77.4777,
+    "elevation": 300,
+    "geocodedName": "Theni",
+    "admin1": "Tamil Nadu"
+  },
+  "Theni": {
+    "lat": 10.0112,
+    "lng": 77.4777,
+    "elevation": 300,
+    "geocodedName": "Theni",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Tiruvallur": {
+    "lat": 13.1438,
+    "lng": 79.9089,
+    "elevation": 46,
+    "geocodedName": "Tiruvallur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tiruvallur": {
+    "lat": 13.1438,
+    "lng": 79.9089,
+    "elevation": 46,
+    "geocodedName": "Tiruvallur",
+    "admin1": "Tamil Nadu"
+  },
+  "Telangana__Bhadradri Kothagudem": {
+    "lat": 17.5511,
+    "lng": 80.6178,
+    "elevation": 115,
+    "geocodedName": "Kottagūdem",
+    "admin1": "Telangana"
+  },
+  "Bhadradri Kothagudem": {
+    "lat": 17.5511,
+    "lng": 80.6178,
+    "elevation": 115,
+    "geocodedName": "Kottagūdem",
+    "admin1": "Telangana"
+  },
+  "Tamil Nadu__Vellore": {
+    "lat": 12.9184,
+    "lng": 79.1325,
+    "elevation": 218,
+    "geocodedName": "Vellore",
+    "admin1": "Tamil Nadu"
+  },
+  "Vellore": {
+    "lat": 12.9184,
+    "lng": 79.1325,
+    "elevation": 218,
+    "geocodedName": "Vellore",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Tiruvannamalai": {
+    "lat": 12.2266,
+    "lng": 79.0746,
+    "elevation": 174,
+    "geocodedName": "Tiruvannamalai",
+    "admin1": "Tamil Nadu"
+  },
+  "Tiruvannamalai": {
+    "lat": 12.2266,
+    "lng": 79.0746,
+    "elevation": 174,
+    "geocodedName": "Tiruvannamalai",
+    "admin1": "Tamil Nadu"
+  },
+  "Telangana__Hanumakonda": {
+    "lat": 18.0101,
+    "lng": 79.5694,
+    "elevation": 265,
+    "geocodedName": "Hanamkonda",
+    "admin1": "Telangana"
+  },
+  "Hanumakonda": {
+    "lat": 18.0101,
+    "lng": 79.5694,
+    "elevation": 265,
+    "geocodedName": "Hanamkonda",
+    "admin1": "Telangana"
+  },
+  "Telangana__Adilabad": {
+    "lat": 19.672,
+    "lng": 78.5359,
+    "elevation": 257,
+    "geocodedName": "Adilabad",
+    "admin1": "Telangana"
+  },
+  "Adilabad": {
+    "lat": 19.672,
+    "lng": 78.5359,
+    "elevation": 257,
+    "geocodedName": "Adilabad",
+    "admin1": "Telangana"
+  },
+  "Tamil Nadu__Tiruchirappalli": {
+    "lat": 10.8155,
+    "lng": 78.6965,
+    "elevation": 79,
+    "geocodedName": "Tiruchirappalli",
+    "admin1": "Tamil Nadu"
+  },
+  "Tiruchirappalli": {
+    "lat": 10.8155,
+    "lng": 78.6965,
+    "elevation": 79,
+    "geocodedName": "Tiruchirappalli",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Tiruvarur": {
+    "lat": 10.7727,
+    "lng": 79.6368,
+    "elevation": 16,
+    "geocodedName": "Thiruvarur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tiruvarur": {
+    "lat": 10.7727,
+    "lng": 79.6368,
+    "elevation": 16,
+    "geocodedName": "Thiruvarur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Thoothukudi": {
+    "lat": 8.7674,
+    "lng": 78.1342,
+    "elevation": 2,
+    "geocodedName": "Thoothukudi",
+    "admin1": "Tamil Nadu"
+  },
+  "Thoothukudi": {
+    "lat": 8.7674,
+    "lng": 78.1342,
+    "elevation": 2,
+    "geocodedName": "Thoothukudi",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Tiruppur": {
+    "lat": 11.1154,
+    "lng": 77.3546,
+    "elevation": 305,
+    "geocodedName": "Tirupur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tiruppur": {
+    "lat": 11.1154,
+    "lng": 77.3546,
+    "elevation": 305,
+    "geocodedName": "Tirupur",
+    "admin1": "Tamil Nadu"
+  },
+  "Telangana__Mancherial": {
+    "lat": 18.8707,
+    "lng": 79.4286,
+    "elevation": 149,
+    "geocodedName": "Mancherial",
+    "admin1": "Telangana"
+  },
+  "Mancherial": {
+    "lat": 18.8707,
+    "lng": 79.4286,
+    "elevation": 149,
+    "geocodedName": "Mancherial",
+    "admin1": "Telangana"
+  },
+  "Telangana__Jayashankar Bhupalpally": {
+    "lat": 18.4287,
+    "lng": 79.8638,
+    "elevation": 218,
+    "geocodedName": "Bhupalpally",
+    "admin1": "Telangana"
+  },
+  "Jayashankar Bhupalpally": {
+    "lat": 18.4287,
+    "lng": 79.8638,
+    "elevation": 218,
+    "geocodedName": "Bhupalpally",
+    "admin1": "Telangana"
+  },
+  "Telangana__Khammam": {
+    "lat": 17.2477,
+    "lng": 80.1437,
+    "elevation": 120,
+    "geocodedName": "Khammam",
+    "admin1": "Telangana"
+  },
+  "Khammam": {
+    "lat": 17.2477,
+    "lng": 80.1437,
+    "elevation": 120,
+    "geocodedName": "Khammam",
+    "admin1": "Telangana"
+  },
+  "Telangana__Jogulamba Gadwal": {
+    "lat": 16.235,
+    "lng": 77.7956,
+    "elevation": 326,
+    "geocodedName": "Gadwāl",
+    "admin1": "Telangana"
+  },
+  "Jogulamba Gadwal": {
+    "lat": 16.235,
+    "lng": 77.7956,
+    "elevation": 326,
+    "geocodedName": "Gadwāl",
+    "admin1": "Telangana"
+  },
+  "Telangana__Mulugu": {
+    "lat": 18.191,
+    "lng": 79.943,
+    "elevation": 229,
+    "geocodedName": "Mulugu",
+    "admin1": "Telangana"
+  },
+  "Mulugu": {
+    "lat": 18.191,
+    "lng": 79.943,
+    "elevation": 229,
+    "geocodedName": "Mulugu",
+    "admin1": "Telangana"
+  },
+  "Telangana__Karimnagar": {
+    "lat": 18.4392,
+    "lng": 79.1286,
+    "elevation": 279,
+    "geocodedName": "Karīmnagar",
+    "admin1": "Telangana"
+  },
+  "Karimnagar": {
+    "lat": 18.4392,
+    "lng": 79.1286,
+    "elevation": 279,
+    "geocodedName": "Karīmnagar",
+    "admin1": "Telangana"
+  },
+  "Telangana__Jagtial": {
+    "lat": 18.7947,
+    "lng": 78.9166,
+    "elevation": 282,
+    "geocodedName": "Jagtiāl",
+    "admin1": "Telangana"
+  },
+  "Jagtial": {
+    "lat": 18.7947,
+    "lng": 78.9166,
+    "elevation": 282,
+    "geocodedName": "Jagtiāl",
+    "admin1": "Telangana"
+  },
+  "Telangana__Medchal-Malkajgiri": {
+    "lat": 17.4478,
+    "lng": 78.5263,
+    "elevation": 536,
+    "geocodedName": "Malkajgiri",
+    "admin1": "Telangana"
+  },
+  "Medchal-Malkajgiri": {
+    "lat": 17.4478,
+    "lng": 78.5263,
+    "elevation": 536,
+    "geocodedName": "Malkajgiri",
+    "admin1": "Telangana"
+  },
+  "Telangana__Hyderabad": {
+    "lat": 17.384,
+    "lng": 78.4564,
+    "elevation": 515,
+    "geocodedName": "Hyderabad",
+    "admin1": "Telangana"
+  },
+  "Hyderabad": {
+    "lat": 17.384,
+    "lng": 78.4564,
+    "elevation": 515,
+    "geocodedName": "Hyderabad",
+    "admin1": "Telangana"
+  },
+  "Telangana__Medak": {
+    "lat": 18.0453,
+    "lng": 78.2608,
+    "elevation": 474,
+    "geocodedName": "Medak",
+    "admin1": "Telangana"
+  },
+  "Medak": {
+    "lat": 18.0453,
+    "lng": 78.2608,
+    "elevation": 474,
+    "geocodedName": "Medak",
+    "admin1": "Telangana"
+  },
+  "Telangana__Jangaon": {
+    "lat": 17.726,
+    "lng": 79.1524,
+    "elevation": 383,
+    "geocodedName": "Jangaon",
+    "admin1": "Telangana"
+  },
+  "Jangaon": {
+    "lat": 17.726,
+    "lng": 79.1524,
+    "elevation": 383,
+    "geocodedName": "Jangaon",
+    "admin1": "Telangana"
+  },
+  "Telangana__Vikarabad": {
+    "lat": 17.3381,
+    "lng": 77.9044,
+    "elevation": 638,
+    "geocodedName": "Vikārābād",
+    "admin1": "Telangana"
+  },
+  "Vikarabad": {
+    "lat": 17.3381,
+    "lng": 77.9044,
+    "elevation": 638,
+    "geocodedName": "Vikārābād",
+    "admin1": "Telangana"
+  },
+  "Telangana__Siddipet": {
+    "lat": 18.1048,
+    "lng": 78.8486,
+    "elevation": 493,
+    "geocodedName": "Siddipet",
+    "admin1": "Telangana"
+  },
+  "Siddipet": {
+    "lat": 18.1048,
+    "lng": 78.8486,
+    "elevation": 493,
+    "geocodedName": "Siddipet",
+    "admin1": "Telangana"
+  },
+  "Telangana__Nirmal": {
+    "lat": 19.0968,
+    "lng": 78.3441,
+    "elevation": 338,
+    "geocodedName": "Nirmal",
+    "admin1": "Telangana"
+  },
+  "Nirmal": {
+    "lat": 19.0968,
+    "lng": 78.3441,
+    "elevation": 338,
+    "geocodedName": "Nirmal",
+    "admin1": "Telangana"
+  },
+  "Telangana__Warangal": {
+    "lat": 18,
+    "lng": 79.5833,
+    "elevation": 258,
+    "geocodedName": "Warangal",
+    "admin1": "Telangana"
+  },
+  "Warangal": {
+    "lat": 18,
+    "lng": 79.5833,
+    "elevation": 258,
+    "geocodedName": "Warangal",
+    "admin1": "Telangana"
+  },
+  "Telangana__Nalgonda": {
+    "lat": 17.0544,
+    "lng": 79.2671,
+    "elevation": 235,
+    "geocodedName": "Nalgonda",
+    "admin1": "Telangana"
+  },
+  "Nalgonda": {
+    "lat": 17.0544,
+    "lng": 79.2671,
+    "elevation": 235,
+    "geocodedName": "Nalgonda",
+    "admin1": "Telangana"
+  },
+  "Telangana__Narayanpet": {
+    "lat": 16.748,
+    "lng": 77.4954,
+    "elevation": 443,
+    "geocodedName": "Nārāyanpet",
+    "admin1": "Telangana"
+  },
+  "Narayanpet": {
+    "lat": 16.748,
+    "lng": 77.4954,
+    "elevation": 443,
+    "geocodedName": "Nārāyanpet",
+    "admin1": "Telangana"
+  },
+  "Telangana__Peddapalli": {
+    "lat": 18.6136,
+    "lng": 79.3744,
+    "elevation": 234,
+    "geocodedName": "Peddapalli",
+    "admin1": "Telangana"
+  },
+  "Peddapalli": {
+    "lat": 18.6136,
+    "lng": 79.3744,
+    "elevation": 234,
+    "geocodedName": "Peddapalli",
+    "admin1": "Telangana"
+  },
+  "Telangana__Suryapet": {
+    "lat": 17.1405,
+    "lng": 79.6205,
+    "elevation": 177,
+    "geocodedName": "Suriāpet",
+    "admin1": "Telangana"
+  },
+  "Suryapet": {
+    "lat": 17.1405,
+    "lng": 79.6205,
+    "elevation": 177,
+    "geocodedName": "Suriāpet",
+    "admin1": "Telangana"
+  },
+  "Telangana__Nizamabad": {
+    "lat": 18.6715,
+    "lng": 78.0988,
+    "elevation": 389,
+    "geocodedName": "Nizāmābād",
+    "admin1": "Telangana"
+  },
+  "Nizamabad": {
+    "lat": 18.6715,
+    "lng": 78.0988,
+    "elevation": 389,
+    "geocodedName": "Nizāmābād",
+    "admin1": "Telangana"
+  },
+  "Telangana__Wanaparthy": {
+    "lat": 16.3674,
+    "lng": 78.0689,
+    "elevation": 401,
+    "geocodedName": "Wanparti",
+    "admin1": "Telangana"
+  },
+  "Wanaparthy": {
+    "lat": 16.3674,
+    "lng": 78.0689,
+    "elevation": 401,
+    "geocodedName": "Wanparti",
+    "admin1": "Telangana"
+  },
+  "Tripura__Khowai": {
+    "lat": 24.0796,
+    "lng": 91.5997,
+    "elevation": 33,
+    "geocodedName": "Khowai",
+    "admin1": "Tripura"
+  },
+  "Khowai": {
+    "lat": 24.0796,
+    "lng": 91.5997,
+    "elevation": 33,
+    "geocodedName": "Khowai",
+    "admin1": "Tripura"
+  },
+  "Tripura__Dhalai": {
+    "lat": 24.6012,
+    "lng": 92.8478,
+    "elevation": 35,
+    "geocodedName": "Dhalai",
+    "admin1": "Assam"
+  },
+  "Dhalai": {
+    "lat": 24.6012,
+    "lng": 92.8478,
+    "elevation": 35,
+    "geocodedName": "Dhalai",
+    "admin1": "Assam"
+  },
+  "Tripura__Gomati": {
+    "lat": 23.53,
+    "lng": 91.48,
+    "elevation": 25,
+    "geocodedName": "Udaipur",
+    "admin1": "Tripura"
+  },
+  "Gomati": {
+    "lat": 23.53,
+    "lng": 91.48,
+    "elevation": 25,
+    "geocodedName": "Udaipur",
+    "admin1": "Tripura"
+  },
+  "Uttar Pradesh__Amethi": {
+    "lat": 26.157,
+    "lng": 81.8052,
+    "elevation": 109,
+    "geocodedName": "Amethī",
+    "admin1": "Uttar Pradesh"
+  },
+  "Amethi": {
+    "lat": 26.157,
+    "lng": 81.8052,
+    "elevation": 109,
+    "geocodedName": "Amethī",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Agra": {
+    "lat": 27.1833,
+    "lng": 78.0167,
+    "elevation": 166,
+    "geocodedName": "Agra",
+    "admin1": "Uttar Pradesh"
+  },
+  "Agra": {
+    "lat": 27.1833,
+    "lng": 78.0167,
+    "elevation": 166,
+    "geocodedName": "Agra",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Amroha": {
+    "lat": 28.9031,
+    "lng": 78.4698,
+    "elevation": 218,
+    "geocodedName": "Amroha",
+    "admin1": "Uttar Pradesh"
+  },
+  "Amroha": {
+    "lat": 28.9031,
+    "lng": 78.4698,
+    "elevation": 218,
+    "geocodedName": "Amroha",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Ayodhya": {
+    "lat": 26.7991,
+    "lng": 82.2047,
+    "elevation": 102,
+    "geocodedName": "Ayodhya",
+    "admin1": "Uttar Pradesh"
+  },
+  "Ayodhya": {
+    "lat": 26.7991,
+    "lng": 82.2047,
+    "elevation": 102,
+    "geocodedName": "Ayodhya",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Auraiya": {
+    "lat": 26.4652,
+    "lng": 79.5092,
+    "elevation": 144,
+    "geocodedName": "Auraiya",
+    "admin1": "Uttar Pradesh"
+  },
+  "Auraiya": {
+    "lat": 26.4652,
+    "lng": 79.5092,
+    "elevation": 144,
+    "geocodedName": "Auraiya",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Aligarh": {
+    "lat": 27.8815,
+    "lng": 78.0746,
+    "elevation": 189,
+    "geocodedName": "Aligarh",
+    "admin1": "Uttar Pradesh"
+  },
+  "Aligarh": {
+    "lat": 27.8815,
+    "lng": 78.0746,
+    "elevation": 189,
+    "geocodedName": "Aligarh",
+    "admin1": "Uttar Pradesh"
+  },
+  "Tripura__West Tripura": {
+    "lat": 22.4125,
+    "lng": 92.0626,
+    "elevation": 23,
+    "geocodedName": "Tripura",
+    "admin1": "Chittagong"
+  },
+  "West Tripura": {
+    "lat": 22.4125,
+    "lng": 92.0626,
+    "elevation": 23,
+    "geocodedName": "Tripura",
+    "admin1": "Chittagong"
+  },
+  "Tripura__North Tripura": {
+    "lat": 22.4125,
+    "lng": 92.0626,
+    "elevation": 23,
+    "geocodedName": "Tripura",
+    "admin1": "Chittagong"
+  },
+  "North Tripura": {
+    "lat": 22.4125,
+    "lng": 92.0626,
+    "elevation": 23,
+    "geocodedName": "Tripura",
+    "admin1": "Chittagong"
+  },
+  "Tripura__South Tripura": {
+    "lat": 22.4125,
+    "lng": 92.0626,
+    "elevation": 23,
+    "geocodedName": "Tripura",
+    "admin1": "Chittagong"
+  },
+  "South Tripura": {
+    "lat": 22.4125,
+    "lng": 92.0626,
+    "elevation": 23,
+    "geocodedName": "Tripura",
+    "admin1": "Chittagong"
+  },
+  "Uttar Pradesh__Bijnor": {
+    "lat": 29.373,
+    "lng": 78.1364,
+    "elevation": 237,
+    "geocodedName": "Bijnor",
+    "admin1": "Uttar Pradesh"
+  },
+  "Bijnor": {
+    "lat": 29.373,
+    "lng": 78.1364,
+    "elevation": 237,
+    "geocodedName": "Bijnor",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Bhadohi": {
+    "lat": 25.3327,
+    "lng": 82.4664,
+    "elevation": 91,
+    "geocodedName": "Gyānpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Bhadohi": {
+    "lat": 25.3327,
+    "lng": 82.4664,
+    "elevation": 91,
+    "geocodedName": "Gyānpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Banda": {
+    "lat": 25.4776,
+    "lng": 80.3349,
+    "elevation": 127,
+    "geocodedName": "Bānda",
+    "admin1": "Uttar Pradesh"
+  },
+  "Banda": {
+    "lat": 25.4776,
+    "lng": 80.3349,
+    "elevation": 127,
+    "geocodedName": "Bānda",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Bahraich": {
+    "lat": 27.5743,
+    "lng": 81.5947,
+    "elevation": 127,
+    "geocodedName": "Bahraich",
+    "admin1": "Uttar Pradesh"
+  },
+  "Bahraich": {
+    "lat": 27.5743,
+    "lng": 81.5947,
+    "elevation": 127,
+    "geocodedName": "Bahraich",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Baghpat": {
+    "lat": 28.9448,
+    "lng": 77.2186,
+    "elevation": 227,
+    "geocodedName": "Bagpat",
+    "admin1": "Uttar Pradesh"
+  },
+  "Baghpat": {
+    "lat": 28.9448,
+    "lng": 77.2186,
+    "elevation": 227,
+    "geocodedName": "Bagpat",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Bareilly": {
+    "lat": 28.3668,
+    "lng": 79.4317,
+    "elevation": 178,
+    "geocodedName": "Bareilly",
+    "admin1": "Uttar Pradesh"
+  },
+  "Bareilly": {
+    "lat": 28.3668,
+    "lng": 79.4317,
+    "elevation": 178,
+    "geocodedName": "Bareilly",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Ballia": {
+    "lat": 28.2007,
+    "lng": 79.3667,
+    "elevation": 166,
+    "geocodedName": "Ballia",
+    "admin1": "Uttar Pradesh"
+  },
+  "Ballia": {
+    "lat": 28.2007,
+    "lng": 79.3667,
+    "elevation": 166,
+    "geocodedName": "Ballia",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Azamgarh": {
+    "lat": 26.0683,
+    "lng": 83.1836,
+    "elevation": 84,
+    "geocodedName": "Azamgarh",
+    "admin1": "Uttar Pradesh"
+  },
+  "Azamgarh": {
+    "lat": 26.0683,
+    "lng": 83.1836,
+    "elevation": 84,
+    "geocodedName": "Azamgarh",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Balrampur": {
+    "lat": 27.4295,
+    "lng": 82.1855,
+    "elevation": 112,
+    "geocodedName": "Balrāmpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Barabanki": {
+    "lat": 26.93,
+    "lng": 81.18,
+    "elevation": 125,
+    "geocodedName": "Barabanki",
+    "admin1": "Uttar Pradesh"
+  },
+  "Barabanki": {
+    "lat": 26.93,
+    "lng": 81.18,
+    "elevation": 125,
+    "geocodedName": "Barabanki",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Chandauli": {
+    "lat": 25.258,
+    "lng": 83.2682,
+    "elevation": 81,
+    "geocodedName": "Chandauli",
+    "admin1": "Uttar Pradesh"
+  },
+  "Chandauli": {
+    "lat": 25.258,
+    "lng": 83.2682,
+    "elevation": 81,
+    "geocodedName": "Chandauli",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Bulandshahr": {
+    "lat": 28.4039,
+    "lng": 77.8577,
+    "elevation": 210,
+    "geocodedName": "Bulandshahr",
+    "admin1": "Uttar Pradesh"
+  },
+  "Bulandshahr": {
+    "lat": 28.4039,
+    "lng": 77.8577,
+    "elevation": 210,
+    "geocodedName": "Bulandshahr",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Chitrakoot": {
+    "lat": 25.2147,
+    "lng": 80.9164,
+    "elevation": 141,
+    "geocodedName": "Chitrakoot Dham",
+    "admin1": "Uttar Pradesh"
+  },
+  "Chitrakoot": {
+    "lat": 25.2147,
+    "lng": 80.9164,
+    "elevation": 141,
+    "geocodedName": "Chitrakoot Dham",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Basti": {
+    "lat": 26.7882,
+    "lng": 82.7162,
+    "elevation": 92,
+    "geocodedName": "Basti",
+    "admin1": "Uttar Pradesh"
+  },
+  "Basti": {
+    "lat": 26.7882,
+    "lng": 82.7162,
+    "elevation": 92,
+    "geocodedName": "Basti",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Budaun": {
+    "lat": 28.0381,
+    "lng": 79.1267,
+    "elevation": 177,
+    "geocodedName": "Budaun",
+    "admin1": "Uttar Pradesh"
+  },
+  "Budaun": {
+    "lat": 28.0381,
+    "lng": 79.1267,
+    "elevation": 177,
+    "geocodedName": "Budaun",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Deoria": {
+    "lat": 26.5017,
+    "lng": 83.7794,
+    "elevation": 82,
+    "geocodedName": "Deoria",
+    "admin1": "Uttar Pradesh"
+  },
+  "Deoria": {
+    "lat": 26.5017,
+    "lng": 83.7794,
+    "elevation": 82,
+    "geocodedName": "Deoria",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Firozabad": {
+    "lat": 27.1509,
+    "lng": 78.3978,
+    "elevation": 169,
+    "geocodedName": "Firozabad",
+    "admin1": "Uttar Pradesh"
+  },
+  "Firozabad": {
+    "lat": 27.1509,
+    "lng": 78.3978,
+    "elevation": 169,
+    "geocodedName": "Firozabad",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Hardoi": {
+    "lat": 27.3949,
+    "lng": 80.1316,
+    "elevation": 146,
+    "geocodedName": "Hardoī",
+    "admin1": "Uttar Pradesh"
+  },
+  "Hardoi": {
+    "lat": 27.3949,
+    "lng": 80.1316,
+    "elevation": 146,
+    "geocodedName": "Hardoī",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Hapur": {
+    "lat": 28.7298,
+    "lng": 77.7807,
+    "elevation": 219,
+    "geocodedName": "Hāpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Hapur": {
+    "lat": 28.7298,
+    "lng": 77.7807,
+    "elevation": 219,
+    "geocodedName": "Hāpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Farrukhabad": {
+    "lat": 27.3913,
+    "lng": 79.5793,
+    "elevation": 156,
+    "geocodedName": "Farrukhābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Farrukhabad": {
+    "lat": 27.3913,
+    "lng": 79.5793,
+    "elevation": 156,
+    "geocodedName": "Farrukhābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Ghaziabad": {
+    "lat": 28.6654,
+    "lng": 77.4391,
+    "elevation": 214,
+    "geocodedName": "Ghaziabad",
+    "admin1": "Uttar Pradesh"
+  },
+  "Ghaziabad": {
+    "lat": 28.6654,
+    "lng": 77.4391,
+    "elevation": 214,
+    "geocodedName": "Ghaziabad",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Etah": {
+    "lat": 27.5588,
+    "lng": 78.6569,
+    "elevation": 173,
+    "geocodedName": "Etah",
+    "admin1": "Uttar Pradesh"
+  },
+  "Etah": {
+    "lat": 27.5588,
+    "lng": 78.6569,
+    "elevation": 173,
+    "geocodedName": "Etah",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Fatehpur": {
+    "lat": 25.9277,
+    "lng": 80.8127,
+    "elevation": 121,
+    "geocodedName": "Fatehpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Fatehpur": {
+    "lat": 25.9277,
+    "lng": 80.8127,
+    "elevation": 121,
+    "geocodedName": "Fatehpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Gonda": {
+    "lat": 27.8313,
+    "lng": 77.8791,
+    "elevation": 190,
+    "geocodedName": "Gonda",
+    "admin1": "Uttar Pradesh"
+  },
+  "Gonda": {
+    "lat": 27.8313,
+    "lng": 77.8791,
+    "elevation": 190,
+    "geocodedName": "Gonda",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Ghazipur": {
+    "lat": 25.5833,
+    "lng": 83.5853,
+    "elevation": 77,
+    "geocodedName": "Ghazīpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Ghazipur": {
+    "lat": 25.5833,
+    "lng": 83.5853,
+    "elevation": 77,
+    "geocodedName": "Ghazīpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Gorakhpur": {
+    "lat": 26.7663,
+    "lng": 83.3689,
+    "elevation": 83,
+    "geocodedName": "Gorakhpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Gorakhpur": {
+    "lat": 26.7663,
+    "lng": 83.3689,
+    "elevation": 83,
+    "geocodedName": "Gorakhpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Hathras": {
+    "lat": 27.5955,
+    "lng": 78.052,
+    "elevation": 185,
+    "geocodedName": "Hāthras",
+    "admin1": "Uttar Pradesh"
+  },
+  "Hathras": {
+    "lat": 27.5955,
+    "lng": 78.052,
+    "elevation": 185,
+    "geocodedName": "Hāthras",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Etawah": {
+    "lat": 26.7762,
+    "lng": 79.0213,
+    "elevation": 154,
+    "geocodedName": "Etāwah",
+    "admin1": "Uttar Pradesh"
+  },
+  "Etawah": {
+    "lat": 26.7762,
+    "lng": 79.0213,
+    "elevation": 154,
+    "geocodedName": "Etāwah",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Hamirpur": {
+    "lat": 25.9553,
+    "lng": 80.1484,
+    "elevation": 115,
+    "geocodedName": "Hamīrpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kannauj": {
+    "lat": 27.0552,
+    "lng": 79.9188,
+    "elevation": 144,
+    "geocodedName": "Kannauj",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kannauj": {
+    "lat": 27.0552,
+    "lng": 79.9188,
+    "elevation": 144,
+    "geocodedName": "Kannauj",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Jalaun": {
+    "lat": 26.1451,
+    "lng": 79.3366,
+    "elevation": 151,
+    "geocodedName": "Jālaun",
+    "admin1": "Uttar Pradesh"
+  },
+  "Jalaun": {
+    "lat": 26.1451,
+    "lng": 79.3366,
+    "elevation": 151,
+    "geocodedName": "Jālaun",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Jaunpur": {
+    "lat": 25.7536,
+    "lng": 82.6869,
+    "elevation": 85,
+    "geocodedName": "Jaunpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Jaunpur": {
+    "lat": 25.7536,
+    "lng": 82.6869,
+    "elevation": 85,
+    "geocodedName": "Jaunpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kushinagar": {
+    "lat": 26.904,
+    "lng": 83.9809,
+    "elevation": 94,
+    "geocodedName": "Padrauna",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kushinagar": {
+    "lat": 26.904,
+    "lng": 83.9809,
+    "elevation": 94,
+    "geocodedName": "Padrauna",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Maharajganj": {
+    "lat": 27.1446,
+    "lng": 83.5621,
+    "elevation": 96,
+    "geocodedName": "Mahārāganj",
+    "admin1": "Uttar Pradesh"
+  },
+  "Maharajganj": {
+    "lat": 27.1446,
+    "lng": 83.5621,
+    "elevation": 96,
+    "geocodedName": "Mahārāganj",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Lucknow": {
+    "lat": 26.8393,
+    "lng": 80.9231,
+    "elevation": 126,
+    "geocodedName": "Lucknow",
+    "admin1": "Uttar Pradesh"
+  },
+  "Lucknow": {
+    "lat": 26.8393,
+    "lng": 80.9231,
+    "elevation": 126,
+    "geocodedName": "Lucknow",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Jhansi": {
+    "lat": 25.4589,
+    "lng": 78.5799,
+    "elevation": 248,
+    "geocodedName": "Jhānsi",
+    "admin1": "Uttar Pradesh"
+  },
+  "Jhansi": {
+    "lat": 25.4589,
+    "lng": 78.5799,
+    "elevation": 248,
+    "geocodedName": "Jhānsi",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kheri": {
+    "lat": 27.9035,
+    "lng": 80.7975,
+    "elevation": 149,
+    "geocodedName": "Kheri",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kheri": {
+    "lat": 27.9035,
+    "lng": 80.7975,
+    "elevation": 149,
+    "geocodedName": "Kheri",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Mainpuri": {
+    "lat": 27.2286,
+    "lng": 79.0288,
+    "elevation": 163,
+    "geocodedName": "Mainpuri",
+    "admin1": "Uttar Pradesh"
+  },
+  "Mainpuri": {
+    "lat": 27.2286,
+    "lng": 79.0288,
+    "elevation": 163,
+    "geocodedName": "Mainpuri",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kasganj": {
+    "lat": 27.8088,
+    "lng": 78.6458,
+    "elevation": 181,
+    "geocodedName": "Kasganj",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kasganj": {
+    "lat": 27.8088,
+    "lng": 78.6458,
+    "elevation": 181,
+    "geocodedName": "Kasganj",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Lalitpur": {
+    "lat": 24.6901,
+    "lng": 78.4192,
+    "elevation": 360,
+    "geocodedName": "Lalitpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Lalitpur": {
+    "lat": 24.6901,
+    "lng": 78.4192,
+    "elevation": 360,
+    "geocodedName": "Lalitpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Mahoba": {
+    "lat": 25.2905,
+    "lng": 79.8753,
+    "elevation": 208,
+    "geocodedName": "Mahoba",
+    "admin1": "Uttar Pradesh"
+  },
+  "Mahoba": {
+    "lat": 25.2905,
+    "lng": 79.8753,
+    "elevation": 208,
+    "geocodedName": "Mahoba",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Muzaffarnagar": {
+    "lat": 29.4709,
+    "lng": 77.7033,
+    "elevation": 251,
+    "geocodedName": "Muzaffarnagar",
+    "admin1": "Uttar Pradesh"
+  },
+  "Muzaffarnagar": {
+    "lat": 29.4709,
+    "lng": 77.7033,
+    "elevation": 251,
+    "geocodedName": "Muzaffarnagar",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Pratapgarh": {
+    "lat": 25.9206,
+    "lng": 81.9963,
+    "elevation": 97,
+    "geocodedName": "Bela",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Mirzapur": {
+    "lat": 25.1449,
+    "lng": 82.5653,
+    "elevation": 90,
+    "geocodedName": "Mirzāpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Mirzapur": {
+    "lat": 25.1449,
+    "lng": 82.5653,
+    "elevation": 90,
+    "geocodedName": "Mirzāpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Raebareli": {
+    "lat": 26.2309,
+    "lng": 81.2331,
+    "elevation": 118,
+    "geocodedName": "Raebareli",
+    "admin1": "Uttar Pradesh"
+  },
+  "Raebareli": {
+    "lat": 26.2309,
+    "lng": 81.2331,
+    "elevation": 118,
+    "geocodedName": "Raebareli",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Mathura": {
+    "lat": 27.5035,
+    "lng": 77.6722,
+    "elevation": 181,
+    "geocodedName": "Mathura",
+    "admin1": "Uttar Pradesh"
+  },
+  "Mathura": {
+    "lat": 27.5035,
+    "lng": 77.6722,
+    "elevation": 181,
+    "geocodedName": "Mathura",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Meerut": {
+    "lat": 28.98,
+    "lng": 77.7064,
+    "elevation": 228,
+    "geocodedName": "Meerut",
+    "admin1": "Uttar Pradesh"
+  },
+  "Meerut": {
+    "lat": 28.98,
+    "lng": 77.7064,
+    "elevation": 228,
+    "geocodedName": "Meerut",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Mau": {
+    "lat": 25.9417,
+    "lng": 83.5611,
+    "elevation": 78,
+    "geocodedName": "Mau",
+    "admin1": "Uttar Pradesh"
+  },
+  "Mau": {
+    "lat": 25.9417,
+    "lng": 83.5611,
+    "elevation": 78,
+    "geocodedName": "Mau",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Moradabad": {
+    "lat": 28.8389,
+    "lng": 78.7768,
+    "elevation": 205,
+    "geocodedName": "Morādābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Moradabad": {
+    "lat": 28.8389,
+    "lng": 78.7768,
+    "elevation": 205,
+    "geocodedName": "Morādābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Saharanpur": {
+    "lat": 29.9679,
+    "lng": 77.5452,
+    "elevation": 280,
+    "geocodedName": "Sahāranpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Saharanpur": {
+    "lat": 29.9679,
+    "lng": 77.5452,
+    "elevation": 280,
+    "geocodedName": "Sahāranpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Sambhal": {
+    "lat": 28.585,
+    "lng": 78.5696,
+    "elevation": 203,
+    "geocodedName": "Sambhal",
+    "admin1": "Uttar Pradesh"
+  },
+  "Sambhal": {
+    "lat": 28.585,
+    "lng": 78.5696,
+    "elevation": 203,
+    "geocodedName": "Sambhal",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Rampur": {
+    "lat": 28.8101,
+    "lng": 79.027,
+    "elevation": 196,
+    "geocodedName": "Rāmpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Rampur": {
+    "lat": 28.8101,
+    "lng": 79.027,
+    "elevation": 196,
+    "geocodedName": "Rāmpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Pilibhit": {
+    "lat": 28.6312,
+    "lng": 79.8044,
+    "elevation": 190,
+    "geocodedName": "Pīlibhīt",
+    "admin1": "Uttar Pradesh"
+  },
+  "Pilibhit": {
+    "lat": 28.6312,
+    "lng": 79.8044,
+    "elevation": 190,
+    "geocodedName": "Pīlibhīt",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Shahjahanpur": {
+    "lat": 27.8817,
+    "lng": 79.9092,
+    "elevation": 158,
+    "geocodedName": "Shahjahanpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Shahjahanpur": {
+    "lat": 27.8817,
+    "lng": 79.9092,
+    "elevation": 158,
+    "geocodedName": "Shahjahanpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Sant Kabir Nagar": {
+    "lat": 26.7727,
+    "lng": 83.0718,
+    "elevation": 84,
+    "geocodedName": "Khalīlābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Sant Kabir Nagar": {
+    "lat": 26.7727,
+    "lng": 83.0718,
+    "elevation": 84,
+    "geocodedName": "Khalīlābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Prayagraj": {
+    "lat": 29.221,
+    "lng": 78.38,
+    "elevation": 231,
+    "geocodedName": "Allahābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Prayagraj": {
+    "lat": 29.221,
+    "lng": 78.38,
+    "elevation": 231,
+    "geocodedName": "Allahābād",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttarakhand__Dehradun": {
+    "lat": 30.3244,
+    "lng": 78.0339,
+    "elevation": 664,
+    "geocodedName": "Dehradun",
+    "admin1": "Uttarakhand"
+  },
+  "Dehradun": {
+    "lat": 30.3244,
+    "lng": 78.0339,
+    "elevation": 664,
+    "geocodedName": "Dehradun",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarakhand__Nainital": {
+    "lat": 29.3974,
+    "lng": 79.4469,
+    "elevation": 2077,
+    "geocodedName": "Nainital",
+    "admin1": "Uttarakhand"
+  },
+  "Nainital": {
+    "lat": 29.3974,
+    "lng": 79.4469,
+    "elevation": 2077,
+    "geocodedName": "Nainital",
+    "admin1": "Uttarakhand"
+  },
+  "Uttar Pradesh__Sultanpur": {
+    "lat": 26.2579,
+    "lng": 82.0727,
+    "elevation": 104,
+    "geocodedName": "Sultānpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Sultanpur": {
+    "lat": 26.2579,
+    "lng": 82.0727,
+    "elevation": 104,
+    "geocodedName": "Sultānpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Varanasi": {
+    "lat": 25.3167,
+    "lng": 83.0104,
+    "elevation": 86,
+    "geocodedName": "Varanasi",
+    "admin1": "Uttar Pradesh"
+  },
+  "Varanasi": {
+    "lat": 25.3167,
+    "lng": 83.0104,
+    "elevation": 86,
+    "geocodedName": "Varanasi",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttarakhand__Haridwar": {
+    "lat": 29.9479,
+    "lng": 78.1603,
+    "elevation": 295,
+    "geocodedName": "Haridwar",
+    "admin1": "Uttarakhand"
+  },
+  "Haridwar": {
+    "lat": 29.9479,
+    "lng": 78.1603,
+    "elevation": 295,
+    "geocodedName": "Haridwar",
+    "admin1": "Uttarakhand"
+  },
+  "Uttar Pradesh__Shamli": {
+    "lat": 29.4497,
+    "lng": 77.3096,
+    "elevation": 248,
+    "geocodedName": "Shamli",
+    "admin1": "Uttar Pradesh"
+  },
+  "Shamli": {
+    "lat": 29.4497,
+    "lng": 77.3096,
+    "elevation": 248,
+    "geocodedName": "Shamli",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Sitapur": {
+    "lat": 27.5619,
+    "lng": 80.6826,
+    "elevation": 143,
+    "geocodedName": "Sītāpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Sitapur": {
+    "lat": 27.5619,
+    "lng": 80.6826,
+    "elevation": 143,
+    "geocodedName": "Sītāpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Unnao": {
+    "lat": 26.5471,
+    "lng": 80.4878,
+    "elevation": 134,
+    "geocodedName": "Unnāo",
+    "admin1": "Uttar Pradesh"
+  },
+  "Unnao": {
+    "lat": 26.5471,
+    "lng": 80.4878,
+    "elevation": 134,
+    "geocodedName": "Unnāo",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttarakhand__Chamoli": {
+    "lat": 30.4027,
+    "lng": 79.333,
+    "elevation": 1111,
+    "geocodedName": "Chamoli",
+    "admin1": "Uttarakhand"
+  },
+  "Chamoli": {
+    "lat": 30.4027,
+    "lng": 79.333,
+    "elevation": 1111,
+    "geocodedName": "Chamoli",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarakhand__Bageshwar": {
+    "lat": 29.8374,
+    "lng": 79.7716,
+    "elevation": 882,
+    "geocodedName": "Bāgeshwar",
+    "admin1": "Uttarakhand"
+  },
+  "Bageshwar": {
+    "lat": 29.8374,
+    "lng": 79.7716,
+    "elevation": 882,
+    "geocodedName": "Bāgeshwar",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarakhand__Almora": {
+    "lat": 29.5971,
+    "lng": 79.6591,
+    "elevation": 1600,
+    "geocodedName": "Almora",
+    "admin1": "Uttarakhand"
+  },
+  "Almora": {
+    "lat": 29.5971,
+    "lng": 79.6591,
+    "elevation": 1600,
+    "geocodedName": "Almora",
+    "admin1": "Uttarakhand"
+  },
+  "Uttar Pradesh__Siddharthnagar": {
+    "lat": 25.0613,
+    "lng": 82.6677,
+    "elevation": 117,
+    "geocodedName": "Navgarhwa",
+    "admin1": "Uttar Pradesh"
+  },
+  "Siddharthnagar": {
+    "lat": 25.0613,
+    "lng": 82.6677,
+    "elevation": 117,
+    "geocodedName": "Navgarhwa",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Shravasti": {
+    "lat": 27.502,
+    "lng": 82.0268,
+    "elevation": 111,
+    "geocodedName": "Shravasti Airport",
+    "admin1": "Uttar Pradesh"
+  },
+  "Shravasti": {
+    "lat": 27.502,
+    "lng": 82.0268,
+    "elevation": 111,
+    "geocodedName": "Shravasti Airport",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttarakhand__Champawat": {
+    "lat": 29.335,
+    "lng": 80.0778,
+    "elevation": 1626,
+    "geocodedName": "Champawat",
+    "admin1": "Uttarakhand"
+  },
+  "Champawat": {
+    "lat": 29.335,
+    "lng": 80.0778,
+    "elevation": 1626,
+    "geocodedName": "Champawat",
+    "admin1": "Uttarakhand"
+  },
+  "Uttar Pradesh__Sonbhadra": {
+    "lat": 25.1264,
+    "lng": 84.7287,
+    "elevation": 65,
+    "geocodedName": "Sonbhadra",
+    "admin1": "Bihar"
+  },
+  "Sonbhadra": {
+    "lat": 25.1264,
+    "lng": 84.7287,
+    "elevation": 65,
+    "geocodedName": "Sonbhadra",
+    "admin1": "Bihar"
+  },
+  "Uttarakhand__Uttarkashi": {
+    "lat": 30.7299,
+    "lng": 78.4434,
+    "elevation": 1147,
+    "geocodedName": "Uttarkāshi",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarkashi": {
+    "lat": 30.7299,
+    "lng": 78.4434,
+    "elevation": 1147,
+    "geocodedName": "Uttarkāshi",
+    "admin1": "Uttarakhand"
+  },
+  "West Bengal__Hooghly": {
+    "lat": 22.9088,
+    "lng": 88.3967,
+    "elevation": 18,
+    "geocodedName": "Hugli",
+    "admin1": "West Bengal"
+  },
+  "Hooghly": {
+    "lat": 22.9088,
+    "lng": 88.3967,
+    "elevation": 18,
+    "geocodedName": "Hugli",
+    "admin1": "West Bengal"
+  },
+  "Uttarakhand__Pithoragarh": {
+    "lat": 29.5835,
+    "lng": 80.2095,
+    "elevation": 1586,
+    "geocodedName": "Pithorāgarh",
+    "admin1": "Uttarakhand"
+  },
+  "Pithoragarh": {
+    "lat": 29.5835,
+    "lng": 80.2095,
+    "elevation": 1586,
+    "geocodedName": "Pithorāgarh",
+    "admin1": "Uttarakhand"
+  },
+  "West Bengal__Jalpaiguri": {
+    "lat": 26.5167,
+    "lng": 88.7333,
+    "elevation": 87,
+    "geocodedName": "Jalpāiguri",
+    "admin1": "West Bengal"
+  },
+  "Jalpaiguri": {
+    "lat": 26.5167,
+    "lng": 88.7333,
+    "elevation": 87,
+    "geocodedName": "Jalpāiguri",
+    "admin1": "West Bengal"
+  },
+  "Uttarakhand__Rudraprayag": {
+    "lat": 30.2847,
+    "lng": 78.9835,
+    "elevation": 646,
+    "geocodedName": "Rudraprayāg",
+    "admin1": "Uttarakhand"
+  },
+  "Rudraprayag": {
+    "lat": 30.2847,
+    "lng": 78.9835,
+    "elevation": 646,
+    "geocodedName": "Rudraprayāg",
+    "admin1": "Uttarakhand"
+  },
+  "West Bengal__Howrah": {
+    "lat": 22.5769,
+    "lng": 88.3186,
+    "elevation": 8,
+    "geocodedName": "Howrah",
+    "admin1": "West Bengal"
+  },
+  "Howrah": {
+    "lat": 22.5769,
+    "lng": 88.3186,
+    "elevation": 8,
+    "geocodedName": "Howrah",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Cooch Behar": {
+    "lat": 26.3254,
+    "lng": 89.4451,
+    "elevation": 47,
+    "geocodedName": "Koch Bihār",
+    "admin1": "West Bengal"
+  },
+  "Cooch Behar": {
+    "lat": 26.3254,
+    "lng": 89.4451,
+    "elevation": 47,
+    "geocodedName": "Koch Bihār",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Bankura": {
+    "lat": 23.2324,
+    "lng": 87.0716,
+    "elevation": 94,
+    "geocodedName": "Bānkura",
+    "admin1": "West Bengal"
+  },
+  "Bankura": {
+    "lat": 23.2324,
+    "lng": 87.0716,
+    "elevation": 94,
+    "geocodedName": "Bānkura",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Darjeeling": {
+    "lat": 27.0333,
+    "lng": 88.2667,
+    "elevation": 2127,
+    "geocodedName": "Darjeeling",
+    "admin1": "West Bengal"
+  },
+  "Darjeeling": {
+    "lat": 27.0333,
+    "lng": 88.2667,
+    "elevation": 2127,
+    "geocodedName": "Darjeeling",
+    "admin1": "West Bengal"
+  },
+  "Andaman and Nicobar Islands__Nicobar": {
+    "lat": 9.15,
+    "lng": 92.75,
+    "elevation": 15,
+    "geocodedName": "Car Nicobar",
+    "admin1": "Andaman and Nicobar Islands"
+  },
+  "Nicobar": {
+    "lat": 9.15,
+    "lng": 92.75,
+    "elevation": 15,
+    "geocodedName": "Car Nicobar",
+    "admin1": "Andaman and Nicobar Islands"
+  },
+  "West Bengal__Malda": {
+    "lat": 25.0045,
+    "lng": 88.1457,
+    "elevation": 32,
+    "geocodedName": "Malda",
+    "admin1": "West Bengal"
+  },
+  "Malda": {
+    "lat": 25.0045,
+    "lng": 88.1457,
+    "elevation": 32,
+    "geocodedName": "Malda",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Jhargram": {
+    "lat": 22.4538,
+    "lng": 86.995,
+    "elevation": 81,
+    "geocodedName": "Jhārgrām",
+    "admin1": "West Bengal"
+  },
+  "Jhargram": {
+    "lat": 22.4538,
+    "lng": 86.995,
+    "elevation": 81,
+    "geocodedName": "Jhārgrām",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Murshidabad": {
+    "lat": 24.1839,
+    "lng": 88.2717,
+    "elevation": 25,
+    "geocodedName": "Murshidābād",
+    "admin1": "West Bengal"
+  },
+  "Murshidabad": {
+    "lat": 24.1839,
+    "lng": 88.2717,
+    "elevation": 25,
+    "geocodedName": "Murshidābād",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Kolkata": {
+    "lat": 22.5626,
+    "lng": 88.363,
+    "elevation": 11,
+    "geocodedName": "Kolkata",
+    "admin1": "West Bengal"
+  },
+  "Kolkata": {
+    "lat": 22.5626,
+    "lng": 88.363,
+    "elevation": 11,
+    "geocodedName": "Kolkata",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Purulia": {
+    "lat": 23.3306,
+    "lng": 86.363,
+    "elevation": 255,
+    "geocodedName": "Puruliya",
+    "admin1": "West Bengal"
+  },
+  "Purulia": {
+    "lat": 23.3306,
+    "lng": 86.363,
+    "elevation": 255,
+    "geocodedName": "Puruliya",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Kalimpong": {
+    "lat": 27.0346,
+    "lng": 88.6308,
+    "elevation": 1566,
+    "geocodedName": "Kalimpong",
+    "admin1": "West Bengal"
+  },
+  "Kalimpong": {
+    "lat": 27.0346,
+    "lng": 88.6308,
+    "elevation": 1566,
+    "geocodedName": "Kalimpong",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Nadia": {
+    "lat": 23.4,
+    "lng": 88.5,
+    "elevation": 14,
+    "geocodedName": "Krishnanagar",
+    "admin1": "West Bengal"
+  },
+  "Nadia": {
+    "lat": 23.4,
+    "lng": 88.5,
+    "elevation": 14,
+    "geocodedName": "Krishnanagar",
+    "admin1": "West Bengal"
+  },
+  "Dadra and Nagar Haveli and Daman and Diu__Diu": {
+    "lat": 20.7141,
+    "lng": 70.9822,
+    "elevation": 17,
+    "geocodedName": "Diu",
+    "admin1": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  "Diu": {
+    "lat": 20.7141,
+    "lng": 70.9822,
+    "elevation": 17,
+    "geocodedName": "Diu",
+    "admin1": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  "Dadra and Nagar Haveli and Daman and Diu__Daman": {
+    "lat": 20.4143,
+    "lng": 72.8324,
+    "elevation": 11,
+    "geocodedName": "Daman",
+    "admin1": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  "Daman": {
+    "lat": 20.4143,
+    "lng": 72.8324,
+    "elevation": 11,
+    "geocodedName": "Daman",
+    "admin1": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  "Chandigarh__Chandigarh": {
+    "lat": 30.7363,
+    "lng": 76.7884,
+    "elevation": 351,
+    "geocodedName": "Chandigarh",
+    "admin1": "Chandigarh"
+  },
+  "Chandigarh": {
+    "lat": 30.7363,
+    "lng": 76.7884,
+    "elevation": 351,
+    "geocodedName": "Chandigarh",
+    "admin1": "Chandigarh"
+  },
+  "Andaman and Nicobar Islands__South Andaman": {
+    "lat": 11.8338,
+    "lng": 92.6535,
+    "elevation": 56,
+    "geocodedName": "South Andaman Island",
+    "admin1": "Andaman and Nicobar"
+  },
+  "South Andaman": {
+    "lat": 11.8338,
+    "lng": 92.6535,
+    "elevation": 56,
+    "geocodedName": "South Andaman Island",
+    "admin1": "Andaman and Nicobar"
+  },
+  "Delhi (NCT)__Shahdara": {
+    "lat": 28.6031,
+    "lng": 77.1399,
+    "elevation": 229,
+    "geocodedName": "Shahdara",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Shahdara": {
+    "lat": 28.6031,
+    "lng": 77.1399,
+    "elevation": 229,
+    "geocodedName": "Shahdara",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Dadra and Nagar Haveli and Daman and Diu__Dadra and Nagar Haveli": {
+    "lat": 20.27,
+    "lng": 73.01,
+    "elevation": 32,
+    "geocodedName": "Silvassa",
+    "admin1": "Dadra and Nagar Haveli"
+  },
+  "Dadra and Nagar Haveli": {
+    "lat": 20.27,
+    "lng": 73.01,
+    "elevation": 32,
+    "geocodedName": "Silvassa",
+    "admin1": "Dadra and Nagar Haveli"
+  },
+  "Delhi (NCT)__East Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "East Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__North Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "North Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__Central Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Central Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__South East Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "South East Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__North West Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "North West Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__North East Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "North East Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__New Delhi": {
+    "lat": 28.6214,
+    "lng": 77.2148,
+    "elevation": 211,
+    "geocodedName": "New Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "New Delhi": {
+    "lat": 28.6214,
+    "lng": 77.2148,
+    "elevation": 211,
+    "geocodedName": "New Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__South Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "South Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Jammu and Kashmir__Kupwara": {
+    "lat": 34.5286,
+    "lng": 74.264,
+    "elevation": 1662,
+    "geocodedName": "Kopawor",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Kupwara": {
+    "lat": 34.5286,
+    "lng": 74.264,
+    "elevation": 1662,
+    "geocodedName": "Kopawor",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Pulwama": {
+    "lat": 33.874,
+    "lng": 74.8996,
+    "elevation": 1648,
+    "geocodedName": "Pulwama",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Pulwama": {
+    "lat": 33.874,
+    "lng": 74.8996,
+    "elevation": 1648,
+    "geocodedName": "Pulwama",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Ganderbal": {
+    "lat": 34.2262,
+    "lng": 74.7748,
+    "elevation": 1593,
+    "geocodedName": "Ganderbal",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Ganderbal": {
+    "lat": 34.2262,
+    "lng": 74.7748,
+    "elevation": 1593,
+    "geocodedName": "Ganderbal",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Kathua": {
+    "lat": 32.3694,
+    "lng": 75.5254,
+    "elevation": 323,
+    "geocodedName": "Kathua",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Kathua": {
+    "lat": 32.3694,
+    "lng": 75.5254,
+    "elevation": 323,
+    "geocodedName": "Kathua",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Doda": {
+    "lat": 33.1492,
+    "lng": 75.5475,
+    "elevation": 1191,
+    "geocodedName": "Doda",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Doda": {
+    "lat": 33.1492,
+    "lng": 75.5475,
+    "elevation": 1191,
+    "geocodedName": "Doda",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Jammu": {
+    "lat": 32.7353,
+    "lng": 74.8617,
+    "elevation": 357,
+    "geocodedName": "Jammu",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu": {
+    "lat": 32.7353,
+    "lng": 74.8617,
+    "elevation": 357,
+    "geocodedName": "Jammu",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Anantnag": {
+    "lat": 33.7307,
+    "lng": 75.1542,
+    "elevation": 1606,
+    "geocodedName": "Anantnag",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Anantnag": {
+    "lat": 33.7307,
+    "lng": 75.1542,
+    "elevation": 1606,
+    "geocodedName": "Anantnag",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Poonch": {
+    "lat": 33.7703,
+    "lng": 74.0925,
+    "elevation": 999,
+    "geocodedName": "Pūnch",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Poonch": {
+    "lat": 33.7703,
+    "lng": 74.0925,
+    "elevation": 999,
+    "geocodedName": "Pūnch",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Kishtwar": {
+    "lat": 33.3135,
+    "lng": 75.7673,
+    "elevation": 1642,
+    "geocodedName": "Kishtwār",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Kishtwar": {
+    "lat": 33.3135,
+    "lng": 75.7673,
+    "elevation": 1642,
+    "geocodedName": "Kishtwār",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Kulgam": {
+    "lat": 33.6446,
+    "lng": 75.0192,
+    "elevation": 1742,
+    "geocodedName": "Kulgam",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Kulgam": {
+    "lat": 33.6446,
+    "lng": 75.0192,
+    "elevation": 1742,
+    "geocodedName": "Kulgam",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Delhi (NCT)__West Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "West Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Delhi (NCT)__South West Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "South West Delhi": {
+    "lat": 28.6519,
+    "lng": 77.2315,
+    "elevation": 227,
+    "geocodedName": "Delhi",
+    "admin1": "National Capital Territory of Delhi"
+  },
+  "Puducherry__Puducherry": {
+    "lat": 11.9338,
+    "lng": 79.8298,
+    "elevation": 11,
+    "geocodedName": "Puducherry",
+    "admin1": "Puducherry"
+  },
+  "Puducherry": {
+    "lat": 11.9338,
+    "lng": 79.8298,
+    "elevation": 11,
+    "geocodedName": "Puducherry",
+    "admin1": "Puducherry"
+  },
+  "Jammu and Kashmir__Srinagar": {
+    "lat": 34.0857,
+    "lng": 74.8055,
+    "elevation": 1589,
+    "geocodedName": "Srinagar",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Srinagar": {
+    "lat": 34.0857,
+    "lng": 74.8055,
+    "elevation": 1589,
+    "geocodedName": "Srinagar",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Samba": {
+    "lat": 32.5624,
+    "lng": 75.1199,
+    "elevation": 392,
+    "geocodedName": "Sāmba",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Samba": {
+    "lat": 32.5624,
+    "lng": 75.1199,
+    "elevation": 392,
+    "geocodedName": "Sāmba",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Rajouri": {
+    "lat": 33.3779,
+    "lng": 74.3152,
+    "elevation": 926,
+    "geocodedName": "Rajouri Airport",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Rajouri": {
+    "lat": 33.3779,
+    "lng": 74.3152,
+    "elevation": 926,
+    "geocodedName": "Rajouri Airport",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Ladakh__Kargil": {
+    "lat": 34.5577,
+    "lng": 76.1262,
+    "elevation": 2686,
+    "geocodedName": "Kargil",
+    "admin1": "Ladakh"
+  },
+  "Kargil": {
+    "lat": 34.5577,
+    "lng": 76.1262,
+    "elevation": 2686,
+    "geocodedName": "Kargil",
+    "admin1": "Ladakh"
+  },
+  "Lakshadweep__Lakshadweep": {
+    "lat": 10.9258,
+    "lng": 72.2884,
+    "elevation": 9999,
+    "geocodedName": "Lakshadweep",
+    "admin1": "Lakshadweep"
+  },
+  "Lakshadweep": {
+    "lat": 10.9258,
+    "lng": 72.2884,
+    "elevation": 9999,
+    "geocodedName": "Lakshadweep",
+    "admin1": "Lakshadweep"
+  },
+  "Jammu and Kashmir__Udhampur": {
+    "lat": 32.9243,
+    "lng": 75.1357,
+    "elevation": 759,
+    "geocodedName": "Udhampur",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Udhampur": {
+    "lat": 32.9243,
+    "lng": 75.1357,
+    "elevation": 759,
+    "geocodedName": "Udhampur",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Shopian": {
+    "lat": 33.7172,
+    "lng": 74.8341,
+    "elevation": 2055,
+    "geocodedName": "Shopian",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Shopian": {
+    "lat": 33.7172,
+    "lng": 74.8341,
+    "elevation": 2055,
+    "geocodedName": "Shopian",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Reasi": {
+    "lat": 33.0812,
+    "lng": 74.8324,
+    "elevation": 521,
+    "geocodedName": "Reasi",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Reasi": {
+    "lat": 33.0812,
+    "lng": 74.8324,
+    "elevation": 521,
+    "geocodedName": "Reasi",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Ladakh__Leh": {
+    "lat": 34.165,
+    "lng": 77.584,
+    "elevation": 3502,
+    "geocodedName": "Leh",
+    "admin1": "Ladakh"
+  },
+  "Leh": {
+    "lat": 34.165,
+    "lng": 77.584,
+    "elevation": 3502,
+    "geocodedName": "Leh",
+    "admin1": "Ladakh"
+  },
+  "Puducherry__Karaikal": {
+    "lat": 10.9167,
+    "lng": 79.8333,
+    "elevation": 8,
+    "geocodedName": "Kāraikāl",
+    "admin1": "Puducherry"
+  },
+  "Karaikal": {
+    "lat": 10.9167,
+    "lng": 79.8333,
+    "elevation": 8,
+    "geocodedName": "Kāraikāl",
+    "admin1": "Puducherry"
+  },
+  "Jammu and Kashmir__Ramban": {
+    "lat": 33.2428,
+    "lng": 75.2351,
+    "elevation": 724,
+    "geocodedName": "Rāmban",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Ramban": {
+    "lat": 33.2428,
+    "lng": 75.2351,
+    "elevation": 724,
+    "geocodedName": "Rāmban",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Puducherry__Yanam": {
+    "lat": 16.7331,
+    "lng": 82.2136,
+    "elevation": 11,
+    "geocodedName": "Yanam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Yanam": {
+    "lat": 16.7331,
+    "lng": 82.2136,
+    "elevation": 11,
+    "geocodedName": "Yanam",
+    "admin1": "Andhra Pradesh"
+  },
+  "Puducherry__Mahe": {
+    "lat": 11.7017,
+    "lng": 75.5347,
+    "elevation": 22,
+    "geocodedName": "Mahē",
+    "admin1": "Kerala"
+  },
+  "Mahe": {
+    "lat": 11.7017,
+    "lng": 75.5347,
+    "elevation": 22,
+    "geocodedName": "Mahē",
+    "admin1": "Kerala"
+  },
+  "Chikkaballapura": {
+    "lat": 13.4355,
+    "lng": 77.7275,
+    "elevation": 915,
+    "geocodedName": "Chikkaballapura",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Chikkaballapura": {
+    "lat": 13.4355,
+    "lng": 77.7275,
+    "elevation": 915,
+    "geocodedName": "Chikkaballapura",
+    "admin1": "Karnataka"
+  },
+  "Dakshina Kannada": {
+    "lat": 12.9172,
+    "lng": 74.856,
+    "elevation": 22,
+    "geocodedName": "Mangaluru",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Dakshina Kannada": {
+    "lat": 12.9172,
+    "lng": 74.856,
+    "elevation": 22,
+    "geocodedName": "Mangaluru",
+    "admin1": "Karnataka"
+  },
+  "Davanagere": {
+    "lat": 14.4644,
+    "lng": 75.9218,
+    "elevation": 602,
+    "geocodedName": "Davanagere",
+    "admin1": "Karnataka"
+  },
+  "Karnataka__Davanagere": {
+    "lat": 14.4644,
+    "lng": 75.9218,
+    "elevation": 602,
+    "geocodedName": "Davanagere",
+    "admin1": "Karnataka"
+  },
+  "Annamayya": {
+    "lat": 14.15,
+    "lng": 78.75,
+    "elevation": 375,
+    "geocodedName": "Rayachoti",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Annamayya": {
+    "lat": 14.15,
+    "lng": 78.75,
+    "elevation": 375,
+    "geocodedName": "Rayachoti",
+    "admin1": "Andhra Pradesh"
+  },
+  "Anakapalli": {
+    "lat": 17.6913,
+    "lng": 83.0039,
+    "elevation": 26,
+    "geocodedName": "Anakapalli",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Anakapalli": {
+    "lat": 17.6913,
+    "lng": 83.0039,
+    "elevation": 26,
+    "geocodedName": "Anakapalli",
+    "admin1": "Andhra Pradesh"
+  },
+  "Dr. B.R. Ambedkar Konaseema": {
+    "lat": 16.5746,
+    "lng": 82.0062,
+    "elevation": 3,
+    "geocodedName": "Amalapuram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Dr. B.R. Ambedkar Konaseema": {
+    "lat": 16.5746,
+    "lng": 82.0062,
+    "elevation": 3,
+    "geocodedName": "Amalapuram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Ananthapuramu": {
+    "lat": 14.6819,
+    "lng": 77.6006,
+    "elevation": 335,
+    "geocodedName": "Ananthapuramu",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Ananthapuramu": {
+    "lat": 14.6819,
+    "lng": 77.6006,
+    "elevation": 335,
+    "geocodedName": "Ananthapuramu",
+    "admin1": "Andhra Pradesh"
+  },
+  "Alluri Sitharama Raju": {
+    "lat": 18.0833,
+    "lng": 82.6667,
+    "elevation": 910,
+    "geocodedName": "Paderu",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Alluri Sitharama Raju": {
+    "lat": 18.0833,
+    "lng": 82.6667,
+    "elevation": 910,
+    "geocodedName": "Paderu",
+    "admin1": "Andhra Pradesh"
+  },
+  "Parvathipuram Manyam": {
+    "lat": 18.7797,
+    "lng": 83.4286,
+    "elevation": 120,
+    "geocodedName": "Parvathipuram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Parvathipuram Manyam": {
+    "lat": 18.7797,
+    "lng": 83.4286,
+    "elevation": 120,
+    "geocodedName": "Parvathipuram",
+    "admin1": "Andhra Pradesh"
+  },
+  "Palnadu": {
+    "lat": 16.18,
+    "lng": 80.05,
+    "elevation": 76,
+    "geocodedName": "Narasaraopet",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Palnadu": {
+    "lat": 16.18,
+    "lng": 80.05,
+    "elevation": 76,
+    "geocodedName": "Narasaraopet",
+    "admin1": "Andhra Pradesh"
+  },
+  "Prakasam": {
+    "lat": 15.5057,
+    "lng": 80.0499,
+    "elevation": 10,
+    "geocodedName": "Ongole",
+    "admin1": "Andhra Pradesh"
+  },
+  "Andhra Pradesh__Prakasam": {
+    "lat": 15.5057,
+    "lng": 80.0499,
+    "elevation": 10,
+    "geocodedName": "Ongole",
+    "admin1": "Andhra Pradesh"
+  },
+  "Dibang Valley": {
+    "lat": 28.53,
+    "lng": 95.84,
+    "elevation": 1968,
+    "geocodedName": "Anini",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Dibang Valley": {
+    "lat": 28.53,
+    "lng": 95.84,
+    "elevation": 1968,
+    "geocodedName": "Anini",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Changlang": {
+    "lat": 27.1264,
+    "lng": 95.7386,
+    "elevation": 580,
+    "geocodedName": "Changlang",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Changlang": {
+    "lat": 27.1264,
+    "lng": 95.7386,
+    "elevation": 580,
+    "geocodedName": "Changlang",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Pakke Kessang": {
+    "lat": 27.05,
+    "lng": 93.2,
+    "elevation": 1200,
+    "geocodedName": "Lemmi",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Pakke Kessang": {
+    "lat": 27.05,
+    "lng": 93.2,
+    "elevation": 1200,
+    "geocodedName": "Lemmi",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Papum Pare": {
+    "lat": 27.0844,
+    "lng": 93.6053,
+    "elevation": 320,
+    "geocodedName": "Yupia",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Papum Pare": {
+    "lat": 27.0844,
+    "lng": 93.6053,
+    "elevation": 320,
+    "geocodedName": "Yupia",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Lepa Rada": {
+    "lat": 27.97,
+    "lng": 94.67,
+    "elevation": 660,
+    "geocodedName": "Basar",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Lepa Rada": {
+    "lat": 27.97,
+    "lng": 94.67,
+    "elevation": 660,
+    "geocodedName": "Basar",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Lower Siang": {
+    "lat": 27.8,
+    "lng": 94.75,
+    "elevation": 150,
+    "geocodedName": "Likabali",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Lower Siang": {
+    "lat": 27.8,
+    "lng": 94.75,
+    "elevation": 150,
+    "geocodedName": "Likabali",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Kurung Kumey": {
+    "lat": 27.9,
+    "lng": 93.35,
+    "elevation": 1000,
+    "geocodedName": "Koloriang",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Kurung Kumey": {
+    "lat": 27.9,
+    "lng": 93.35,
+    "elevation": 1000,
+    "geocodedName": "Koloriang",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Kra Daadi": {
+    "lat": 27.85,
+    "lng": 93.5,
+    "elevation": 850,
+    "geocodedName": "Jamin",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Kra Daadi": {
+    "lat": 27.85,
+    "lng": 93.5,
+    "elevation": 850,
+    "geocodedName": "Jamin",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Lower Subansiri": {
+    "lat": 27.53,
+    "lng": 93.83,
+    "elevation": 1560,
+    "geocodedName": "Ziro",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Lower Subansiri": {
+    "lat": 27.53,
+    "lng": 93.83,
+    "elevation": 1560,
+    "geocodedName": "Ziro",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Lower Dibang Valley": {
+    "lat": 28.16,
+    "lng": 95.83,
+    "elevation": 390,
+    "geocodedName": "Roing",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Lower Dibang Valley": {
+    "lat": 28.16,
+    "lng": 95.83,
+    "elevation": 390,
+    "geocodedName": "Roing",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Upper Subansiri": {
+    "lat": 27.98,
+    "lng": 94.22,
+    "elevation": 600,
+    "geocodedName": "Daporijo",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Upper Subansiri": {
+    "lat": 27.98,
+    "lng": 94.22,
+    "elevation": 600,
+    "geocodedName": "Daporijo",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Upper Siang": {
+    "lat": 28.61,
+    "lng": 94.95,
+    "elevation": 420,
+    "geocodedName": "Yingkiong",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Arunachal Pradesh__Upper Siang": {
+    "lat": 28.61,
+    "lng": 94.95,
+    "elevation": 420,
+    "geocodedName": "Yingkiong",
+    "admin1": "Arunachal Pradesh"
+  },
+  "Charaideo": {
+    "lat": 26.93,
+    "lng": 94.97,
+    "elevation": 100,
+    "geocodedName": "Sonari",
+    "admin1": "Assam"
+  },
+  "Assam__Charaideo": {
+    "lat": 26.93,
+    "lng": 94.97,
+    "elevation": 100,
+    "geocodedName": "Sonari",
+    "admin1": "Assam"
+  },
+  "Dima Hasao": {
+    "lat": 25.18,
+    "lng": 93.02,
+    "elevation": 513,
+    "geocodedName": "Haflong",
+    "admin1": "Assam"
+  },
+  "Assam__Dima Hasao": {
+    "lat": 25.18,
+    "lng": 93.02,
+    "elevation": 513,
+    "geocodedName": "Haflong",
+    "admin1": "Assam"
+  },
+  "Karbi Anglong": {
+    "lat": 26.15,
+    "lng": 93.43,
+    "elevation": 180,
+    "geocodedName": "Diphu",
+    "admin1": "Assam"
+  },
+  "Assam__Karbi Anglong": {
+    "lat": 26.15,
+    "lng": 93.43,
+    "elevation": 180,
+    "geocodedName": "Diphu",
+    "admin1": "Assam"
+  },
+  "Kamrup": {
+    "lat": 26.32,
+    "lng": 91.6,
+    "elevation": 55,
+    "geocodedName": "Amingaon",
+    "admin1": "Assam"
+  },
+  "Assam__Kamrup": {
+    "lat": 26.32,
+    "lng": 91.6,
+    "elevation": 55,
+    "geocodedName": "Amingaon",
+    "admin1": "Assam"
+  },
+  "Kamrup Metropolitan": {
+    "lat": 26.1445,
+    "lng": 91.7362,
+    "elevation": 55,
+    "geocodedName": "Guwahati",
+    "admin1": "Assam"
+  },
+  "Assam__Kamrup Metropolitan": {
+    "lat": 26.1445,
+    "lng": 91.7362,
+    "elevation": 55,
+    "geocodedName": "Guwahati",
+    "admin1": "Assam"
+  },
+  "Sivasagar": {
+    "lat": 26.9826,
+    "lng": 94.6425,
+    "elevation": 95,
+    "geocodedName": "Sivasagar",
+    "admin1": "Assam"
+  },
+  "Assam__Sivasagar": {
+    "lat": 26.9826,
+    "lng": 94.6425,
+    "elevation": 95,
+    "geocodedName": "Sivasagar",
+    "admin1": "Assam"
+  },
+  "South Salmara-Mankachar": {
+    "lat": 25.68,
+    "lng": 89.87,
+    "elevation": 40,
+    "geocodedName": "Hatsingimari",
+    "admin1": "Assam"
+  },
+  "Assam__South Salmara-Mankachar": {
+    "lat": 25.68,
+    "lng": 89.87,
+    "elevation": 40,
+    "geocodedName": "Hatsingimari",
+    "admin1": "Assam"
+  },
+  "West Karbi Anglong": {
+    "lat": 25.8,
+    "lng": 92.5,
+    "elevation": 220,
+    "geocodedName": "Hamren",
+    "admin1": "Assam"
+  },
+  "Assam__West Karbi Anglong": {
+    "lat": 25.8,
+    "lng": 92.5,
+    "elevation": 220,
+    "geocodedName": "Hamren",
+    "admin1": "Assam"
+  },
+  "Lakhisarai": {
+    "lat": 25.18,
+    "lng": 86.09,
+    "elevation": 50,
+    "geocodedName": "Lakhisarai",
+    "admin1": "Bihar"
+  },
+  "Bihar__Lakhisarai": {
+    "lat": 25.18,
+    "lng": 86.09,
+    "elevation": 50,
+    "geocodedName": "Lakhisarai",
+    "admin1": "Bihar"
+  },
+  "Janjgir-Champa": {
+    "lat": 22.01,
+    "lng": 82.57,
+    "elevation": 257,
+    "geocodedName": "Janjgir",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Janjgir-Champa": {
+    "lat": 22.01,
+    "lng": 82.57,
+    "elevation": 257,
+    "geocodedName": "Janjgir",
+    "admin1": "Chhattisgarh"
+  },
+  "Dantewada": {
+    "lat": 18.9,
+    "lng": 81.35,
+    "elevation": 350,
+    "geocodedName": "Dantewada",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Dantewada": {
+    "lat": 18.9,
+    "lng": 81.35,
+    "elevation": 350,
+    "geocodedName": "Dantewada",
+    "admin1": "Chhattisgarh"
+  },
+  "Gaurela Pendra Marwahi": {
+    "lat": 22.75,
+    "lng": 81.9,
+    "elevation": 590,
+    "geocodedName": "Pendra",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Gaurela Pendra Marwahi": {
+    "lat": 22.75,
+    "lng": 81.9,
+    "elevation": 590,
+    "geocodedName": "Pendra",
+    "admin1": "Chhattisgarh"
+  },
+  "Mohla-Manpur-Ambagarh Chowki": {
+    "lat": 20.78,
+    "lng": 80.74,
+    "elevation": 320,
+    "geocodedName": "Mohla",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Mohla-Manpur-Ambagarh Chowki": {
+    "lat": 20.78,
+    "lng": 80.74,
+    "elevation": 320,
+    "geocodedName": "Mohla",
+    "admin1": "Chhattisgarh"
+  },
+  "Manendragarh-Chirmiri-Bharatpur": {
+    "lat": 23.21,
+    "lng": 82.2,
+    "elevation": 480,
+    "geocodedName": "Manendragarh",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Manendragarh-Chirmiri-Bharatpur": {
+    "lat": 23.21,
+    "lng": 82.2,
+    "elevation": 480,
+    "geocodedName": "Manendragarh",
+    "admin1": "Chhattisgarh"
+  },
+  "Kabirdham": {
+    "lat": 22.02,
+    "lng": 81.25,
+    "elevation": 353,
+    "geocodedName": "Kawardha",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Kabirdham": {
+    "lat": 22.02,
+    "lng": 81.25,
+    "elevation": 353,
+    "geocodedName": "Kawardha",
+    "admin1": "Chhattisgarh"
+  },
+  "Rajnandgaon": {
+    "lat": 21.1,
+    "lng": 81.03,
+    "elevation": 307,
+    "geocodedName": "Rajnandgaon",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Rajnandgaon": {
+    "lat": 21.1,
+    "lng": 81.03,
+    "elevation": 307,
+    "geocodedName": "Rajnandgaon",
+    "admin1": "Chhattisgarh"
+  },
+  "Sarangarh-Bilaigarh": {
+    "lat": 21.58,
+    "lng": 83.08,
+    "elevation": 217,
+    "geocodedName": "Sarangarh",
+    "admin1": "Chhattisgarh"
+  },
+  "Chhattisgarh__Sarangarh-Bilaigarh": {
+    "lat": 21.58,
+    "lng": 83.08,
+    "elevation": 217,
+    "geocodedName": "Sarangarh",
+    "admin1": "Chhattisgarh"
+  },
+  "Banaskantha": {
+    "lat": 24.1724,
+    "lng": 72.4346,
+    "elevation": 209,
+    "geocodedName": "Palanpur",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Banaskantha": {
+    "lat": 24.1724,
+    "lng": 72.4346,
+    "elevation": 209,
+    "geocodedName": "Palanpur",
+    "admin1": "Gujarat"
+  },
+  "Gir Somnath": {
+    "lat": 20.9077,
+    "lng": 70.3664,
+    "elevation": 12,
+    "geocodedName": "Veraval",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Gir Somnath": {
+    "lat": 20.9077,
+    "lng": 70.3664,
+    "elevation": 12,
+    "geocodedName": "Veraval",
+    "admin1": "Gujarat"
+  },
+  "Devbhoomi Dwarka": {
+    "lat": 22.2044,
+    "lng": 69.6588,
+    "elevation": 15,
+    "geocodedName": "Khambhalia",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Devbhoomi Dwarka": {
+    "lat": 22.2044,
+    "lng": 69.6588,
+    "elevation": 15,
+    "geocodedName": "Khambhalia",
+    "admin1": "Gujarat"
+  },
+  "Mahisagar": {
+    "lat": 23.1315,
+    "lng": 73.6171,
+    "elevation": 95,
+    "geocodedName": "Lunawada",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Mahisagar": {
+    "lat": 23.1315,
+    "lng": 73.6171,
+    "elevation": 95,
+    "geocodedName": "Lunawada",
+    "admin1": "Gujarat"
+  },
+  "Panchmahal": {
+    "lat": 22.7758,
+    "lng": 73.6149,
+    "elevation": 119,
+    "geocodedName": "Godhra",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Panchmahal": {
+    "lat": 22.7758,
+    "lng": 73.6149,
+    "elevation": 119,
+    "geocodedName": "Godhra",
+    "admin1": "Gujarat"
+  },
+  "Sabarkantha": {
+    "lat": 23.5977,
+    "lng": 72.9667,
+    "elevation": 127,
+    "geocodedName": "Himatnagar",
+    "admin1": "Gujarat"
+  },
+  "Gujarat__Sabarkantha": {
+    "lat": 23.5977,
+    "lng": 72.9667,
+    "elevation": 127,
+    "geocodedName": "Himatnagar",
+    "admin1": "Gujarat"
+  },
+  "Lahaul and Spiti": {
+    "lat": 32.571,
+    "lng": 77.032,
+    "elevation": 3080,
+    "geocodedName": "Keylong",
+    "admin1": "Himachal Pradesh"
+  },
+  "Himachal Pradesh__Lahaul and Spiti": {
+    "lat": 32.571,
+    "lng": 77.032,
+    "elevation": 3080,
+    "geocodedName": "Keylong",
+    "admin1": "Himachal Pradesh"
+  },
+  "East Singhbhum": {
+    "lat": 22.8046,
+    "lng": 86.2029,
+    "elevation": 159,
+    "geocodedName": "Jamshedpur",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__East Singhbhum": {
+    "lat": 22.8046,
+    "lng": 86.2029,
+    "elevation": 159,
+    "geocodedName": "Jamshedpur",
+    "admin1": "Jharkhand"
+  },
+  "Seraikela Kharsawan": {
+    "lat": 22.6989,
+    "lng": 85.9877,
+    "elevation": 204,
+    "geocodedName": "Seraikela",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__Seraikela Kharsawan": {
+    "lat": 22.6989,
+    "lng": 85.9877,
+    "elevation": 204,
+    "geocodedName": "Seraikela",
+    "admin1": "Jharkhand"
+  },
+  "West Singhbhum": {
+    "lat": 22.5539,
+    "lng": 85.808,
+    "elevation": 244,
+    "geocodedName": "Chaibasa",
+    "admin1": "Jharkhand"
+  },
+  "Jharkhand__West Singhbhum": {
+    "lat": 22.5539,
+    "lng": 85.808,
+    "elevation": 244,
+    "geocodedName": "Chaibasa",
+    "admin1": "Jharkhand"
+  },
+  "Agar Malwa": {
+    "lat": 23.7144,
+    "lng": 76.0175,
+    "elevation": 505,
+    "geocodedName": "Agar",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Agar Malwa": {
+    "lat": 23.7144,
+    "lng": 76.0175,
+    "elevation": 505,
+    "geocodedName": "Agar",
+    "admin1": "Madhya Pradesh"
+  },
+  "Wayanad": {
+    "lat": 11.6854,
+    "lng": 76.132,
+    "elevation": 780,
+    "geocodedName": "Kalpetta",
+    "admin1": "Kerala"
+  },
+  "Kerala__Wayanad": {
+    "lat": 11.6854,
+    "lng": 76.132,
+    "elevation": 780,
+    "geocodedName": "Kalpetta",
+    "admin1": "Kerala"
+  },
+  "Hoshangabad": {
+    "lat": 22.7533,
+    "lng": 77.7289,
+    "elevation": 278,
+    "geocodedName": "Narmadapuram",
+    "admin1": "Madhya Pradesh"
+  },
+  "Madhya Pradesh__Hoshangabad": {
+    "lat": 22.7533,
+    "lng": 77.7289,
+    "elevation": 278,
+    "geocodedName": "Narmadapuram",
+    "admin1": "Madhya Pradesh"
+  },
+  "Buldhana": {
+    "lat": 20.531,
+    "lng": 76.1843,
+    "elevation": 639,
+    "geocodedName": "Buldhana",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Buldhana": {
+    "lat": 20.531,
+    "lng": 76.1843,
+    "elevation": 639,
+    "geocodedName": "Buldhana",
+    "admin1": "Maharashtra"
+  },
+  "Aurangabad (Chhatrapati Sambhajinagar)": {
+    "lat": 19.8762,
+    "lng": 75.3433,
+    "elevation": 569,
+    "geocodedName": "Chhatrapati Sambhajinagar",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Aurangabad (Chhatrapati Sambhajinagar)": {
+    "lat": 19.8762,
+    "lng": 75.3433,
+    "elevation": 569,
+    "geocodedName": "Chhatrapati Sambhajinagar",
+    "admin1": "Maharashtra"
+  },
+  "Osmanabad (Dharashiv)": {
+    "lat": 18.1853,
+    "lng": 76.0419,
+    "elevation": 653,
+    "geocodedName": "Dharashiv",
+    "admin1": "Maharashtra"
+  },
+  "Maharashtra__Osmanabad (Dharashiv)": {
+    "lat": 18.1853,
+    "lng": 76.0419,
+    "elevation": 653,
+    "geocodedName": "Dharashiv",
+    "admin1": "Maharashtra"
+  },
+  "Ri Bhoi": {
+    "lat": 25.9,
+    "lng": 91.88,
+    "elevation": 580,
+    "geocodedName": "Nongpoh",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__Ri Bhoi": {
+    "lat": 25.9,
+    "lng": 91.88,
+    "elevation": 580,
+    "geocodedName": "Nongpoh",
+    "admin1": "Meghalaya"
+  },
+  "Eastern West Khasi Hills": {
+    "lat": 25.52,
+    "lng": 91.45,
+    "elevation": 1620,
+    "geocodedName": "Mairang",
+    "admin1": "Meghalaya"
+  },
+  "Meghalaya__Eastern West Khasi Hills": {
+    "lat": 25.52,
+    "lng": 91.45,
+    "elevation": 1620,
+    "geocodedName": "Mairang",
+    "admin1": "Meghalaya"
+  },
+  "Chümoukedima": {
+    "lat": 25.8,
+    "lng": 93.75,
+    "elevation": 260,
+    "geocodedName": "Chümoukedima",
+    "admin1": "Nagaland"
+  },
+  "Nagaland__Chümoukedima": {
+    "lat": 25.8,
+    "lng": 93.75,
+    "elevation": 260,
+    "geocodedName": "Chümoukedima",
+    "admin1": "Nagaland"
+  },
+  "Champhai": {
+    "lat": 23.47,
+    "lng": 93.32,
+    "elevation": 1678,
+    "geocodedName": "Champhai",
+    "admin1": "Mizoram"
+  },
+  "Mizoram__Champhai": {
+    "lat": 23.47,
+    "lng": 93.32,
+    "elevation": 1678,
+    "geocodedName": "Champhai",
+    "admin1": "Mizoram"
+  },
+  "Kandhamal": {
+    "lat": 20.4764,
+    "lng": 84.233,
+    "elevation": 485,
+    "geocodedName": "Phulbani",
+    "admin1": "Odisha"
+  },
+  "Odisha__Kandhamal": {
+    "lat": 20.4764,
+    "lng": 84.233,
+    "elevation": 485,
+    "geocodedName": "Phulbani",
+    "admin1": "Odisha"
+  },
+  "Malerkotla": {
+    "lat": 30.5284,
+    "lng": 75.889,
+    "elevation": 248,
+    "geocodedName": "Malerkotla",
+    "admin1": "Punjab"
+  },
+  "Punjab__Malerkotla": {
+    "lat": 30.5284,
+    "lng": 75.889,
+    "elevation": 248,
+    "geocodedName": "Malerkotla",
+    "admin1": "Punjab"
+  },
+  "Fatehgarh Sahib": {
+    "lat": 30.6436,
+    "lng": 76.398,
+    "elevation": 256,
+    "geocodedName": "Sirhind",
+    "admin1": "Punjab"
+  },
+  "Punjab__Fatehgarh Sahib": {
+    "lat": 30.6436,
+    "lng": 76.398,
+    "elevation": 256,
+    "geocodedName": "Sirhind",
+    "admin1": "Punjab"
+  },
+  "Sahibzada Ajit Singh Nagar (Mohali)": {
+    "lat": 30.7046,
+    "lng": 76.7179,
+    "elevation": 316,
+    "geocodedName": "Mohali",
+    "admin1": "Punjab"
+  },
+  "Punjab__Sahibzada Ajit Singh Nagar (Mohali)": {
+    "lat": 30.7046,
+    "lng": 76.7179,
+    "elevation": 316,
+    "geocodedName": "Mohali",
+    "admin1": "Punjab"
+  },
+  "Shahid Bhagat Singh Nagar": {
+    "lat": 31.12,
+    "lng": 76.12,
+    "elevation": 260,
+    "geocodedName": "Nawanshahr",
+    "admin1": "Punjab"
+  },
+  "Punjab__Shahid Bhagat Singh Nagar": {
+    "lat": 31.12,
+    "lng": 76.12,
+    "elevation": 260,
+    "geocodedName": "Nawanshahr",
+    "admin1": "Punjab"
+  },
+  "Bhilwara": {
+    "lat": 25.35,
+    "lng": 74.63,
+    "elevation": 421,
+    "geocodedName": "Bhilwara",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Bhilwara": {
+    "lat": 25.35,
+    "lng": 74.63,
+    "elevation": 421,
+    "geocodedName": "Bhilwara",
+    "admin1": "Rajasthan"
+  },
+  "Bikaner": {
+    "lat": 28.0229,
+    "lng": 73.3119,
+    "elevation": 242,
+    "geocodedName": "Bikaner",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Bikaner": {
+    "lat": 28.0229,
+    "lng": 73.3119,
+    "elevation": 242,
+    "geocodedName": "Bikaner",
+    "admin1": "Rajasthan"
+  },
+  "Bundi": {
+    "lat": 25.44,
+    "lng": 75.64,
+    "elevation": 268,
+    "geocodedName": "Bundi",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Bundi": {
+    "lat": 25.44,
+    "lng": 75.64,
+    "elevation": 268,
+    "geocodedName": "Bundi",
+    "admin1": "Rajasthan"
+  },
+  "Chittorgarh": {
+    "lat": 24.8887,
+    "lng": 74.6269,
+    "elevation": 394,
+    "geocodedName": "Chittorgarh",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Chittorgarh": {
+    "lat": 24.8887,
+    "lng": 74.6269,
+    "elevation": 394,
+    "geocodedName": "Chittorgarh",
+    "admin1": "Rajasthan"
+  },
+  "Churu": {
+    "lat": 28.29,
+    "lng": 74.96,
+    "elevation": 286,
+    "geocodedName": "Churu",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Churu": {
+    "lat": 28.29,
+    "lng": 74.96,
+    "elevation": 286,
+    "geocodedName": "Churu",
+    "admin1": "Rajasthan"
+  },
+  "Dausa": {
+    "lat": 26.89,
+    "lng": 76.33,
+    "elevation": 333,
+    "geocodedName": "Dausa",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Dausa": {
+    "lat": 26.89,
+    "lng": 76.33,
+    "elevation": 333,
+    "geocodedName": "Dausa",
+    "admin1": "Rajasthan"
+  },
+  "Deeg": {
+    "lat": 27.47,
+    "lng": 77.32,
+    "elevation": 182,
+    "geocodedName": "Deeg",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Deeg": {
+    "lat": 27.47,
+    "lng": 77.32,
+    "elevation": 182,
+    "geocodedName": "Deeg",
+    "admin1": "Rajasthan"
+  },
+  "Dholpur": {
+    "lat": 26.7,
+    "lng": 77.9,
+    "elevation": 177,
+    "geocodedName": "Dholpur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Dholpur": {
+    "lat": 26.7,
+    "lng": 77.9,
+    "elevation": 177,
+    "geocodedName": "Dholpur",
+    "admin1": "Rajasthan"
+  },
+  "Didwana-Kuchaman": {
+    "lat": 27.4,
+    "lng": 74.57,
+    "elevation": 336,
+    "geocodedName": "Didwana",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Didwana-Kuchaman": {
+    "lat": 27.4,
+    "lng": 74.57,
+    "elevation": 336,
+    "geocodedName": "Didwana",
+    "admin1": "Rajasthan"
+  },
+  "Dudu": {
+    "lat": 26.68,
+    "lng": 75.23,
+    "elevation": 365,
+    "geocodedName": "Dudu",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Dudu": {
+    "lat": 26.68,
+    "lng": 75.23,
+    "elevation": 365,
+    "geocodedName": "Dudu",
+    "admin1": "Rajasthan"
+  },
+  "Dungarpur": {
+    "lat": 23.84,
+    "lng": 73.71,
+    "elevation": 225,
+    "geocodedName": "Dungarpur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Dungarpur": {
+    "lat": 23.84,
+    "lng": 73.71,
+    "elevation": 225,
+    "geocodedName": "Dungarpur",
+    "admin1": "Rajasthan"
+  },
+  "Ganganagar": {
+    "lat": 29.9038,
+    "lng": 73.8772,
+    "elevation": 178,
+    "geocodedName": "Sri Ganganagar",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Ganganagar": {
+    "lat": 29.9038,
+    "lng": 73.8772,
+    "elevation": 178,
+    "geocodedName": "Sri Ganganagar",
+    "admin1": "Rajasthan"
+  },
+  "Gangapur City": {
+    "lat": 26.47,
+    "lng": 76.72,
+    "elevation": 268,
+    "geocodedName": "Gangapur",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Gangapur City": {
+    "lat": 26.47,
+    "lng": 76.72,
+    "elevation": 268,
+    "geocodedName": "Gangapur",
+    "admin1": "Rajasthan"
+  },
+  "Khairthal-Tijara": {
+    "lat": 27.93,
+    "lng": 76.85,
+    "elevation": 262,
+    "geocodedName": "Khairthal",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Khairthal-Tijara": {
+    "lat": 27.93,
+    "lng": 76.85,
+    "elevation": 262,
+    "geocodedName": "Khairthal",
+    "admin1": "Rajasthan"
+  },
+  "Kotputli-Behror": {
+    "lat": 27.7,
+    "lng": 76.2,
+    "elevation": 312,
+    "geocodedName": "Kotputli",
+    "admin1": "Rajasthan"
+  },
+  "Rajasthan__Kotputli-Behror": {
+    "lat": 27.7,
+    "lng": 76.2,
+    "elevation": 312,
+    "geocodedName": "Kotputli",
+    "admin1": "Rajasthan"
+  },
+  "Kanyakumari": {
+    "lat": 8.0883,
+    "lng": 77.5385,
+    "elevation": 10,
+    "geocodedName": "Nagercoil",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Kanyakumari": {
+    "lat": 8.0883,
+    "lng": 77.5385,
+    "elevation": 10,
+    "geocodedName": "Nagercoil",
+    "admin1": "Tamil Nadu"
+  },
+  "Nilgiris": {
+    "lat": 11.4102,
+    "lng": 76.695,
+    "elevation": 2240,
+    "geocodedName": "Udhagamandalam",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Nilgiris": {
+    "lat": 11.4102,
+    "lng": 76.695,
+    "elevation": 2240,
+    "geocodedName": "Udhagamandalam",
+    "admin1": "Tamil Nadu"
+  },
+  "Viluppuram": {
+    "lat": 11.9401,
+    "lng": 79.4861,
+    "elevation": 38,
+    "geocodedName": "Viluppuram",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Viluppuram": {
+    "lat": 11.9401,
+    "lng": 79.4861,
+    "elevation": 38,
+    "geocodedName": "Viluppuram",
+    "admin1": "Tamil Nadu"
+  },
+  "Virudhunagar": {
+    "lat": 9.568,
+    "lng": 77.9624,
+    "elevation": 117,
+    "geocodedName": "Virudhunagar",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Virudhunagar": {
+    "lat": 9.568,
+    "lng": 77.9624,
+    "elevation": 117,
+    "geocodedName": "Virudhunagar",
+    "admin1": "Tamil Nadu"
+  },
+  "Tirupathur": {
+    "lat": 12.4925,
+    "lng": 78.5678,
+    "elevation": 388,
+    "geocodedName": "Tirupathur",
+    "admin1": "Tamil Nadu"
+  },
+  "Tamil Nadu__Tirupathur": {
+    "lat": 12.4925,
+    "lng": 78.5678,
+    "elevation": 388,
+    "geocodedName": "Tirupathur",
+    "admin1": "Tamil Nadu"
+  },
+  "Mahabubabad": {
+    "lat": 17.5986,
+    "lng": 80.0039,
+    "elevation": 174,
+    "geocodedName": "Mahabubabad",
+    "admin1": "Telangana"
+  },
+  "Telangana__Mahabubabad": {
+    "lat": 17.5986,
+    "lng": 80.0039,
+    "elevation": 174,
+    "geocodedName": "Mahabubabad",
+    "admin1": "Telangana"
+  },
+  "Mahabubnagar": {
+    "lat": 16.7488,
+    "lng": 77.9864,
+    "elevation": 498,
+    "geocodedName": "Mahabubnagar",
+    "admin1": "Telangana"
+  },
+  "Telangana__Mahabubnagar": {
+    "lat": 16.7488,
+    "lng": 77.9864,
+    "elevation": 498,
+    "geocodedName": "Mahabubnagar",
+    "admin1": "Telangana"
+  },
+  "Kamareddy": {
+    "lat": 18.3248,
+    "lng": 78.337,
+    "elevation": 495,
+    "geocodedName": "Kamareddy",
+    "admin1": "Telangana"
+  },
+  "Telangana__Kamareddy": {
+    "lat": 18.3248,
+    "lng": 78.337,
+    "elevation": 495,
+    "geocodedName": "Kamareddy",
+    "admin1": "Telangana"
+  },
+  "Kumuram Bheem Asifabad": {
+    "lat": 19.362,
+    "lng": 79.2828,
+    "elevation": 218,
+    "geocodedName": "Asifabad",
+    "admin1": "Telangana"
+  },
+  "Telangana__Kumuram Bheem Asifabad": {
+    "lat": 19.362,
+    "lng": 79.2828,
+    "elevation": 218,
+    "geocodedName": "Asifabad",
+    "admin1": "Telangana"
+  },
+  "Rajanna Sircilla": {
+    "lat": 18.3846,
+    "lng": 78.8351,
+    "elevation": 322,
+    "geocodedName": "Sircilla",
+    "admin1": "Telangana"
+  },
+  "Telangana__Rajanna Sircilla": {
+    "lat": 18.3846,
+    "lng": 78.8351,
+    "elevation": 322,
+    "geocodedName": "Sircilla",
+    "admin1": "Telangana"
+  },
+  "Nagarkurnool": {
+    "lat": 16.4851,
+    "lng": 78.3168,
+    "elevation": 458,
+    "geocodedName": "Nagarkurnool",
+    "admin1": "Telangana"
+  },
+  "Telangana__Nagarkurnool": {
+    "lat": 16.4851,
+    "lng": 78.3168,
+    "elevation": 458,
+    "geocodedName": "Nagarkurnool",
+    "admin1": "Telangana"
+  },
+  "Sangareddy": {
+    "lat": 17.614,
+    "lng": 78.0816,
+    "elevation": 496,
+    "geocodedName": "Sangareddy",
+    "admin1": "Telangana"
+  },
+  "Telangana__Sangareddy": {
+    "lat": 17.614,
+    "lng": 78.0816,
+    "elevation": 496,
+    "geocodedName": "Sangareddy",
+    "admin1": "Telangana"
+  },
+  "Yadadri Bhuvanagiri": {
+    "lat": 17.5113,
+    "lng": 78.8837,
+    "elevation": 355,
+    "geocodedName": "Bhongir",
+    "admin1": "Telangana"
+  },
+  "Telangana__Yadadri Bhuvanagiri": {
+    "lat": 17.5113,
+    "lng": 78.8837,
+    "elevation": 355,
+    "geocodedName": "Bhongir",
+    "admin1": "Telangana"
+  },
+  "Rangareddy": {
+    "lat": 17.3297,
+    "lng": 78.5822,
+    "elevation": 542,
+    "geocodedName": "Shamshabad",
+    "admin1": "Telangana"
+  },
+  "Telangana__Rangareddy": {
+    "lat": 17.3297,
+    "lng": 78.5822,
+    "elevation": 542,
+    "geocodedName": "Shamshabad",
+    "admin1": "Telangana"
+  },
+  "Sepahijala": {
+    "lat": 23.63,
+    "lng": 91.32,
+    "elevation": 28,
+    "geocodedName": "Bishramganj",
+    "admin1": "Tripura"
+  },
+  "Tripura__Sepahijala": {
+    "lat": 23.63,
+    "lng": 91.32,
+    "elevation": 28,
+    "geocodedName": "Bishramganj",
+    "admin1": "Tripura"
+  },
+  "Ambedkar Nagar": {
+    "lat": 26.44,
+    "lng": 82.68,
+    "elevation": 89,
+    "geocodedName": "Akbarpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Ambedkar Nagar": {
+    "lat": 26.44,
+    "lng": 82.68,
+    "elevation": 89,
+    "geocodedName": "Akbarpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Unakoti": {
+    "lat": 24.32,
+    "lng": 92.01,
+    "elevation": 33,
+    "geocodedName": "Kailashahar",
+    "admin1": "Tripura"
+  },
+  "Tripura__Unakoti": {
+    "lat": 24.32,
+    "lng": 92.01,
+    "elevation": 33,
+    "geocodedName": "Kailashahar",
+    "admin1": "Tripura"
+  },
+  "Gautam Buddha Nagar (Noida)": {
+    "lat": 28.5355,
+    "lng": 77.391,
+    "elevation": 200,
+    "geocodedName": "Noida",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Gautam Buddha Nagar (Noida)": {
+    "lat": 28.5355,
+    "lng": 77.391,
+    "elevation": 200,
+    "geocodedName": "Noida",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kanpur Dehat": {
+    "lat": 26.33,
+    "lng": 79.95,
+    "elevation": 125,
+    "geocodedName": "Akbarpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kanpur Dehat": {
+    "lat": 26.33,
+    "lng": 79.95,
+    "elevation": 125,
+    "geocodedName": "Akbarpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kanpur Nagar": {
+    "lat": 26.4499,
+    "lng": 80.3319,
+    "elevation": 126,
+    "geocodedName": "Kanpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kanpur Nagar": {
+    "lat": 26.4499,
+    "lng": 80.3319,
+    "elevation": 126,
+    "geocodedName": "Kanpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Kaushambi": {
+    "lat": 25.53,
+    "lng": 81.38,
+    "elevation": 95,
+    "geocodedName": "Manjhanpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Uttar Pradesh__Kaushambi": {
+    "lat": 25.53,
+    "lng": 81.38,
+    "elevation": 95,
+    "geocodedName": "Manjhanpur",
+    "admin1": "Uttar Pradesh"
+  },
+  "Birbhum": {
+    "lat": 23.9,
+    "lng": 87.52,
+    "elevation": 71,
+    "geocodedName": "Suri",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Birbhum": {
+    "lat": 23.9,
+    "lng": 87.52,
+    "elevation": 71,
+    "geocodedName": "Suri",
+    "admin1": "West Bengal"
+  },
+  "Pauri Garhwal": {
+    "lat": 30.15,
+    "lng": 78.78,
+    "elevation": 1814,
+    "geocodedName": "Pauri",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarakhand__Pauri Garhwal": {
+    "lat": 30.15,
+    "lng": 78.78,
+    "elevation": 1814,
+    "geocodedName": "Pauri",
+    "admin1": "Uttarakhand"
+  },
+  "Udham Singh Nagar": {
+    "lat": 28.98,
+    "lng": 79.4,
+    "elevation": 210,
+    "geocodedName": "Rudrapur",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarakhand__Udham Singh Nagar": {
+    "lat": 28.98,
+    "lng": 79.4,
+    "elevation": 210,
+    "geocodedName": "Rudrapur",
+    "admin1": "Uttarakhand"
+  },
+  "Dakshin Dinajpur": {
+    "lat": 25.22,
+    "lng": 88.76,
+    "elevation": 28,
+    "geocodedName": "Balurghat",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Dakshin Dinajpur": {
+    "lat": 25.22,
+    "lng": 88.76,
+    "elevation": 28,
+    "geocodedName": "Balurghat",
+    "admin1": "West Bengal"
+  },
+  "Tehri Garhwal": {
+    "lat": 30.38,
+    "lng": 78.48,
+    "elevation": 1750,
+    "geocodedName": "New Tehri",
+    "admin1": "Uttarakhand"
+  },
+  "Uttarakhand__Tehri Garhwal": {
+    "lat": 30.38,
+    "lng": 78.48,
+    "elevation": 1750,
+    "geocodedName": "New Tehri",
+    "admin1": "Uttarakhand"
+  },
+  "Alipurduar": {
+    "lat": 26.49,
+    "lng": 89.52,
+    "elevation": 93,
+    "geocodedName": "Alipurduar",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Alipurduar": {
+    "lat": 26.49,
+    "lng": 89.52,
+    "elevation": 93,
+    "geocodedName": "Alipurduar",
+    "admin1": "West Bengal"
+  },
+  "South 24 Parganas": {
+    "lat": 22.17,
+    "lng": 88.51,
+    "elevation": 9,
+    "geocodedName": "Alipore",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__South 24 Parganas": {
+    "lat": 22.17,
+    "lng": 88.51,
+    "elevation": 9,
+    "geocodedName": "Alipore",
+    "admin1": "West Bengal"
+  },
+  "Paschim Bardhaman": {
+    "lat": 23.68,
+    "lng": 86.98,
+    "elevation": 97,
+    "geocodedName": "Asansol",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Paschim Bardhaman": {
+    "lat": 23.68,
+    "lng": 86.98,
+    "elevation": 97,
+    "geocodedName": "Asansol",
+    "admin1": "West Bengal"
+  },
+  "Purba Medinipur": {
+    "lat": 21.93,
+    "lng": 87.77,
+    "elevation": 10,
+    "geocodedName": "Tamluk",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Purba Medinipur": {
+    "lat": 21.93,
+    "lng": 87.77,
+    "elevation": 10,
+    "geocodedName": "Tamluk",
+    "admin1": "West Bengal"
+  },
+  "Purba Bardhaman": {
+    "lat": 23.23,
+    "lng": 87.86,
+    "elevation": 40,
+    "geocodedName": "Bardhaman",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Purba Bardhaman": {
+    "lat": 23.23,
+    "lng": 87.86,
+    "elevation": 40,
+    "geocodedName": "Bardhaman",
+    "admin1": "West Bengal"
+  },
+  "North 24 Parganas": {
+    "lat": 22.72,
+    "lng": 88.48,
+    "elevation": 11,
+    "geocodedName": "Barasat",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__North 24 Parganas": {
+    "lat": 22.72,
+    "lng": 88.48,
+    "elevation": 11,
+    "geocodedName": "Barasat",
+    "admin1": "West Bengal"
+  },
+  "Uttar Dinajpur": {
+    "lat": 25.62,
+    "lng": 88.12,
+    "elevation": 40,
+    "geocodedName": "Raiganj",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Uttar Dinajpur": {
+    "lat": 25.62,
+    "lng": 88.12,
+    "elevation": 40,
+    "geocodedName": "Raiganj",
+    "admin1": "West Bengal"
+  },
+  "Paschim Medinipur": {
+    "lat": 22.42,
+    "lng": 87.32,
+    "elevation": 23,
+    "geocodedName": "Medinipur",
+    "admin1": "West Bengal"
+  },
+  "West Bengal__Paschim Medinipur": {
+    "lat": 22.42,
+    "lng": 87.32,
+    "elevation": 23,
+    "geocodedName": "Medinipur",
+    "admin1": "West Bengal"
+  },
+  "North and Middle Andaman": {
+    "lat": 12.92,
+    "lng": 92.92,
+    "elevation": 12,
+    "geocodedName": "Mayabunder",
+    "admin1": "Andaman and Nicobar Islands"
+  },
+  "Andaman and Nicobar Islands__North and Middle Andaman": {
+    "lat": 12.92,
+    "lng": 92.92,
+    "elevation": 12,
+    "geocodedName": "Mayabunder",
+    "admin1": "Andaman and Nicobar Islands"
+  },
+  "Bandipora": {
+    "lat": 34.42,
+    "lng": 74.64,
+    "elevation": 1578,
+    "geocodedName": "Bandipora",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Bandipora": {
+    "lat": 34.42,
+    "lng": 74.64,
+    "elevation": 1578,
+    "geocodedName": "Bandipora",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Budgam": {
+    "lat": 34.02,
+    "lng": 74.72,
+    "elevation": 1610,
+    "geocodedName": "Budgam",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Budgam": {
+    "lat": 34.02,
+    "lng": 74.72,
+    "elevation": 1610,
+    "geocodedName": "Budgam",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Baramulla": {
+    "lat": 34.2,
+    "lng": 74.34,
+    "elevation": 1593,
+    "geocodedName": "Baramulla",
+    "admin1": "Jammu and Kashmir"
+  },
+  "Jammu and Kashmir__Baramulla": {
+    "lat": 34.2,
+    "lng": 74.34,
+    "elevation": 1593,
+    "geocodedName": "Baramulla",
+    "admin1": "Jammu and Kashmir"
+  }
+};
+export default EXACT_DISTRICT_COORDINATES;
