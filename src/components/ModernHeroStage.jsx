@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { 
   Sun, 
+  CloudSun,
   CloudRain, 
   CloudLightning, 
   Cloud, 
@@ -184,8 +185,8 @@ export default function ModernHeroStage({
       );
     }
 
-    // Partly Cloudy (Sun with Cloud)
-    if (mainLower.includes('partly')) {
+    // Partly Cloudy (Single Unified Sun with Cloud Glyph)
+    if (mainLower.includes('partly') || iconName === 'CloudSun' || themeLower === 'cloudy') {
       return (
         <div className="relative flex items-center justify-center w-36 h-36 md:w-44 md:h-44">
           <div className="absolute inset-0 rounded-full bg-amber-400/20 blur-3xl animate-pulse-slow" />
@@ -194,8 +195,7 @@ export default function ModernHeroStage({
             transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }}
             className="relative z-10 flex items-center justify-center"
           >
-            <Sun className="w-24 h-24 md:w-30 md:h-30 text-amber-300 drop-shadow-[0_10px_25px_rgba(245,158,11,0.6)]" />
-            <Cloud className="w-16 h-16 md:w-20 md:h-20 text-slate-200 absolute -bottom-2 -right-2 drop-shadow-[0_8px_20px_rgba(203,213,225,0.5)]" />
+            <CloudSun className="w-28 h-28 md:w-36 md:h-36 text-amber-300 drop-shadow-[0_15px_35px_rgba(245,158,11,0.6)]" />
           </motion.div>
         </div>
       );
