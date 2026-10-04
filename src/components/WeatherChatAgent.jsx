@@ -20,7 +20,7 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import { TRANSLATIONS } from '../data/translations';
-import { queryVayuMitra } from '../services/aiAgentService';
+import { queryWeatherGPT } from '../services/aiAgentService';
 import { speechService } from '../services/speechService';
 
 export default function WeatherChatAgent({ 
@@ -58,7 +58,7 @@ export default function WeatherChatAgent({
             step: 1,
             title: "Session Initialization & Geolocation Binding",
             details: `Context bound to District="${activeDistrict}", State="${activeState}". Retrieved localized agro-climatic profile.`,
-            source: "VayuMitra Regional Spatial Dispatcher"
+            source: "WeatherGPT Regional Spatial Dispatcher"
           },
           {
             step: 2,
@@ -86,18 +86,18 @@ export default function WeatherChatAgent({
   const getLocalizedGreeting = (lang, district, state) => {
     switch (lang) {
       case 'kn':
-        return `ನಮಸ್ಕಾರ! ನಾನು ವಾಯುಮಿತ್ರ (VayuMitra) AI ಸಹಾಯಕ. ${district} (${state}) ಜಿಲ್ಲೆಯ ಹವಾಮಾನ ಮುನ್ಸೂಚನೆ, ಮಳೆಯ ನಿಖರ ಸಮಯ, ಬೆಳೆ ರೋಗಗಳು ಅಥವಾ ರಸ್ತೆ ಪ್ರಯಾಣದ ಬಗ್ಗೆ ಯಾವುದೇ ಪ್ರಶ್ನೆ ಕೇಳಿ.`;
+        return `ನಮಸ್ಕಾರ! ನಾನು ವೆದರ್‌ಜಿಪಿಟಿ (WeatherGPT) AI ಸಹಾಯಕ. ${district} (${state}) ಜಿಲ್ಲೆಯ ಹವಾಮಾನ ಮುನ್ಸೂಚನೆ, ಮಳೆಯ ನಿಖರ ಸಮಯ, ಬೆಳೆ ರೋಗಗಳು ಅಥವಾ ರಸ್ತೆ ಪ್ರಯಾಣದ ಬಗ್ಗೆ ಯಾವುದೇ ಪ್ರಶ್ನೆ ಕೇಳಿ.`;
       case 'hi':
-        return `नमस्ते! मैं वायुमित्र (VayuMitra) AI सहायक हूँ। ${district} (${state}) जिले के मौसम, बारिश के सटीक समय, फसल कीट परामर्श या यात्रा मार्ग के बारे में पूछें।`;
+        return `नमस्ते! मैं वेदरजीपीटी (WeatherGPT) AI सहायक हूँ। ${district} (${state}) जिले के मौसम, बारिश के सटीक समय, फसल कीट परामर्श या यात्रा मार्ग के बारे में पूछें।`;
       case 'te':
-        return `నమస్కారం! నేను వాయుమిత్ర (VayuMitra) AI అసిస్టెంట్. ${district} (${state}) జిల్లా వాతావరణం, వర్షపాతం సమయం, పంటల తెగుళ్లు లేదా ప్రయాణ మార్గం గురించి నన్ను అడగండి.`;
+        return `నమస్కారం! నేను వెదర్‌జీపీటీ (WeatherGPT) AI అసిస్టెంట్. ${district} (${state}) జిల్లా వాతావరణం, వర్షపాతం సమయం, పంటల తెగుళ్లు లేదా ప్రయాణ మార్గం గురించి నన్ను అడగండి.`;
       case 'ta':
-        return `வணக்கம்! நான் வாயுமித்ரா (VayuMitra) AI உதவியாளர். ${district} (${state}) மாவட்ட வானிலை, மழை நேரம், பயிர் நோய்கள் அல்லது பயண வழி குறித்து என்னிடம் கேளுங்கள்.`;
+        return `வணக்கம்! நான் வெதர்கிபிடி (WeatherGPT) AI உதவியாளர். ${district} (${state}) மாவட்ட வானிலை, மழை நேரம், பயிர் நோய்கள் அல்லது பயண வழி குறித்து என்னிடம் கேளுங்கள்.`;
       case 'mr':
-        return `नमस्कार! मी वायुमित्र (VayuMitra) AI सहाय्यक आहे. ${district} (${state}) जिल्ह्यातील हवामान, पावसाची अचूक वेळ, पिकांचे रोग किंवा प्रवासाबद्दल मला विचारा.`;
+        return `नमस्कार! मी वेदरजीपीटी (WeatherGPT) AI सहाय्यक आहे. ${district} (${state}) जिल्ह्यातील हवामान, पावसाची अचूक वेळ, पिकांचे रोग किंवा प्रवासाबद्दल मला विचारा.`;
       case 'en':
       default:
-        return `Hello! I am VayuMitra Multilingual AI Agent. I am monitoring microclimate conditions for ${district}, ${state}. Ask me about exact rainfall onset windows, agro-pest alerts, seasonal monsoon trends, or route transit hazards!`;
+        return `Hello! I am WeatherGPT Multilingual AI Agent. I am monitoring microclimate conditions for ${district}, ${state}. Ask me about exact rainfall onset windows, agro-pest alerts, seasonal monsoon trends, or route transit hazards!`;
     }
   };
 
@@ -119,7 +119,7 @@ export default function WeatherChatAgent({
     setMicError(null);
 
     try {
-      const result = await queryVayuMitra({
+      const result = await queryWeatherGPT({
         prompt: query,
         activeDistrict,
         activeState,

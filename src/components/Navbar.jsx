@@ -96,7 +96,7 @@ export default function Navbar({
               <div>
                 <div className="flex items-center space-x-2">
                   <span className="font-display font-extrabold text-xl tracking-tight bg-gradient-to-r from-cyan-400 via-sky-200 to-violet-400 bg-clip-text text-transparent">
-                    VayuMitra
+                    WeatherGPT
                   </span>
                   <span className="px-2 py-0.5 text-[10px] font-mono font-bold tracking-wider rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 shadow-sm shadow-cyan-500/20">
                     {t.sihBadge}

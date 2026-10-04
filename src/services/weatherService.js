@@ -1,4 +1,4 @@
-// VayuMitra Meteorological Service
+// WeatherGPT Meteorological Service
 // Multi-provider engine integrating Open-Meteo, OpenWeatherMap, Weatherstack, and IMD-calibrated telemetry
 
 import { getDistrictProfile } from '../data/indiaDistricts.js';
@@ -733,7 +733,7 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
   }
 
   // Development & Debug Sync Logging (Requirement C & Requirement 18)
-  console.log(`[VayuMitra Sync] API: ${current.time || 'N/A'} | Local IST: ${formatLocalTime(localNow, userTz)} (${formatLocalDate(localNow, userTz)}) | Timezone: ${userTz} | Code: ${weatherCode} -> ${condition.main} | Temp: ${temp}°C | Humidity: ${humidity}% | Wind: ${windSpeed} km/h (${windDirection}°) | Gust: ${windGust ?? 'N/A'} | AQI: ${aqiObj.value ?? 'Unavailable'} (${aqiObj.category.label}) | Soil: ${soilMoisture != null ? soilMoisture + '%' : 'Unavailable'} | Solar: ${shortwaveRadiation ?? 'N/A'} W/m² | Freshness: ${freshness}`);
+  console.log(`[WeatherGPT Sync] API: ${current.time || 'N/A'} | Local IST: ${formatLocalTime(localNow, userTz)} (${formatLocalDate(localNow, userTz)}) | Timezone: ${userTz} | Code: ${weatherCode} -> ${condition.main} | Temp: ${temp}°C | Humidity: ${humidity}% | Wind: ${windSpeed} km/h (${windDirection}°) | Gust: ${windGust ?? 'N/A'} | AQI: ${aqiObj.value ?? 'Unavailable'} (${aqiObj.category.label}) | Soil: ${soilMoisture != null ? soilMoisture + '%' : 'Unavailable'} | Solar: ${shortwaveRadiation ?? 'N/A'} W/m² | Freshness: ${freshness}`);
 
   // TODAY'S HOURLY TIMELINE - STRICTLY FILTERED FOR TODAY'S CALENDAR DATE
   const allTodayHours = [];

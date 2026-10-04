@@ -130,7 +130,7 @@ export default function ModernHeader({
             <div>
               <div className="flex items-center space-x-1.5">
                 <span className="font-extrabold text-base md:text-lg tracking-tight bg-gradient-to-r from-white via-slate-100 to-cyan-200 bg-clip-text text-transparent font-sans">
-                  VayuMitra
+                  WeatherGPT
                 </span>
                 <span className="px-1.5 py-0.5 text-[9px] font-mono font-bold rounded-md bg-cyan-500/15 text-cyan-300 border border-cyan-400/30">
                   PRO

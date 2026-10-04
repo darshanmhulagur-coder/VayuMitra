@@ -1,7 +1,7 @@
-// VayuMitra Multilingual AI Agent with Explainable RAG (XAI) Pipeline
+// WeatherGPT Multilingual AI Agent with Explainable RAG (XAI) Pipeline
 // Simulates an end-to-end neural retrieval and agro-meteorological reasoning chain
 
-export async function queryVayuMitra({ prompt, activeDistrict, activeState, weatherData, langCode = 'en' }) {
+export async function queryWeatherGPT({ prompt, activeDistrict, activeState, weatherData, langCode = 'en' }) {
   // Simulate retrieval latency (300-600ms) for realistic UX
   await new Promise(resolve => setTimeout(resolve, 450));
 
@@ -21,7 +21,7 @@ export async function queryVayuMitra({ prompt, activeDistrict, activeState, weat
       step: 1,
       title: "Semantic Parsing & Named Entity Recognition (NER)",
       details: `Identified Entities: District="${district}", State="${state}", Domain="${getIntentCategory(lowerPrompt)}". Parsed spatial coordinates (${weatherData?.profile?.lat}, ${weatherData?.profile?.lng}) and elevation ${weatherData?.profile?.elevation}m.`,
-      source: "VayuMitra NER Transformer v3.4"
+      source: "WeatherGPT NER Transformer v3.4"
     },
     {
       step: 2,
@@ -190,6 +190,3 @@ function generateLocalizedAnswer({ prompt, district, state, temp, humidity, cond
 
   return `Forecast for ${district}, ${state}: ${temp}°C, ${humidity}% humidity.`;
 }
-
-// Backward-compatibility alias
-export const queryWeatherGPT = queryVayuMitra;

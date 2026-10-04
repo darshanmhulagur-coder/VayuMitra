@@ -11,7 +11,7 @@ export const SUPPORTED_LANGUAGES = [
 
 export const TRANSLATIONS = {
   en: {
-    appTitle: "VayuMitra",
+    appTitle: "WeatherGPT",
     tagline: "Multilingual Conversational AI & Climate Intelligence",
     sihBadge: "SIH26068",
     searchPlaceholder: "Search any Indian City, District, or 6-digit Pincode...",
@@ -74,7 +74,7 @@ export const TRANSLATIONS = {
     spotterYes: "Yes, Raining Now",
     spotterNo: "No, Clear / Overcast",
     spotterThanks: "Thank you! Live confidence index boosted by +4.8%",
-    aiChatHeader: "VayuMitra Multilingual Neural Assistant",
+    aiChatHeader: "WeatherGPT Multilingual Neural Assistant",
     aiChatSub: "Powered by Explainable RAG & Indian Agro-Meteorological Telemetry",
     chatPlaceholder: "Ask about rainfall timing, monsoon arrival, pest alerts, or route weather...",
     listening: "Listening to your voice...",
@@ -92,7 +92,7 @@ export const TRANSLATIONS = {
     basin: "River Basin"
   },
   kn: {
-    appTitle: "ವಾಯುಮಿತ್ರ (VayuMitra)",
+    appTitle: "ವೆದರ್‌ಜಿಪಿಟಿ (WeatherGPT)",
     tagline: "ಹವಾಮಾನ ಮುನ್ಸೂಚನೆ ಮತ್ತು ಹವಾಮಾನ ಬುದ್ಧಿಮತ್ತೆಗಾಗಿ ಬಹುಭಾಷಾ AI",
     sihBadge: "SIH26068",
     searchPlaceholder: "ಯಾವುದೇ ಭಾರತೀಯ ನಗರ, ಜಿಲ್ಲೆ ಅಥವಾ ೬-ಅಂಕಿಯ ಪಿನ್‌ಕೋಡ್ ಹುಡುಕಿ...",
@@ -155,7 +155,7 @@ export const TRANSLATIONS = {
     spotterYes: "ಹೌದು, ಈಗ ಮಳೆಯಾಗುತ್ತಿದೆ",
     spotterNo: "ಇಲ್ಲ, ಒಣ ಹವಾಮಾನ",
     spotterThanks: "ಧನ್ಯವಾದಗಳು! ಸ್ಥಳೀಯ ನಿಖರತೆ +೪.೮% ಹೆಚ್ಚಾಗಿದೆ",
-    aiChatHeader: "ವಾಯುಮಿತ್ರ ಬಹುಭಾಷಾ AI ಸಹಾಯಕ",
+    aiChatHeader: "ವೆದರ್‌ಜಿಪಿಟಿ ಬಹುಭಾಷಾ AI ಸಹಾಯಕ",
     aiChatSub: "ವಿವರಣಾತ್ಮಕ RAG ಮತ್ತು IMD ದತ್ತಾಂಶ ಆಧಾರಿತ",
     chatPlaceholder: "ಮಳೆ ಯಾವಾಗ ಬರುತ್ತದೆ, ಬೆಳೆ ರೋಗಗಳು ಅಥವಾ ರಸ್ತೆ ಹವಾಮಾನದ ಬಗ್ಗೆ ಕೇಳಿ...",
     listening: "ನಿಮ್ಮ ಧ್ವನಿಯನ್ನು ಆಲಿಸಲಾಗುತ್ತಿದೆ...",
@@ -173,7 +173,7 @@ export const TRANSLATIONS = {
     basin: "ನದಿ ಪಾತ್ರ"
   },
   hi: {
-    appTitle: "वायुमित्र (VayuMitra)",
+    appTitle: "वेदरजीपीटी (WeatherGPT)",
     tagline: "मौसम पूर्वानुमान, अलर्ट और जलवायु विश्लेषण के लिए बहुभाषी AI",
     sihBadge: "SIH26068",
     searchPlaceholder: "कोई भी भारतीय शहर, जिला या 6-अंकीय पिनकोड खोजें...",
@@ -236,7 +236,7 @@ export const TRANSLATIONS = {
     spotterYes: "हाँ, अभी बारिश हो रही है",
     spotterNo: "नहीं, मौसम साफ / शुष्क है",
     spotterThanks: "धन्यवाद! स्थानीय सटीकता स्कोर में +4.8% की वृद्धि हुई",
-    aiChatHeader: "वायुमित्र बहुभाषी AI सहायक",
+    aiChatHeader: "वेदरजीपीटी बहुभाषी AI सहायक",
     aiChatSub: "व्याख्यात्मक RAG एवं भारतीय मौसम विज्ञान पर आधारित",
     chatPlaceholder: "बारिश के समय, मानसून आगमन, कीट प्रकोप या रास्ते के मौसम के बारे में पूछें...",
     listening: "आपकी आवाज़ सुनी जा रही है...",
@@ -254,7 +254,7 @@ export const TRANSLATIONS = {
     basin: "नदी बेसिन"
   },
   te: {
-    appTitle: "వాయుమిత్ర (VayuMitra)",
+    appTitle: "వెదర్‌జీపీటీ (WeatherGPT)",
     tagline: "వాతావరణ అంచనా మరియు వాతావరణ సమాచారం కోసం బహుభాషా AI",
     sihBadge: "SIH26068",
     searchPlaceholder: "ఏదైనా భారతీయ నగరం, జిల్లా లేదా 6-అంకెల పిన్‌కోడ్ శోధించండి...",
@@ -317,7 +317,7 @@ export const TRANSLATIONS = {
     spotterYes: "అవును, వర్షం పడుతోంది",
     spotterNo: "లేదు, వాతావరణం పొడిగా ఉంది",
     spotterThanks: "ధన్యవాదాలు! స్థానిక ఖచ్చితత్వం +4.8% పెరిగింది",
-    aiChatHeader: "వాయుమిత్ర బహుభాషా AI అసిస్టెంట్",
+    aiChatHeader: "వెదర్‌జీపీటీ బహుభాషా AI అసిస్టెంట్",
     aiChatSub: "వివరణాత్మక RAG & IMD డేటా ఆధారితం",
     chatPlaceholder: "వర్షం సమయం, రుతుపవనాల రాక, పంటల తెగుళ్లు లేదా రహదారి వాతావరణం గురించి అడగండి...",
     listening: "మీ వాయిస్ వినబడుతోంది...",
@@ -335,7 +335,7 @@ export const TRANSLATIONS = {
     basin: "నదీ పరివాహక ప్రాంతం"
   },
   ta: {
-    appTitle: "வாயுமித்ரா (VayuMitra)",
+    appTitle: "வெதர்கிபிடி (WeatherGPT)",
     tagline: "வானிலை முன்னறிவிப்பு மற்றும் காலநிலை நுண்ணறிவுக்கான பன்மொழி AI",
     sihBadge: "SIH26068",
     searchPlaceholder: "இந்திய நகரம், மாவட்டம் அல்லது 6-இலக்க பின்கோடைத் தேடுங்கள்...",
@@ -398,7 +398,7 @@ export const TRANSLATIONS = {
     spotterYes: "ஆம், இப்போது மழை பெய்கிறது",
     spotterNo: "இல்லை, வறண்ட வானிலை",
     spotterThanks: "நன்றி! உள்ளூர் துல்லியம் +4.8% அதிகரித்துள்ளது",
-    aiChatHeader: "வாயுமித்ரா பன்மொழி AI உதவியாளர்",
+    aiChatHeader: "வெதர்கிபிடி பன்மொழி AI உதவியாளர்",
     aiChatSub: "விளக்கக்கூடிய RAG & இந்திய வானிலை தரவு அடிப்படையிலானது",
     chatPlaceholder: "மழை நேரம், பருவமழை தொடக்கம், பூச்சி தாக்குதல் அல்லது சாலை வானிலை பற்றி கேளுங்கள்...",
     listening: "உங்கள் குரல் கேட்கப்படுகிறது...",
@@ -416,7 +416,7 @@ export const TRANSLATIONS = {
     basin: "ஆற்றுப் படுகை"
   },
   mr: {
-    appTitle: "वायुमित्र (VayuMitra)",
+    appTitle: "वेदरजीपीटी (WeatherGPT)",
     tagline: "हवामान अंदाज, सतर्कता आणि हवामान बुद्धिमत्तेसाठी बहुभाषिक AI",
     sihBadge: "SIH26068",
     searchPlaceholder: "कोणतेही भारतीय शहर, जिल्हा किंवा 6-अंकी पिनकोड शोधा...",
@@ -479,7 +479,7 @@ export const TRANSLATIONS = {
     spotterYes: "होय, आता पाऊस पडत आहे",
     spotterNo: "नाही, कोरडे / ढगाळ वातावरण",
     spotterThanks: "धन्यवाद! स्थानिक अचूकतेत +4.8% वाढ झाली",
-    aiChatHeader: "वायुमित्र बहुभाषिक AI सहाय्यक",
+    aiChatHeader: "वेदरजीपीटी बहुभाषिक AI सहाय्यक",
     aiChatSub: "स्पष्टीकरणात्मक RAG आणि IMD डेटावर आधारित",
     chatPlaceholder: "पावसाची वेळ, मान्सूनचे आगमन, कीड नियंत्रण किंवा रस्त्यावरील हवामानाबद्दल विचारा...",
     listening: "तुमचा आवाज ऐकला जात आहे...",

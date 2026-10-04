@@ -140,7 +140,7 @@ export default function App() {
 
   const handleAskChat = (prompt) => {
     setChatPromptTrigger(prompt);
-    const chatElement = document.getElementById('vayumitra-chat-section');
+    const chatElement = document.getElementById('weathergpt-chat-section');
     if (chatElement) {
       chatElement.scrollIntoView({ behavior: 'smooth' });
     }
@@ -191,7 +191,7 @@ export default function App() {
                 type="button"
                 onClick={handleInstallApp}
                 className="px-2.5 py-1 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-all shadow-md flex items-center space-x-1"
-                title="Install VayuMitra on this device for offline access"
+                title="Install WeatherGPT on this device for offline access"
               >
                 <Download className="w-3 h-3 text-slate-950" />
                 <span>Install App</span>
@@ -288,7 +288,7 @@ export default function App() {
               </section>
 
               {/* SECTION 7: MULTILINGUAL AI ASSISTANT (TEXT & VOICE CHAT) */}
-              <section id="vayumitra-chat-section" aria-label="VayuMitra Multilingual Conversational Agent">
+              <section id="weathergpt-chat-section" aria-label="WeatherGPT Multilingual Conversational Agent">
                 <WeatherChatAgent
                   weatherData={weatherData}
                   language={language}
@@ -318,7 +318,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
           <div className="flex items-center space-x-3">
             <span className="font-extrabold text-slate-100 text-sm tracking-tight font-sans">
-              VayuMitra Pro
+              WeatherGPT Pro
             </span>
           </div>
 

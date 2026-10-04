@@ -334,23 +334,23 @@ export class SpeechHandler {
 
     switch (langCode) {
       case 'kn':
-        return `ನಮಸ್ಕಾರ! ${state} ರಾಜ್ಯದ ${district} ಜಿಲ್ಲೆಯ ವಾಯುಮಿತ್ರ ಬೆಳಗಿನ ಹವಾಮಾನ ಸಾರಾಂಶಕ್ಕೆ ಸ್ವಾಗತ. ಪ್ರಸ್ತುತ ತಾಪಮಾನ ${temp} ಡಿಗ್ರಿ ಸೆಲ್ಸಿಯಸ್ ಮತ್ತು ವಾತಾವರಣದಲ್ಲಿ ಆರ್ದ್ರತೆ ${humidity} ಪ್ರತಿಶತ ಇದೆ. ${firstWindow}. ಮಣ್ಣಿನ ತೇವಾಂಶ ${soilVal} ದಾಖಲಾಗಿದೆ. ಕೃಷಿ ಸಲಹೆ: ${agriculture.irrigationAdvice}. ಸುರಕ್ಷಿತವಾಗಿರಿ, ಶುಭ ದಿನ!`;
+        return `ನಮಸ್ಕಾರ! ${state} ರಾಜ್ಯದ ${district} ಜಿಲ್ಲೆಯ ವೆದರ್‌ಜಿಪಿಟಿ ಬೆಳಗಿನ ಹವಾಮಾನ ಸಾರಾಂಶಕ್ಕೆ ಸ್ವಾಗತ. ಪ್ರಸ್ತುತ ತಾಪಮಾನ ${temp} ಡಿಗ್ರಿ ಸೆಲ್ಸಿಯಸ್ ಮತ್ತು ವಾತಾವರಣದಲ್ಲಿ ಆರ್ದ್ರತೆ ${humidity} ಪ್ರತಿಶತ ಇದೆ. ${firstWindow}. ಮಣ್ಣಿನ ತೇವಾಂಶ ${soilVal} ದಾಖಲಾಗಿದೆ. ಕೃಷಿ ಸಲಹೆ: ${agriculture.irrigationAdvice}. ಸುರಕ್ಷಿತವಾಗಿರಿ, ಶುಭ ದಿನ!`;
 
       case 'hi':
-        return `नमस्ते! ${state} के ${district} जिले के लिए वायुमित्र दैनिक मौसम बुलेटिन में आपका स्वागत है। वर्तमान तापमान ${temp} डिग्री सेल्सियस और आर्द्रता ${humidity} प्रतिशत दर्ज की गई है। ${firstWindow}। मिट्टी में नमी ${soilValHi} प्रतिशत है। कृषि परामर्श: ${agriculture.irrigationAdvice}। सावधान रहें, आपका दिन शुभ हो!`;
+        return `नमस्ते! ${state} के ${district} जिले के लिए वेदरजीपीटी दैनिक मौसम बुलेटिन में आपका स्वागत है। वर्तमान तापमान ${temp} डिग्री सेल्सियस और आर्द्रता ${humidity} प्रतिशत दर्ज की गई है। ${firstWindow}। मिट्टी में नमी ${soilValHi} प्रतिशत है। कृषि परामर्श: ${agriculture.irrigationAdvice}। सावधान रहें, आपका दिन शुभ हो!`;
 
       case 'te':
-        return `నమస్కారం! ${state} రాష్ట్రంలోని ${district} జిల్లా వాయుమిత్ర వాతావరణ బులెటిన్‌కు స్వాగతం. ప్రస్తుత ఉష్ణోగ్రత ${temp} డిగ్రీల సెల్సియస్, గాలిలో తేమ ${humidity} శాతం. ${firstWindow}. నేల తేమ శాతం ${soilValTe} గా నమోదైంది. వ్యవసాయ సలహా: ${agriculture.irrigationAdvice}. సురక్షితంగా ఉండండి, శుభదినం!`;
+        return `నమస్కారం! ${state} రాష్ట్రంలోని ${district} జిల్లా ವೆದರ್‌జీపీటీ వాతావరణ బులెటిన్‌కు స్వాగతం. ప్రస్తుత ఉష్ణోగ్రత ${temp} డిగ్రీల సెల్సియస్, గాలిలో తేమ ${humidity} శాతం. ${firstWindow}. నేల తేమ శాతం ${soilValTe} గా నమోదైంది. వ్యవసాయ సలహా: ${agriculture.irrigationAdvice}. సురక్షితంగా ఉండండి, శుభదినం!`;
 
       case 'ta':
-        return `வணக்கம்! ${state} மாநிலத்தின் ${district} மாவட்ட வாயுமித்ரா காலை வானிலை செய்திக்கு உங்களை வரவேற்கிறோம். தற்போதைய வெப்பநிலை ${temp} டிகிரி செல்சியஸ், காற்றின் ஈரப்பதம் ${humidity} சதவீதம். ${firstWindow}. மண் ஈரப்பதம் ${soilValTa} உள்ளது. விவசாய ஆலோசனை: ${agriculture.irrigationAdvice}. பாதுகாப்பாக இருங்கள், இனிய நாளாக அமையட்டும்!`;
+        return `வணக்கம்! ${state} மாநிலத்தின் ${district} மாவட்ட வெதர்கிபிடி காலை வானிலை செய்திக்கு உங்களை வரவேற்கிறோம். தற்போதைய வெப்பநிலை ${temp} டிகிரி செல்சியஸ், காற்றின் ஈரப்பதம் ${humidity} சதவீதம். ${firstWindow}. மண் ஈரப்பதம் ${soilValTa} உள்ளது. விவசாய ஆலோசனை: ${agriculture.irrigationAdvice}. பாதுகாப்பாக இருங்கள், இனிய நாளாக அமையட்டும்!`;
 
       case 'mr':
-        return `नमस्कार! ${state} राज्यातील ${district} जिल्ह्यासाठी वायुमित्र सकाळच्या हवामान बुलेटिनमध्ये आपले स्वागत आहे. सध्याचे तापमान ${temp} अंश सेल्सिअस आणि हवेतील आर्द्रता ${humidity} टक्के आहे. ${firstWindow}. मातीतील ओलावा ${soilValMr} टक्के नोंदवला गेला आहे. शेती सल्ला: ${agriculture.irrigationAdvice}. सुरक्षित राहा, आपला दिवस चांगला जावो!`;
+        return `नमस्कार! ${state} राज्यातील ${district} जिल्ह्यासाठी वेदरजीपीटी सकाळच्या हवामान बुलेटिनमध्ये आपले स्वागत आहे. सध्याचे तापमान ${temp} अंश सेल्सिअस आणि हवेतील आर्द्रता ${humidity} टक्के आहे. ${firstWindow}. मातीतील ओलावा ${soilValMr} टक्के नोंदवला गेला आहे. शेती सल्ला: ${agriculture.irrigationAdvice}. सुरक्षित राहा, आपला दिवस चांगला जावो!`;
 
       case 'en':
       default:
-        return `Good day! Welcome to your VayuMitra morning meteorological briefing for ${district} district, ${state}. The current temperature is ${temp} degrees Celsius with relative humidity at ${humidity} percent and ${condition}. ${firstWindow}. District root zone soil moisture is at ${soilValEn}. Agricultural advisory: ${agriculture.irrigationAdvice}. Have a safe and weather-ready day!`;
+        return `Good day! Welcome to your WeatherGPT morning meteorological briefing for ${district} district, ${state}. The current temperature is ${temp} degrees Celsius with relative humidity at ${humidity} percent and ${condition}. ${firstWindow}. District root zone soil moisture is at ${soilValEn}. Agricultural advisory: ${agriculture.irrigationAdvice}. Have a safe and weather-ready day!`;
     }
   }
 
