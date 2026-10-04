@@ -2,8 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Sun, 
+  CloudSun,
   CloudRain, 
   Cloud, 
+  CloudFog,
   CloudLightning, 
   Moon, 
   Sunset,
@@ -67,18 +69,22 @@ export default function HourlyScrubber({
   const getWeatherIcon = (h) => {
     if (h.condition?.icon === 'Sunset' || h.theme === 'sunset') return Sunset;
     if (h.condition?.icon === 'CloudLightning' || h.theme === 'storm') return CloudLightning;
-    if (h.condition?.icon === 'CloudRain' || h.theme === 'rain' || h.pop > 50 || h.rain > 0.4) return CloudRain;
+    if (h.condition?.icon === 'CloudRain' || h.theme === 'rain') return CloudRain;
+    if (h.condition?.icon === 'CloudFog' || h.condition?.main?.includes('Fog')) return CloudFog;
     if (h.condition?.icon === 'Cloud' || h.condition?.main === 'Overcast') return Cloud;
+    if (h.condition?.icon === 'CloudSun' || h.condition?.main === 'Partly Cloudy') return CloudSun;
     if (h.condition?.icon === 'Moon' || h.isNight) return Moon;
     if (h.condition?.icon === 'Sun' || h.condition?.main === 'Sunny' || h.condition?.main === 'Mainly Clear') return Sun;
-    return Sun;
+    return h.isNight ? Moon : Sun;
   };
 
   const getIconColor = (h) => {
     if (h.condition?.icon === 'Sunset' || h.theme === 'sunset') return 'text-rose-400';
     if (h.condition?.icon === 'CloudLightning' || h.theme === 'storm') return 'text-indigo-400';
-    if (h.condition?.icon === 'CloudRain' || h.theme === 'rain' || h.pop > 50) return 'text-cyan-400';
+    if (h.condition?.icon === 'CloudRain' || h.theme === 'rain') return 'text-cyan-400';
+    if (h.condition?.icon === 'CloudFog' || h.condition?.main?.includes('Fog')) return 'text-slate-400';
     if (h.condition?.icon === 'Cloud' || h.condition?.main === 'Overcast') return 'text-slate-300';
+    if (h.condition?.icon === 'CloudSun' || h.condition?.main === 'Partly Cloudy') return 'text-amber-300';
     if (h.condition?.icon === 'Moon' || h.isNight) return 'text-cyan-200';
     return 'text-amber-400';
   };

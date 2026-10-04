@@ -189,7 +189,7 @@ export function calculateVPD(temp, humidity) {
 // 1. Open-Meteo Weather API (Primary High-Res, keyless)
 async function fetchOpenMeteo(profile) {
   const userTz = getUserTimezone();
-  const url = `https://api.open-meteo.com/v1/forecast?latitude=${profile.lat}&longitude=${profile.lng}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,surface_pressure,wind_speed_10m,wind_direction_10m,wind_gusts_10m,dew_point_2m,uv_index,shortwave_radiation,direct_normal_irradiance,diffuse_radiation,soil_moisture_0_to_1cm,is_day&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,precipitation_probability,precipitation,weather_code,surface_pressure,cloud_cover,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index,shortwave_radiation,direct_normal_irradiance,diffuse_radiation,soil_moisture_0_to_1cm,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max&timezone=${encodeURIComponent(userTz)}&past_days=1`;
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${profile.lat}&longitude=${profile.lng}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,rain,showers,weather_code,cloud_cover,surface_pressure,wind_speed_10m,wind_direction_10m,wind_gusts_10m,dew_point_2m,uv_index,shortwave_radiation,direct_normal_irradiance,diffuse_radiation,soil_moisture_0_to_1cm,is_day&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,precipitation_probability,precipitation,rain,showers,weather_code,surface_pressure,cloud_cover,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index,shortwave_radiation,direct_normal_irradiance,diffuse_radiation,soil_moisture_0_to_1cm,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max&timezone=${encodeURIComponent(userTz)}&past_days=1`;
   const response = await fetch(url, { signal: AbortSignal.timeout(8000) });
   if (!response.ok) {
     throw new Error(`Open-Meteo HTTP ${response.status}`);
@@ -520,30 +520,54 @@ export async function fetchDistrictWeather(stateName, districtName, forceRefresh
 }
 
 // Universal Condition & Theme Resolver (Day/Night, Sunset, Rain, Storm, Cloudy, Clear)
-// Strictly calibrated according to WMO & IMD standards. Zero false 'Cloudy' on clear/sunny days.
-export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCover = 20, hour24 = 12, isDay = null) {
+// Strictly calibrated according to WMO & IMD standards. Zero false 'Rain' on sunny days with trace numerical virga.
+export function determineConditionAndTheme(
+  code = 0, 
+  pop = 0, 
+  rain = 0, 
+  cloudCover = 20, 
+  hour24 = 12, 
+  isDay = null,
+  solarRadiation = null,
+  humidity = null
+) {
   const isDaytime = (isDay !== null && isDay !== undefined) ? Boolean(isDay) : (hour24 >= 6 && hour24 < 18);
 
+  // Real physical daylight condition check:
+  // If the sun is radiant (solar radiation >= 350 W/m² or cloud cover <= 30% with dry air < 65% humidity)
+  // and rain is merely numerical model trace (< 0.25 mm/h), the ground is dry with visible sunshine!
+  const isSunBlazing = isDaytime && (
+    (solarRadiation !== null && solarRadiation >= 350) ||
+    (cloudCover <= 30 && (humidity === null || humidity < 65) && rain < 0.25)
+  );
+
   // 1. Severe Convective Thunderstorm (Codes 95, 96, 99)
-  if (code >= 95 || (pop >= 75 && rain >= 2.5)) {
+  if (code >= 95 || (pop >= 75 && rain >= 2.0)) {
+    if (cloudCover >= 50 || rain >= 0.25 || !isDaytime || (solarRadiation !== null && solarRadiation < 350)) {
+      return {
+        main: 'Thunderstorm',
+        desc: 'Severe Convective Thunderstorm',
+        icon: 'CloudLightning',
+        theme: 'storm',
+        conditionKey: 'storm',
+        isNight: !isDaytime
+      };
+    }
     return {
-      main: 'Thunderstorm',
-      desc: 'Severe Convective Thunderstorm',
-      icon: 'CloudLightning',
-      theme: 'storm',
-      conditionKey: 'storm',
-      isNight: !isDaytime
+      main: 'Partly Cloudy',
+      desc: 'Isolated Thunder Hazard / Mostly Sunny',
+      icon: 'CloudSun',
+      theme: 'cloudy',
+      conditionKey: 'cloudy',
+      isNight: false
     };
   }
 
-  // 2. Real Rain / Heavy Downpour (Codes 61-65, 80-82 or real precip)
-  const hasActualRain = (rain >= 0.8) || (pop >= 55 && rain >= 0.3) || (code >= 61 && code <= 65) || (code >= 80 && code <= 82);
-  if (hasActualRain) {
-    const isHeavy = code === 65 || code === 82 || rain >= 3.0 || pop >= 80;
-    const isShowers = code >= 80 && code <= 82;
+  // 2. Heavy Rain / Torrential Downpour (Codes 65, 82 or rain >= 2.5 mm/h)
+  if (code === 65 || code === 82 || rain >= 2.5 || (pop >= 85 && rain >= 1.5)) {
     return {
-      main: isHeavy ? 'Heavy Rain' : isShowers ? 'Rain Showers' : (code === 61 ? 'Light Rain' : 'Rain'),
-      desc: isHeavy ? 'Torrential Downpour' : isShowers ? 'Active Rain Showers' : 'Precipitation',
+      main: 'Heavy Rain',
+      desc: 'Torrential Downpour',
       icon: 'CloudRain',
       theme: 'rain',
       conditionKey: 'rain',
@@ -563,19 +587,122 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 4. Trace drizzle / light drizzle (Codes 51-57)
-  if ((code >= 51 && code <= 57) || (pop >= 40 && rain > 0 && rain < 0.8)) {
-    return {
-      main: 'Drizzle',
-      desc: 'Light Passing Drizzle',
-      icon: 'CloudRain',
-      theme: 'rain',
-      conditionKey: 'rain',
-      isNight: !isDaytime
-    };
+  // 4. Real Rain Showers (Codes 80-82)
+  if (code >= 80 && code <= 82) {
+    if (rain >= 0.3 || (pop >= 60 && rain >= 0.2)) {
+      return {
+        main: 'Rain Showers',
+        desc: 'Active Rain Showers',
+        icon: 'CloudRain',
+        theme: 'rain',
+        conditionKey: 'rain',
+        isNight: !isDaytime
+      };
+    }
+    // Rain is trace or virga — evaluate actual ground sky state
+    if (isDaytime) {
+      if (cloudCover <= 30) {
+        return {
+          main: cloudCover <= 15 ? 'Sunny' : 'Mainly Clear',
+          desc: cloudCover <= 15 ? 'Bright & Radiant Sunshine' : 'Mostly Sunny & Clear Sky',
+          icon: 'Sun',
+          theme: 'clear',
+          conditionKey: 'clear',
+          isNight: false
+        };
+      }
+      return cloudCover < 75
+        ? { main: 'Partly Cloudy', desc: 'Scattered Clouds & Sun', icon: 'CloudSun', theme: 'cloudy', conditionKey: 'cloudy', isNight: false }
+        : { main: 'Overcast', desc: 'Dense Overcast Cloud Cover', icon: 'Cloud', theme: 'cloudy', conditionKey: 'cloudy', isNight: false };
+    }
+    return cloudCover <= 35
+      ? { main: 'Clear Sky', desc: 'Starlit & Clear Night Sky', icon: 'Moon', theme: 'night', conditionKey: 'night', isNight: true }
+      : { main: 'Partly Cloudy', desc: 'Partly Cloudy Night', icon: 'Cloud', theme: 'cloudy', conditionKey: 'cloudy', isNight: true };
   }
 
-  // 5. Atmospheric Fog & Mist (Codes 45, 48)
+  // 5. Steady / Moderate Rain (Codes 61-63)
+  if (code >= 61 && code <= 63) {
+    if (rain >= 0.35 || (cloudCover >= 60 && rain >= 0.25)) {
+      return {
+        main: code === 61 ? 'Light Rain' : 'Rain',
+        desc: code === 61 ? 'Light Rain Showers' : 'Precipitation',
+        icon: 'CloudRain',
+        theme: 'rain',
+        conditionKey: 'rain',
+        isNight: !isDaytime
+      };
+    }
+    // Trace precipitation without measurable ground accumulation
+    if (isDaytime) {
+      if (cloudCover <= 30) {
+        return {
+          main: cloudCover <= 15 ? 'Sunny' : 'Mainly Clear',
+          desc: cloudCover <= 15 ? 'Bright & Radiant Sunshine' : 'Mostly Sunny & Clear Sky',
+          icon: 'Sun',
+          theme: 'clear',
+          conditionKey: 'clear',
+          isNight: false
+        };
+      }
+      return cloudCover < 75
+        ? { main: 'Partly Cloudy', desc: 'Scattered Clouds & Sun', icon: 'CloudSun', theme: 'cloudy', conditionKey: 'cloudy', isNight: false }
+        : { main: 'Overcast', desc: 'Dense Overcast Cloud Cover', icon: 'Cloud', theme: 'cloudy', conditionKey: 'cloudy', isNight: false };
+    }
+    return cloudCover <= 35
+      ? { main: 'Clear Sky', desc: 'Starlit & Clear Night Sky', icon: 'Moon', theme: 'night', conditionKey: 'night', isNight: true }
+      : { main: 'Partly Cloudy', desc: 'Partly Cloudy Night', icon: 'Cloud', theme: 'cloudy', conditionKey: 'cloudy', isNight: true };
+  }
+
+  // 6. Drizzle (Codes 51-57)
+  // Drizzle meteorologically requires dense low cloud ceiling (>= 60%), high humidity (>= 68%), and measurable rate (>= 0.25 mm/h).
+  if (code >= 51 && code <= 57) {
+    if (rain >= 0.25 && cloudCover >= 55 && (humidity === null || humidity >= 68) && !isSunBlazing) {
+      return {
+        main: 'Drizzle',
+        desc: 'Light Overcast Drizzle',
+        icon: 'CloudRain',
+        theme: 'rain',
+        conditionKey: 'rain',
+        isNight: !isDaytime
+      };
+    }
+    // Otherwise, model virga trace (e.g., 0.1mm) with radiant sun or dry air -> Clear / Partly Cloudy
+    if (isDaytime) {
+      if (cloudCover <= 30) {
+        return {
+          main: cloudCover <= 15 ? 'Sunny' : 'Mainly Clear',
+          desc: cloudCover <= 15 ? 'Bright & Radiant Sunshine' : 'Mostly Sunny & Clear Sky',
+          icon: 'Sun',
+          theme: 'clear',
+          conditionKey: 'clear',
+          isNight: false
+        };
+      }
+      if (cloudCover < 75) {
+        return {
+          main: 'Partly Cloudy',
+          desc: 'Scattered Clouds & Sun',
+          icon: 'CloudSun',
+          theme: 'cloudy',
+          conditionKey: 'cloudy',
+          isNight: false
+        };
+      }
+      return {
+        main: 'Overcast',
+        desc: 'Dense Overcast Cloud Cover',
+        icon: 'Cloud',
+        theme: 'cloudy',
+        conditionKey: 'cloudy',
+        isNight: false
+      };
+    }
+    return cloudCover <= 35
+      ? { main: 'Clear Sky', desc: 'Starlit & Clear Night Sky', icon: 'Moon', theme: 'night', conditionKey: 'night', isNight: true }
+      : { main: 'Partly Cloudy', desc: 'Partly Cloudy Night', icon: 'Cloud', theme: 'cloudy', conditionKey: 'cloudy', isNight: true };
+  }
+
+  // 7. Atmospheric Fog & Mist (Codes 45, 48)
   if (code === 45 || code === 48) {
     return {
       main: 'Fog & Mist',
@@ -587,8 +714,8 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 6. Overcast Cloud Ceiling (Code 3 or dense cloudCover >= 80%)
-  if (code === 3 || cloudCover >= 80) {
+  // 8. Overcast Cloud Ceiling (Code 3 or dense cloudCover >= 75%)
+  if (code === 3 || cloudCover >= 75) {
     return {
       main: 'Overcast',
       desc: 'Dense Overcast Cloud Cover',
@@ -599,8 +726,8 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 7. Partly Cloudy (Code 2 or moderate cloudCover between 45% and 80%)
-  if (code === 2 || (cloudCover >= 45 && code !== 0 && code !== 1)) {
+  // 9. Partly Cloudy (Code 2 or cloudCover between 35% and 75%)
+  if (code === 2 || (cloudCover >= 35 && code !== 0 && code !== 1)) {
     return {
       main: 'Partly Cloudy',
       desc: isDaytime ? 'Scattered Clouds & Sun' : 'Partly Cloudy Night',
@@ -611,8 +738,8 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 8. Sunset Golden Hour (5:00 PM to 6:30 PM) during clear conditions
-  if (hour24 >= 17 && hour24 <= 18 && (code === 0 || code === 1) && !isDaytime) {
+  // 10. Sunset Golden Hour (5:00 PM to 6:30 PM) during clear conditions
+  if (hour24 >= 17 && hour24 <= 18 && (code === 0 || code === 1 || cloudCover <= 30) && !isDaytime) {
     return {
       main: 'Sunset',
       desc: 'Atmospheric Dusk & Golden Hour',
@@ -623,7 +750,7 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 9. Clear Night Sky (Sun is below horizon)
+  // 11. Clear Night Sky (Sun is below horizon)
   if (!isDaytime) {
     return {
       main: 'Clear Sky',
@@ -635,8 +762,8 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 10. Mainly Clear / Mostly Sunny Daytime (Code 1)
-  if (code === 1) {
+  // 12. Mainly Clear / Mostly Sunny Daytime (Code 1 or cloudCover between 15% and 35%)
+  if (code === 1 || (cloudCover >= 15 && cloudCover <= 35)) {
     return {
       main: 'Mainly Clear',
       desc: 'Mostly Sunny & Clear Sky',
@@ -647,7 +774,7 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
     };
   }
 
-  // 11. Bright Radiant Sunshine / Clear Sky Daytime (Code 0)
+  // 13. Bright Radiant Sunshine / Clear Sky Daytime (Code 0 or cloudCover < 15%)
   return {
     main: 'Sunny',
     desc: 'Bright & Radiant Sunshine',
@@ -658,9 +785,9 @@ export function determineConditionAndTheme(code = 0, pop = 0, rain = 0, cloudCov
   };
 }
 
-export function getWeatherConditionFromCode(code, hour24 = null, isDay = null) {
+export function getWeatherConditionFromCode(code, hour24 = null, isDay = null, solarRadiation = null, humidity = null) {
   const currentHour = hour24 ?? getLocalNow().getHours();
-  return determineConditionAndTheme(code, 0, 0, 20, currentHour, isDay);
+  return determineConditionAndTheme(code, 0, 0, 20, currentHour, isDay, solarRadiation, humidity);
 }
 
 function processWeatherData(stateName, districtName, profile, rawData, rawAirQuality = null, isSynthetic = false, providerName = 'Open-Meteo (Live Doppler / ECMWF)') {
@@ -687,7 +814,8 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
     : null;
   const weatherCode = current.weather_code || 0;
   const isDay = current.is_day !== undefined ? Boolean(current.is_day) : (currentLocalHour >= 6 && currentLocalHour < 18);
-  const currentRain = current.precipitation || 0;
+  const currentRain = (current.rain != null) ? Number(current.rain) : (current.precipitation || 0);
+  const currentCloudCover = (current.cloud_cover != null) ? Math.round(current.cloud_cover) : 20;
 
   // Real solar radiation readings (W/m²)
   const shortwaveRadiation = (current.shortwave_radiation != null && !isNaN(current.shortwave_radiation))
@@ -709,8 +837,17 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
   // Scientifically calculated VPD
   const vpd = calculateVPD(temp, humidity);
 
-  // Resolve current live condition
-  const condition = determineConditionAndTheme(weatherCode, 0, currentRain, 20, currentLocalHour, isDay);
+  // Resolve current live condition with physical telemetry calibration
+  const condition = determineConditionAndTheme(
+    weatherCode, 
+    0, 
+    currentRain, 
+    currentCloudCover, 
+    currentLocalHour, 
+    isDay,
+    shortwaveRadiation,
+    humidity
+  );
 
   // Real Air Quality from Open-Meteo Air Quality Model via Indian CPCB standard
   const aqiObj = calculateIndianAQI({
@@ -746,16 +883,31 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
       if (parsed.isoDate === todayIsoDate) {
         const code = hourly.weather_code ? hourly.weather_code[i] : 0;
         const pop = Math.round(hourly.precipitation_probability ? hourly.precipitation_probability[i] : 0);
-        const rain = hourly.precipitation ? Number(hourly.precipitation[i].toFixed(1)) : 0;
+        const rain = (hourly.rain && hourly.rain[i] != null)
+          ? Number(hourly.rain[i].toFixed(1))
+          : (hourly.precipitation ? Number(hourly.precipitation[i].toFixed(1)) : 0);
         const cloudCover = Math.round(hourly.cloud_cover ? hourly.cloud_cover[i] : 20);
         const hourIsDay = hourly.is_day !== undefined 
           ? Boolean(hourly.is_day[i]) 
           : (parsed.hour24 >= 6 && parsed.hour24 < 18);
-        const hourCondition = determineConditionAndTheme(code, pop, rain, cloudCover, parsed.hour24, hourIsDay);
-        
         const hourHumidity = (hourly.relative_humidity_2m && hourly.relative_humidity_2m[i] != null)
           ? Math.round(hourly.relative_humidity_2m[i])
           : humidity;
+        const hourSolarGhi = (hourly.shortwave_radiation && hourly.shortwave_radiation[i] != null)
+          ? Math.round(hourly.shortwave_radiation[i])
+          : 0;
+
+        const hourCondition = determineConditionAndTheme(
+          code, 
+          pop, 
+          rain, 
+          cloudCover, 
+          parsed.hour24, 
+          hourIsDay,
+          hourSolarGhi,
+          hourHumidity
+        );
+        
         const hourDewPoint = (hourly.dew_point_2m && hourly.dew_point_2m[i] != null)
           ? Math.round(hourly.dew_point_2m[i])
           : Math.round(hourly.temperature_2m[i] - ((100 - hourHumidity) / 5));
@@ -770,9 +922,6 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
         const hourWindGust = (hourly.wind_gusts_10m && hourly.wind_gusts_10m[i] != null)
           ? Math.round(hourly.wind_gusts_10m[i])
           : null;
-        const hourSolarGhi = (hourly.shortwave_radiation && hourly.shortwave_radiation[i] != null)
-          ? Math.round(hourly.shortwave_radiation[i])
-          : 0;
         const hourSoilRaw = (hourly.soil_moisture_0_to_1cm && hourly.soil_moisture_0_to_1cm[i] != null)
           ? hourly.soil_moisture_0_to_1cm[i]
           : null;
@@ -883,7 +1032,12 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
     const dayCode = daily?.weather_code ? daily.weather_code[d] : weatherCode;
 
     // For today (d === 0), calibrate with actual real-time condition
-    const effectiveDayCode = (d === 0) ? weatherCode : dayCode;
+    let dayCondition;
+    if (d === 0) {
+      dayCondition = condition;
+    } else {
+      dayCondition = determineConditionAndTheme(dayCode, dayPop, 0, 30, 14, true, 600, 50);
+    }
 
     dailyData.push({
       day: dayName,
@@ -891,7 +1045,7 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
       maxTemp: Math.round(daily?.temperature_2m_max ? daily.temperature_2m_max[d] : temp + 4),
       minTemp: Math.round(daily?.temperature_2m_min ? daily.temperature_2m_min[d] : temp - 4),
       pop: dayPop,
-      condition: determineConditionAndTheme(effectiveDayCode, dayPop, 0, 30, 14, true)
+      condition: dayCondition
     });
   }
 
@@ -907,7 +1061,7 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
             ? Math.round(Math.sin((currentLocalHour - 6) / 12 * Math.PI) * (daily?.uv_index_max ? daily.uv_index_max[0] : 7))
             : 0));
   
-  const isActuallyRaining = condition.theme === 'rain' && (currentRain >= 0.8);
+  const isActuallyRaining = condition.theme === 'rain' && (currentRain >= 0.35);
   const et0 = Number(((0.0023 * (temp + 17.8) * Math.sqrt(Math.max(4, (daily?.temperature_2m_max?.[0] || temp + 4) - (daily?.temperature_2m_min?.[0] || temp - 4)))) * (1 - humidity / 200)).toFixed(2));
   
   // Pest Alert Calculation
@@ -978,7 +1132,7 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
       soilMoistureRaw,
       vpd,
       et0: et0 > 0 ? et0 : 3.8,
-      irrigationAdvice: condition.theme === 'rain' 
+      irrigationAdvice: isActuallyRaining 
         ? "Postpone irrigation by 48 hours. Convective precipitation fulfills field capacity."
         : (soilMoisture !== null && soilMoisture < 35)
           ? "Apply light micro-drip irrigation in evening (4:30 PM) to minimize evaporative losses." 
@@ -1014,39 +1168,32 @@ function processWeatherData(stateName, districtName, profile, rawData, rawAirQua
 }
 
 function computeWeatherWindows(hourlyData, humidity, condition) {
-  // Finds distinct meteorological windows in next 18 hours
-  const now = new Date();
-  const currentHour = now.getHours();
-
   let rainStart = -1;
   let rainEnd = -1;
   let maxProb = 0;
 
   for (let i = 0; i < hourlyData.length; i++) {
-    if (hourlyData[i].pop >= 45 || hourlyData[i].rain > 0.5) {
+    // Rain window requires GENUINE precipitation:
+    // (pop >= 60 and rain >= 0.25 mm/h) or (rain >= 0.4 mm/h) or (condition theme is rain and rain >= 0.2 mm/h)
+    const isRainHour = (hourlyData[i].pop >= 60 && hourlyData[i].rain >= 0.25) || 
+      (hourlyData[i].rain >= 0.4) ||
+      (hourlyData[i].condition?.theme === 'rain' && hourlyData[i].rain >= 0.2);
+
+    if (isRainHour) {
       if (rainStart === -1) rainStart = i;
       rainEnd = i;
       if (hourlyData[i].pop > maxProb) maxProb = hourlyData[i].pop;
     }
   }
 
-  const formatHour = (h) => {
-    const hour = (currentHour + h) % 24;
-    const ampm = hour >= 12 ? 'PM' : 'AM';
-    const displayHour = hour % 12 === 0 ? 12 : hour % 12;
-    return `${displayHour.toString().padStart(2, '0')}:00 ${ampm}`;
-  };
-
   if (rainStart !== -1 && rainEnd !== -1) {
-    const clearEnd = formatHour(rainStart);
-    const rainStartTime = formatHour(rainStart);
-    const rainEndTime = formatHour(rainEnd + 1);
-    const eveningTime = formatHour(Math.min(23, rainEnd + 5));
+    const rainStartTime = hourlyData[rainStart].time;
+    const rainEndTime = (rainEnd + 1 < hourlyData.length) ? hourlyData[rainEnd + 1].time : hourlyData[rainEnd].time;
 
     return [
       {
         type: 'clear',
-        title: `☀️ 08:00 AM – ${rainStartTime}: Clear Window`,
+        title: `☀️ Up to ${rainStartTime}: Clear Window`,
         sub: `Safe for outdoor fieldwork, grain drying, and open-highway transit.`,
         probability: 10,
         badgeColor: 'emerald',
@@ -1054,15 +1201,15 @@ function computeWeatherWindows(hourlyData, humidity, condition) {
       },
       {
         type: 'rain',
-        title: `🌧️ ${rainStartTime} – ${rainEndTime}: Heavy Rain Window Expected`,
-        sub: `High convective shower probability (${maxProb}% likelihood). Seek safe shelters and postpone pesticide spraying.`,
+        title: `🌧️ ${rainStartTime} – ${rainEndTime}: Rain Shower Window Expected`,
+        sub: `Convective shower probability (${maxProb}% likelihood). Seek safe shelters and postpone pesticide spraying.`,
         probability: maxProb,
         badgeColor: 'cyan',
         icon: 'CloudRain'
       },
       {
         type: 'overcast',
-        title: `⛅ ${rainEndTime} – ${eveningTime}: Tapering & High Humidity`,
+        title: `⛅ Post-Rain: Tapering & High Humidity`,
         sub: `Residual overcast sky. Road hydroplaning warnings in effect on NH routes.`,
         probability: 30,
         badgeColor: 'amber',

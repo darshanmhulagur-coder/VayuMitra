@@ -148,7 +148,7 @@ export default function App() {
 
   // Active theme calculation (Live Auto, Preset Override, or Scrubbing Hourly Preview)
   const rawTheme = weatherData?.current?.condition?.theme || 'clear';
-  const effectiveTheme = conditionOverride || (hourlyPreviewItem ? (hourlyPreviewItem.theme || (hourlyPreviewItem.pop > 50 ? 'rain' : 'clear')) : rawTheme);
+  const effectiveTheme = conditionOverride || (hourlyPreviewItem ? (hourlyPreviewItem.theme || 'clear') : rawTheme);
 
   return (
     <div className="min-h-screen bg-[#070b14] text-slate-100 flex flex-col relative selection:bg-cyan-500/30 selection:text-cyan-200 overflow-x-hidden font-sans">

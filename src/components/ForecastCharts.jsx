@@ -12,7 +12,7 @@ import {
   Filler,
 } from 'chart.js';
 import { Line, Bar } from 'react-chartjs-2';
-import { Calendar, Clock, CloudRain, Sun, Cloud, Thermometer, Wind } from 'lucide-react';
+import { Calendar, Clock, CloudRain, Sun, Cloud, CloudSun, CloudLightning, Thermometer, Wind } from 'lucide-react';
 import { TRANSLATIONS } from '../data/translations';
 
 // Register Chart.js components
@@ -234,6 +234,10 @@ export default function ForecastCharts({ weatherData, language, isFahrenheit }) 
               <div className="my-2.5">
                 {day.condition.theme === 'rain' ? (
                   <CloudRain className="w-7 h-7 text-cyan-400" />
+                ) : day.condition.theme === 'storm' ? (
+                  <CloudLightning className="w-7 h-7 text-violet-400" />
+                ) : day.condition.theme === 'cloudy' ? (
+                  <CloudSun className="w-7 h-7 text-amber-300" />
                 ) : day.condition.theme === 'fog' ? (
                   <Cloud className="w-7 h-7 text-slate-300" />
                 ) : (
