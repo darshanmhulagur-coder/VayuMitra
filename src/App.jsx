@@ -5,6 +5,7 @@ import ModernHeroStage from './components/ModernHeroStage';
 import HourlyScrubber from './components/HourlyScrubber';
 import MetricGrid from './components/MetricGrid';
 import SevenDayDisasterPanel from './components/SevenDayDisasterPanel';
+import DisasterManagementPanel from './components/DisasterManagementPanel';
 import AgriUtilityDrawer from './components/AgriUtilityDrawer';
 import InteractiveMap from './components/InteractiveMap';
 import WeatherChatAgent from './components/WeatherChatAgent';
@@ -269,11 +270,20 @@ export default function App() {
                 <MetricGrid weatherData={weatherData} />
               </section>
 
-              {/* SECTION 5: 7-DAY FORECAST & EMERGENCY ADVISORY PANEL */}
-              <section aria-label="7-Day Synoptic Forecast & Disaster Advisory">
+              {/* SECTION 5: 7-DAY FORECAST PANEL */}
+              <section aria-label="7-Day Synoptic Forecast">
                 <SevenDayDisasterPanel
                   weatherData={weatherData}
                   isFahrenheit={isFahrenheit}
+                  onOpenEmergencyModal={() => setIsEmergencyModalOpen(true)}
+                />
+              </section>
+
+              {/* SECTION 6: DISASTER MANAGEMENT & HYDROLOGICAL TELEMETRY (CWC • INDIA-WRIS • NDMA • NDRF) */}
+              <section id="disaster-telemetry-section" aria-label="Disaster Management & Hydrological Telemetry">
+                <DisasterManagementPanel
+                  weatherData={weatherData}
+                  language={language}
                   onOpenEmergencyModal={() => setIsEmergencyModalOpen(true)}
                 />
               </section>

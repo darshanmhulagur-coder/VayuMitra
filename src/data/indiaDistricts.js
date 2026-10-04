@@ -292,6 +292,31 @@ export const DISTRICT_PROFILES = {
     soilType: "Deep Black Clay",
     monsoonPattern: "Moderate SW Monsoon"
   },
+  "Shivamogga": {
+    state: "Karnataka",
+    lat: 13.9316,
+    lng: 75.5679,
+    elevation: 585,
+    pincode: "577201",
+    agroZone: "Southern Transition & Malnad Wet Zone (Zone 7)",
+    primaryCrops: ["Paddy", "Arecanut", "Maize", "Ginger", "Pepper"],
+    riverBasin: "Tunga & Bhadra River Basin (Krishna Basin)",
+    emergencyHelplines: {
+      eoc: "08182-221077",
+      sdrf: "1077",
+      ndrf: "1078",
+      fire: "101",
+      ambulance: "108",
+      police: "112"
+    },
+    shelters: [
+      { name: "Shivamogga City Multi-Purpose Disaster Shelter (Nehru Stadium)", distance: "1.8 km", capacity: 2200, contact: "08182-221077", hasMedical: true },
+      { name: "Bhadravathi Taluk Flood Evacuation Base Camp", distance: "16 km", capacity: 1600, contact: "08182-270108", hasMedical: true },
+      { name: "Thirthahalli Tunga River Flood Relief Camp", distance: "38 km", capacity: 950, contact: "08185-228177", hasMedical: true }
+    ],
+    soilType: "Red Sandy Loam & Lateritic Soil",
+    monsoonPattern: "Heavy Western Ghats SW Monsoon with rapid river swells"
+  },
 
   // Maharashtra
   "Nashik": {
